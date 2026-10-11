@@ -1,0 +1,255 @@
+# Генерируется calc/derive.py из data/canon.yaml — не править руками.
+meta: {generated_by: calc/derive.py, canon_sha256: 0df60c59002b24918e2b02502e135a6c9e5491812b01c3d0127334cdb72775d9}
+values:
+  habitat.floor_accel:
+    value: 4.905
+    unit: м/с²
+    unit_en: m/s²
+    status: draft
+    format: {decimals: 3}
+    formula: a = g_пол · g
+    inputs: [habitat.floor_gravity, physics.g_earth]
+    note: Целевое ускорение на полу; совпадает с 4,905 м/с² из SPEC §4 и CONCEPT.
+  production.blender_gravity_z:
+    value: -4.905
+    unit: м/с²
+    unit_en: m/s²
+    status: draft
+    format: {decimals: 3}
+    formula: Z = −a
+    inputs: [habitat.floor_accel]
+    note: 'Scene Gravity Z в Blender (SPEC §4): интерьер не вращается, тяжесть — постоянная вниз.'
+  ship.spin_omega:
+    value: 0.418543
+    unit: рад/с
+    unit_en: rad/s
+    status: draft
+    format: {decimals: 3}
+    formula: ω = √(a / r)
+    inputs: [habitat.floor_accel, habitat.floor_radius]
+    note: Угловая скорость вращения корабля вокруг продольной оси (из a = ω²r).
+  ship.spin_rpm:
+    value: 3.99679
+    unit: об/мин
+    unit_en: rpm
+    status: draft
+    format: {decimals: 1, approx: true}
+    formula: n = 60 · ω / 2π
+    inputs: [ship.spin_omega]
+    note: SPEC §1.1 и §40 округляют до «~4 rpm».
+  ship.spin_period:
+    value: 15.012
+    unit: с
+    unit_en: s
+    status: draft
+    format: {decimals: 1, approx: true}
+    formula: T = 2π / ω
+    inputs: [ship.spin_omega]
+    note: Период одного оборота корабля.
+  ship.spin_rpm_concept:
+    value: 4.22981
+    unit: об/мин
+    unit_en: rpm
+    status: draft
+    format: {decimals: 2, approx: true}
+    formula: n = 60 · √(a / r_concept) / 2π
+    inputs: [habitat.floor_accel, habitat.floor_radius_concept]
+    note: Обороты для варианта CONCEPT 25 м; совпадает с «4.23 rpm» из CONCEPT (C-001).
+  ship.spin_period_concept:
+    value: 14.185
+    unit: с
+    unit_en: s
+    status: draft
+    format: {decimals: 1, approx: true}
+    formula: T = 2π / √(a / r_concept)
+    inputs: [habitat.floor_accel, habitat.floor_radius_concept]
+    note: Период вращения для варианта CONCEPT 25 м.
+  ship.spin_rpm_concept_range:
+    value: [3.86127, 4.72907]
+    unit: об/мин
+    unit_en: rpm
+    status: draft
+    format: {decimals: 1, approx: true}
+    formula: n = 60 · √(a / r) / 2π, r = 30…20 м
+    inputs: [habitat.floor_accel, habitat.floor_radius_concept_range]
+    note: Обороты на краях диапазона радиусов CONCEPT 20–30 м.
+  habitat.gross_volume:
+    value: 36.9451
+    unit: м³
+    unit_en: m³
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: V = π · (D / 2)² · L
+    inputs: [habitat.inner_diameter, habitat.inner_length]
+    note: 'Брутто-объём внутреннего цилиндра без торцевых днищ; SPEC §3: «roughly 37 m³».'
+  habitat.usable_fraction:
+    value: [64.9612, 75.7881]
+    unit: '%'
+    unit_en: '%'
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: V_полезн / V × 100 %
+    inputs: [habitat.usable_volume, habitat.gross_volume]
+    note: Доля полезного объёма от брутто-объёма цилиндра.
+  gravity.head_accel:
+    value: 4.6072
+    unit: м/с²
+    unit_en: m/s²
+    status: draft
+    format: {decimals: 2}
+    formula: a_гол = ω² · (r − h)
+    inputs: [ship.spin_omega, habitat.floor_radius, maya.height]
+    note: Тяжесть на высоте головы стоящей Майи (h — рост, голова на h над полом, ближе к оси).
+  gravity.head_g:
+    value: 0.469643
+    unit: g
+    unit_en: g
+    status: draft
+    format: {decimals: 2}
+    formula: a_гол / g
+    inputs: [gravity.head_accel, physics.g_earth]
+    note: То же в долях земной тяжести.
+  gravity.gradient_head:
+    value: 6.07143
+    unit: '%'
+    unit_en: '%'
+    status: draft
+    format: {decimals: 1}
+    formula: (a − a_гол) / a × 100 % = h / r × 100 %
+    inputs: [habitat.floor_accel, gravity.head_accel]
+    note: 'Перепад тяжести от ног к голове: голова легче ступней на эту долю.'
+  gravity.coriolis_across:
+    value: 0.837087
+    unit: м/с²
+    unit_en: m/s²
+    status: draft
+    format: {decimals: 2}
+    formula: a_К = 2 · ω · v
+    inputs: [ship.spin_omega, physics.walk_speed]
+    note: 'Шаг поперёк кабины (по Y, касательно вращению; v ⊥ ω). Кориолисово ускорение радиальное: по
+      ходу вращения Майя тяжелее, против — легче на эту величину; центробежная поправка v²/r ≈ 0,04 м/с²
+      — на порядок меньше.'
+  gravity.coriolis_across_frac:
+    value: 17.066
+    unit: '%'
+    unit_en: '%'
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: 2 · ω · v / a × 100 %
+    inputs: [gravity.coriolis_across, habitat.floor_accel]
+    note: Кориолис при шаге поперёк кабины в долях местной тяжести на полу.
+  gravity.coriolis_along:
+    value: 0.0
+    unit: м/с²
+    unit_en: m/s²
+    status: draft
+    format: {decimals: 0}
+    formula: a_К = 2 · ω × v = 0 при v ∥ ω
+    inputs: [ship.spin_omega, physics.walk_speed]
+    note: 'Шаг вдоль кабины: ось модуля параллельна оси вращения (SPEC §4: +X — вперёд по оси), v ∥ ω,
+      векторное произведение равно нулю. Подъём и приседание (по Z) дают боковой снос.'
+  habitat.window_image_period:
+    value: 15.012
+    unit: с
+    unit_en: s
+    status: draft
+    format: {decimals: 1, approx: true}
+    formula: T_окно = T = 2π / ω
+    inputs: [ship.spin_period]
+    note: 'Окно смотрит вдоль оси вращения (SPEC §8): картинка не уходит из окна, а поворачивается вокруг
+      центра окна с периодом вращения корабля; объект точно на оси вращается на месте.'
+  astro.earth_jupiter_min_au:
+    value: 3.95037
+    unit: а. е.
+    unit_en: AU
+    status: draft
+    format: {decimals: 2, approx: true}
+    formula: d_min = a_J · (1 − e_J) − a_З
+    inputs: [astro.jupiter_a, astro.jupiter_e, astro.earth_a]
+    note: 'Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты
+      компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум
+      — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников
+      — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли
+      — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc).'
+  astro.earth_jupiter_max_au:
+    value: 6.45723
+    unit: а. е.
+    unit_en: AU
+    status: draft
+    format: {decimals: 2, approx: true}
+    formula: d_max = a_J · (1 + e_J) + a_З
+    inputs: [astro.jupiter_a, astro.jupiter_e, astro.earth_a]
+    note: 'Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты
+      компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум
+      — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников
+      — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли
+      — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc).'
+  astro.earth_jupiter_min:
+    value: 590.968
+    unit: млн км
+    unit_en: million km
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: d_min · а. е.
+    inputs: [astro.earth_jupiter_min_au, physics.au]
+    note: 'Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты
+      компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум
+      — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников
+      — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли
+      — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc).'
+  astro.earth_jupiter_max:
+    value: 965.987
+    unit: млн км
+    unit_en: million km
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: d_max · а. е.
+    inputs: [astro.earth_jupiter_max_au, physics.au]
+    note: 'Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты
+      компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум
+      — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников
+      — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли
+      — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc).'
+  astro.earth_jupiter_distance:
+    value: [590.968, 965.987]
+    unit: млн км
+    unit_en: million km
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: '[d_min, d_max]'
+    inputs: [astro.earth_jupiter_min, astro.earth_jupiter_max]
+    note: 'Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты
+      компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум
+      — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников
+      — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли
+      — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc).'
+  astro.light_delay_min:
+    value: 32.8543
+    unit: мин
+    unit_en: min
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: τ_min = d_min / c
+    inputs: [astro.earth_jupiter_min, physics.speed_of_light]
+    note: 'Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских
+      поправок. Допущения расстояния — см. astro.earth_jupiter_distance.'
+  astro.light_delay_max:
+    value: 53.7031
+    unit: мин
+    unit_en: min
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: τ_max = d_max / c
+    inputs: [astro.earth_jupiter_max, physics.speed_of_light]
+    note: 'Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских
+      поправок. Допущения расстояния — см. astro.earth_jupiter_distance.'
+  astro.light_delay:
+    value: [32.8543, 53.7031]
+    unit: мин
+    unit_en: min
+    status: draft
+    format: {decimals: 0, approx: true}
+    formula: '[τ_min, τ_max]'
+    inputs: [astro.light_delay_min, astro.light_delay_max]
+    note: 'Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских
+      поправок. Допущения расстояния — см. astro.earth_jupiter_distance.'

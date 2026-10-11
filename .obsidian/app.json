@@ -1,0 +1,17 @@
+{
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "inbox",
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "en/",
+    "sources/",
+    "calc/",
+    "tools/",
+    "figures/",
+    "templates/",
+    ".claude/",
+    "site/"
+  ]
+}

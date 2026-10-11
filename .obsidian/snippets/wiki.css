@@ -1,0 +1,10 @@
+/* Метки достоверности и служебные блоки — см. CLAUDE.md, раздел «Метки» */
+.callout[data-callout="verified"]   { --callout-color: 46, 160, 67;   --callout-icon: lucide-badge-check; }
+.callout[data-callout="fiction"]    { --callout-color: 163, 113, 247; --callout-icon: lucide-sparkles; }
+.callout[data-callout="production"] { --callout-color: 210, 153, 34;  --callout-icon: lucide-clapperboard; }
+.callout[data-callout="realism"]    { --callout-color: 56, 139, 253;  --callout-icon: lucide-gauge; }
+.callout[data-callout="conflict"]   { --callout-color: 248, 81, 73;   --callout-icon: lucide-git-compare; }
+.callout[data-callout="open"]       { --callout-color: 139, 148, 158; --callout-icon: lucide-circle-help; }
+
+/* Числа, привязанные к data/canon.yaml */
+span[data-canon] { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }

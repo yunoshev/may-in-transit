@@ -1,0 +1,1564 @@
+{
+  "meta": {
+    "generated_by": "calc/derive.py",
+    "canon_sha256": "0df60c59002b24918e2b02502e135a6c9e5491812b01c3d0127334cdb72775d9",
+    "note": "Слияние canon.yaml и derived.yaml; генерирует calc/derive.py"
+  },
+  "values": {
+    "mission.crew": {
+      "kind": "canon",
+      "value": 1,
+      "unit": "чел.",
+      "unit_en": "person",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §шапка",
+        "sources/space_vlog_series_concept_v2.md §One-line pitch"
+      ],
+      "note": "Одноместный корабль, на борту только Майя; ARI — бортовой ИИ без тела."
+    },
+    "mission.era": {
+      "kind": "canon",
+      "value": [
+        2050,
+        2059
+      ],
+      "unit": "гг.",
+      "unit_en": "",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §шапка",
+        "sources/space_vlog_series_concept_v2.md §Mission architecture"
+      ],
+      "note": "«2050-е» без точного года; год старта не задан."
+    },
+    "mission.stasis_cruise": {
+      "kind": "canon",
+      "value": 3,
+      "unit": "года",
+      "unit_en": "years",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Core principle",
+      "note": "Реплика Майи «a little over three years, depending on where you count it from» — нижняя граница. Точная длительность перелёта — только по расчёту траектории.",
+      "format": {
+        "approx": true
+      }
+    },
+    "habitat.floor_gravity": {
+      "kind": "canon",
+      "value": 0.5,
+      "unit": "g",
+      "unit_en": "g",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1.1",
+        "sources/maya_ari_ship_3d_build_spec.md §40",
+        "sources/space_vlog_series_concept_v2.md §Artificial gravity"
+      ],
+      "note": "Целевая тяжесть на полу жилого модуля; в м/с² — производная habitat.floor_accel."
+    },
+    "habitat.floor_radius": {
+      "kind": "canon",
+      "value": 28,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "proposed",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1.1",
+        "sources/maya_ari_ship_3d_build_spec.md §40",
+        "sources/anatomy_prompts.md §Prompt 01"
+      ],
+      "note": "Расстояние от оси вращения до пола. Конфликт C-001: CONCEPT даёт пример 25 м (4,23 об/мин) и диапазон 20–30 м; по иерархии канона побеждает SPEC — 28 м."
+    },
+    "habitat.floor_radius_concept": {
+      "kind": "canon",
+      "value": 25,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Artificial gravity",
+      "note": "Вариант из CONCEPT (пример расчёта); проигрывает SPEC, хранится для сравнения (C-001)."
+    },
+    "habitat.floor_radius_concept_range": {
+      "kind": "canon",
+      "value": [
+        20,
+        30
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Artificial gravity",
+      "note": "«Для наглядного масштаба» по CONCEPT; 28 м из SPEC внутри диапазона."
+    },
+    "habitat.inner_diameter": {
+      "kind": "canon",
+      "value": 2.8,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §3",
+        "sources/anatomy_prompts.md §Prompt 03"
+      ],
+      "note": "Внутренний диаметр гермооболочки, «approximate»."
+    },
+    "habitat.inner_length": {
+      "kind": "canon",
+      "value": 6.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §3",
+        "sources/anatomy_prompts.md §Prompt 03"
+      ],
+      "note": "Внутренняя длина гермооболочки; ось модуля параллельна оси вращения (SPEC §4, §8)."
+    },
+    "habitat.usable_volume": {
+      "kind": "canon",
+      "value": [
+        24,
+        28
+      ],
+      "unit": "м³",
+      "unit_en": "m³",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §3",
+        "sources/maya_ari_ship_3d_build_spec.md §40"
+      ],
+      "note": "Полезный объём для человека после стоек, баков, изоляции и оборудования."
+    },
+    "habitat.window_width": {
+      "kind": "canon",
+      "value": [
+        0.8,
+        1.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §8",
+      "note": "Видимый проём осевого окна, ширина."
+    },
+    "habitat.window_height": {
+      "kind": "canon",
+      "value": [
+        0.45,
+        0.65
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §8",
+      "note": "Видимый проём осевого окна, высота."
+    },
+    "habitat.display_primary": {
+      "kind": "canon",
+      "value": [
+        32,
+        40
+      ],
+      "unit": "″",
+      "unit_en": "″",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §6",
+        "sources/anatomy_prompts.md §Prompt 13"
+      ],
+      "note": "Основной дисплей, диагональ «inch equivalent»."
+    },
+    "habitat.display_secondary": {
+      "kind": "canon",
+      "value": [
+        20,
+        27
+      ],
+      "unit": "″",
+      "unit_en": "″",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §6",
+        "sources/anatomy_prompts.md §Prompt 13"
+      ],
+      "note": "Вспомогательный дисплей, диагональ «inch equivalent»."
+    },
+    "maya.height": {
+      "kind": "canon",
+      "value": 1.7,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 18",
+      "note": "Эталонный рост для референс-листа Blender; в расчётах — высота головы над полом."
+    },
+    "maya.age": {
+      "kind": "canon",
+      "value": [
+        25,
+        33
+      ],
+      "unit": "лет",
+      "unit_en": "years",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §The character",
+      "note": "Трактовка «mid-20s to early-30s»; точный возраст не задан."
+    },
+    "production.blender_unit": {
+      "kind": "canon",
+      "value": 1,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §35",
+      "note": "1 единица Blender = 1 м."
+    },
+    "production.interior_cameras": {
+      "kind": "canon",
+      "value": 3,
+      "unit": "",
+      "unit_en": "",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Камеры A (влог), B (общий план), C (крупный план у дисплея)."
+    },
+    "production.exterior_camera_feeds": {
+      "kind": "canon",
+      "value": 5,
+      "unit": "",
+      "unit_en": "",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Навигационная, кормовая, внешняя жилого модуля, инспекционная фермы, научная на Юпитер."
+    },
+    "production.blocking_positions": {
+      "kind": "canon",
+      "value": 6,
+      "unit": "",
+      "unit_en": "",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §37",
+        "sources/anatomy_prompts.md §Prompt 19"
+      ],
+      "note": "Повторяемые позиции героини в кадре."
+    },
+    "series.season1_episodes": {
+      "kind": "canon",
+      "value": 12,
+      "unit": "",
+      "unit_en": "",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Season 1 — suggested 12 episodes",
+      "note": "Предложенное число эпизодов сезона 1 (Европа)."
+    },
+    "series.short_duration": {
+      "kind": "canon",
+      "value": [
+        30,
+        60
+      ],
+      "unit": "с",
+      "unit_en": "s",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Episode formula",
+      "note": "Длительность вертикального ролика 9:16."
+    },
+    "series.ep6_title_distance": {
+      "kind": "canon",
+      "value": 600,
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Episode 6",
+      "note": "Из названия эпизода 6 («600 million kilometres from home»). CONCEPT требует пересчитать по траектории; попадает в диапазон Земля–Юпитер astro.earth_jupiter_distance."
+    },
+    "physics.g_earth": {
+      "kind": "canon",
+      "value": 9.81,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §4",
+        "sources/space_vlog_series_concept_v2.md §Blender physics policy"
+      ],
+      "note": "Округлённое земное ускорение, принятое в исходниках (4,905 = 0,5 × 9,81) и в Blender по умолчанию. Стандартное g₀ = 9,80665 м/с²; расхождение 0,03 % — несущественно."
+    },
+    "physics.au": {
+      "kind": "canon",
+      "value": 149597870.7,
+      "unit": "км",
+      "unit_en": "km",
+      "status": "draft",
+      "source": "IAU 2012 Resolution B2",
+      "note": "Астрономическая единица, точное значение по определению."
+    },
+    "physics.speed_of_light": {
+      "kind": "canon",
+      "value": 299792.458,
+      "unit": "км/с",
+      "unit_en": "km/s",
+      "status": "draft",
+      "source": "SI, определение метра",
+      "note": "Скорость света в вакууме, точное значение."
+    },
+    "physics.walk_speed": {
+      "kind": "canon",
+      "value": 1,
+      "unit": "м/с",
+      "unit_en": "m/s",
+      "status": "draft",
+      "source": null,
+      "note": "Расчётный параметр для оценки Кориолиса — спокойный шаг по кабине; не из исходников."
+    },
+    "astro.earth_a": {
+      "kind": "canon",
+      "value": 1,
+      "unit": "а. е.",
+      "unit_en": "AU",
+      "status": "draft",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "note": "Модель: орбита Земли круговая, радиус 1 а. е. Реальный эксцентриситет Земли 0,0167 (перигелий 147,095, афелий 152,100 млн км) в модели не учитывается."
+    },
+    "astro.jupiter_a": {
+      "kind": "canon",
+      "value": 5.2038,
+      "unit": "а. е.",
+      "unit_en": "AU",
+      "status": "draft",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "note": "Большая полуось Юпитера, 778,479 млн км / 149,598 млн км (NSSDC, обновлено 2 окт. 2024)."
+    },
+    "astro.jupiter_e": {
+      "kind": "canon",
+      "value": 0.0487,
+      "unit": "",
+      "unit_en": "",
+      "status": "draft",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "note": "Эксцентриситет орбиты Юпитера по таблице NSSDC (0,0487; перигелий 740,595, афелий 816,363 млн км — согласуются). В постановке было 0,0489 (старая версия таблицы); средние элементы J2000 дают 0,0484."
+    },
+    "astro.earth_jupiter_min_nssdc": {
+      "kind": "canon",
+      "value": 588.5,
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "note": "Теоретический минимум NSSDC: перигелий Юпитера минус афелий Земли. Для сверки с моделью; недостижим — направления перигелия Юпитера и афелия Земли не совпадают."
+    },
+    "astro.earth_jupiter_max_nssdc": {
+      "kind": "canon",
+      "value": 968.5,
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+      "note": "Теоретический максимум NSSDC — афелий Юпитера плюс афелий Земли. Для сверки с моделью."
+    },
+    "reference.ihab_volume": {
+      "kind": "canon",
+      "value": 10,
+      "unit": "м³",
+      "unit_en": "m³",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §38",
+      "note": "ESA Lunar I-Hab — «roughly 10 m³» жилого модуля для экипажа Gateway; реальный ориентир для сравнения.",
+      "format": {
+        "approx": true
+      }
+    },
+    "reference.clipper_cruise": {
+      "kind": "canon",
+      "value": 5.5,
+      "unit": "года",
+      "unit_en": "years",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Long cruise times to Jupiter",
+      "note": "Перелёт Europa Clipper с гравманёврами у Марса и Земли; реальный ориентир.",
+      "format": {
+        "approx": true
+      }
+    },
+    "reference.juice_cruise": {
+      "kind": "canon",
+      "value": 8,
+      "unit": "лет",
+      "unit_en": "years",
+      "status": "draft",
+      "source": "sources/space_vlog_series_concept_v2.md §Long cruise times to Jupiter",
+      "note": "Перелёт JUICE с несколькими гравманёврами; реальный ориентир.",
+      "format": {
+        "approx": true
+      }
+    },
+    "layout.hull.floor_below_axis": {
+      "kind": "canon",
+      "value": 0.75,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §3",
+        "sources/maya_ari_ship_3d_build_spec.md §13"
+      ],
+      "note": "Предложение, не согласовано. Плоская палуба ниже оси цилиндра модуля на эту величину: ось на высоте 0,75 м над полом (Z = 0,75), свод 2,15 м, хорда палубы ≈2,36 м, подпольная полость 0,65 м по оси (геометрию считает генератор чертежей). Компромисс между высотой кабины и объёмом подпольных баков."
+    },
+    "layout.hull.floor_width": {
+      "kind": "canon",
+      "value": 2.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Чистая ширина пола главной кабины между вертикальными фасадами нижних шкафов (фасады при |Y| = 1,0 м). По ней ходит Майя; хорда палубы шире, ≈2,36 м."
+    },
+    "layout.hull.ceiling_height": {
+      "kind": "canon",
+      "value": 2.05,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 18",
+      "note": "Предложение, не согласовано. Чистая высота от пола до потолочной панели по оси кабины; над панелью до свода ≈0,10 м под свет, микрофоны ARI и воздуховоды. Запас над головой при росте 1,7 м — 0,35 м."
+    },
+    "layout.hull.underfloor_tank_height": {
+      "kind": "canon",
+      "value": 0.5,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §13",
+      "note": "Предложение, не согласовано. Высота подпольных водяных баков по оси модуля (вода «в полу и структурных полостях», SPEC §13); бока баков повторяют обвод корпуса. Баки под главной кабиной и камбузом."
+    },
+    "layout.lockers.depth": {
+      "kind": "canon",
+      "value": 0.35,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §14",
+        "sources/anatomy_prompts.md §Prompt 18"
+      ],
+      "note": "Предложение, не согласовано. Глубина стеновых шкафов по горизонтали на высоте оси модуля; выше и ниже задняя стенка повторяет корпус. За шкафом до корпуса ≈5 см под кабели и изоляцию."
+    },
+    "layout.lockers.front_height": {
+      "kind": "canon",
+      "value": 1.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Высота вертикальных фасадов нижних шкафов; выше — наклонные верхние шкафы, как багажные полки самолёта, до края потолочной панели."
+    },
+    "layout.zones.window_bay": {
+      "kind": "canon",
+      "value": [
+        2.6,
+        3.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §5",
+      "note": "Предложение, не согласовано. Диапазон X (лок. рамка: 0 — середина модуля, + к носу): носовая переборка с осевым окном и внутренней частью шторки, место «у окна» (позиция 3)."
+    },
+    "layout.zones.main_cabin": {
+      "kind": "canon",
+      "value": [
+        0.8,
+        2.6
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §5",
+      "note": "Предложение, не согласовано. Диапазон X главной рабочей и влоговой кабины: зона A — рабочее место у стены +Y (геройская стена), зона B — у стены −Y (назначение не определено)."
+    },
+    "layout.zones.galley_storage": {
+      "kind": "canon",
+      "value": [
+        0.0,
+        0.8
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §5",
+        "sources/maya_ari_ship_3d_build_spec.md §9"
+      ],
+      "note": "Предложение, не согласовано. Диапазон X: камбуз у стены +Y рядом с рабочим местом (SPEC §9), хранение у стены −Y. Часть одной открытой комнаты с главной кабиной."
+    },
+    "layout.zones.hygiene": {
+      "kind": "canon",
+      "value": [
+        -1.1,
+        0.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §5",
+        "sources/maya_ari_ship_3d_build_spec.md §10"
+      ],
+      "note": "Предложение, не согласовано. Диапазон X закрываемой кабинки санузла у борта +Y (от прохода до корпуса). За ней, X −2,0…−1,1, — сервисная ниша перед стеной СЖО и медшкаф на борту."
+    },
+    "layout.zones.stasis": {
+      "kind": "canon",
+      "value": [
+        -2.0,
+        0.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §5",
+        "sources/maya_ari_ship_3d_build_spec.md §11"
+      ],
+      "note": "Предложение, не согласовано. Диапазон X отсека SLEEP / MED / SAFE у борта −Y, койка вдоль X; сзади водяная часть стены СЖО, снизу подпольные баки — «самая защищённая часть» (SPEC §11, §13)."
+    },
+    "layout.zones.eclss_wall": {
+      "kind": "canon",
+      "value": [
+        -2.4,
+        -2.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §5",
+        "sources/maya_ari_ship_3d_build_spec.md §12"
+      ],
+      "note": "Предложение, не согласовано. Диапазон X поперечной стены СЖО: обслуживаемые модули на половине +Y (лицом в сервисную нишу), вода на половине −Y (за отсеком стазиса), посередине дверной проём в тамбур."
+    },
+    "layout.zones.vestibule": {
+      "kind": "canon",
+      "value": [
+        -3.0,
+        -2.4
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §5",
+      "note": "Предложение, не согласовано. Диапазон X тамбура перед люком на ферму. По SPEC §5 люк в кормовой переборке (X = −3,0); вариант C-003 — люк в «потолке» над тамбуром."
+    },
+    "layout.aisle_width": {
+      "kind": "canon",
+      "value": 0.7,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Ширина центрального прохода между санузлом и отсеком стазиса и дверного проёма в стене СЖО; без прохода корма с люком недостижима (план SPEC §5 его не рисует)."
+    },
+    "layout.desk.x": {
+      "kind": "canon",
+      "value": [
+        1.0,
+        2.5
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §6",
+      "note": "Предложение, не согласовано. Диапазон X стола рабочего места у геройской стены (+Y); кресло по центру стола."
+    },
+    "layout.desk.depth": {
+      "kind": "canon",
+      "value": 0.55,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Глубина стола от фасада шкафов (|Y| = 1,0 м) к середине кабины."
+    },
+    "layout.desk.height": {
+      "kind": "canon",
+      "value": 0.74,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 18",
+      "note": "Предложение, не согласовано. Высота столешницы, обычная земная: при 0,5 g поза сидя та же, что на Земле (нейтральная поза невесомости не нужна)."
+    },
+    "layout.chair.seat_height": {
+      "kind": "canon",
+      "value": 0.45,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 18",
+      "note": "Предложение, не согласовано. Высота сиденья кресла рабочего места над полом, для роста 1,7 м."
+    },
+    "layout.galley.counter_height": {
+      "kind": "canon",
+      "value": 0.9,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §9",
+      "note": "Предложение, не согласовано. Высота столешницы камбуза — работа стоя."
+    },
+    "layout.galley.counter_depth": {
+      "kind": "canon",
+      "value": 0.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Глубина камбузной стены от фасада шкафов к середине кабины."
+    },
+    "layout.window.center_height": {
+      "kind": "canon",
+      "value": 1.4,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §8",
+      "note": "Предложение, не согласовано. Высота центра осевого окна над полом, по оси Y = 0. Проём habitat.window_width × habitat.window_height при любом размере из диапазона захватывает глаза стоящей (≈1,58 м) и сидящей (≈1,2 м) Майи и вписывается в носовую переборку."
+    },
+    "layout.display_primary.center_x": {
+      "kind": "canon",
+      "value": 1.95,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §6",
+      "note": "Предложение, не согласовано. X центра основного дисплея (habitat.display_primary) на фасаде геройской стены (+Y) над столом."
+    },
+    "layout.display_primary.center_height": {
+      "kind": "canon",
+      "value": 1.2,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 13",
+      "note": "Предложение, не согласовано. Высота центра основного дисплея — у глаз сидящей Майи (≈1,2 м)."
+    },
+    "layout.display_secondary.center_x": {
+      "kind": "canon",
+      "value": 1.15,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §6",
+      "note": "Предложение, не согласовано. X центра вспомогательного дисплея, к корме от основного, на той же стене."
+    },
+    "layout.display_secondary.center_height": {
+      "kind": "canon",
+      "value": 1.2,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 13",
+      "note": "Предложение, не согласовано. Высота центра вспомогательного дисплея."
+    },
+    "layout.ari_isolate_panel.x": {
+      "kind": "canon",
+      "value": 1.15,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §6",
+        "ru/90-reference/decisions.md §D-010"
+      ],
+      "note": "Предложение, не согласовано. X панели защищённых органов (SPEC §6) с переключателем ARI ISOLATE под крышкой: на геройской стене (+Y), под вспомогательным дисплеем, в досягаемости из кресла. Жёсткий провод от панели идёт по ферме к контакторам ядра ARI (exterior.ari_core)."
+    },
+    "layout.ari_isolate_panel.height": {
+      "kind": "canon",
+      "value": 0.9,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/decisions.md §D-010",
+      "note": "Предложение, не согласовано. Высота центра панели над полом — над столешницей, ниже дисплеев."
+    },
+    "layout.camera_a.x": {
+      "kind": "canon",
+      "value": 1.45,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Камера A (влог) — у стены −Y напротив рабочего места; X лок. рамки."
+    },
+    "layout.camera_a.y": {
+      "kind": "canon",
+      "value": -0.9,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Y камеры A (−Y — правый борт, если смотреть в нос)."
+    },
+    "layout.camera_a.height": {
+      "kind": "canon",
+      "value": 1.3,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Высота камеры A — «near eye level» сидящей Майи с небольшим запасом."
+    },
+    "layout.camera_a.yaw": {
+      "kind": "canon",
+      "value": 57,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Курс камеры A в плане (от +X к +Y): в кадре Майя за столом, геройская стена и край осевого окна."
+    },
+    "layout.camera_a.hfov": {
+      "kind": "canon",
+      "value": 50,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Горизонтальное поле зрения вертикального кадра 9:16 (вертикальное ≈80°)."
+    },
+    "layout.camera_b.x": {
+      "kind": "canon",
+      "value": 0.05,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §26",
+        "ru/90-reference/contradictions.md §C-009"
+      ],
+      "note": "Предложение, не согласовано. Камера B (общий план) — верхний кормовой угол открытой комнаты, на передней стенке отсека стазиса (C-009: по SPEC). Сервисная стена из этой точки не видна."
+    },
+    "layout.camera_b.y": {
+      "kind": "canon",
+      "value": -0.8,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Y камеры B — под краем верхних шкафов борта −Y."
+    },
+    "layout.camera_b.height": {
+      "kind": "canon",
+      "value": 1.75,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Высота камеры B — выше головы, под верхними шкафами (у свода корпус уже 0,7 м)."
+    },
+    "layout.camera_b.yaw": {
+      "kind": "canon",
+      "value": 48,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Курс камеры B: рабочее место, камбуз, окно."
+    },
+    "layout.camera_b.hfov": {
+      "kind": "canon",
+      "value": 68,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Горизонтальное поле зрения камеры B, кадр 9:16 (вертикальное ≈100°)."
+    },
+    "layout.camera_c.x": {
+      "kind": "canon",
+      "value": 2.45,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Камера C (крупный план) — на геройской стене у носового края основного дисплея."
+    },
+    "layout.camera_c.y": {
+      "kind": "canon",
+      "value": 0.95,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Y камеры C (+Y — геройская стена)."
+    },
+    "layout.camera_c.height": {
+      "kind": "canon",
+      "value": 1.3,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §26",
+      "note": "Предложение, не согласовано. Высота камеры C — уровень глаз сидящей Майи."
+    },
+    "layout.camera_c.yaw": {
+      "kind": "canon",
+      "value": -131,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Курс камеры C: на кресло, «slightly off-axis» от основного дисплея."
+    },
+    "layout.camera_c.hfov": {
+      "kind": "canon",
+      "value": 43,
+      "unit": "°",
+      "unit_en": "°",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 06",
+      "note": "Предложение, не согласовано. Горизонтальное поле зрения камеры C, кадр 9:16 (вертикальное ≈70°)."
+    },
+    "layout.hatch.diameter": {
+      "kind": "canon",
+      "value": 0.8,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/anatomy_prompts.md §Prompt 18",
+        "International Docking System Standard (IDSS) IDD — проход Ø800 мм"
+      ],
+      "note": "Предложение, не согласовано. Чистый диаметр люка на ферму; ориентир — проход стыковочного стандарта IDSS. Тот же диаметр у варианта люка в «потолке» (C-003)."
+    },
+    "layout.hatch.center_height": {
+      "kind": "canon",
+      "value": 0.9,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §5",
+      "note": "Предложение, не согласовано. Высота центра люка в кормовой переборке (по SPEC §5, C-003): порог 0,5 м, верх 1,3 м — проход пригнувшись."
+    },
+    "layout.hatch.alt_ceiling_x": {
+      "kind": "canon",
+      "value": -2.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/contradictions.md §C-003",
+      "note": "Предложение, не согласовано. X центра альтернативного люка в своде над тамбуром (вариант (а) C-003); на чертежах пунктиром. Ферма при этом стоит над тамбуром без колена."
+    },
+    "exterior.habitat.outer_diameter": {
+      "kind": "canon",
+      "value": 3.4,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/anatomy_prompts.md §Prompt 02",
+        "sources/anatomy_prompts.md §Prompt 03"
+      ],
+      "note": "Предложение, не согласовано. Наружный диаметр жилого модуля по защитной оболочке: внутренний 2,8 м плюс 0,3 м на сторону — гермооболочка, изоляция, противометеоритный экран (PROMPTS 02 №2)."
+    },
+    "exterior.habitat.outer_length": {
+      "kind": "canon",
+      "value": 7.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 03",
+      "note": "Предложение, не согласовано. Наружная длина модуля: внутренние 6,0 м плюс 0,5 м на торец — рама окна и короб шторки спереди, днище сзади."
+    },
+    "exterior.spine.length": {
+      "kind": "canon",
+      "value": 72,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "sources/anatomy_prompts.md §Prompt 01"
+      ],
+      "note": "Предложение, не согласовано. Длина хребта от носа до среза двигателей — грубо, по пропорции к радиусу 28 м: реактор далеко от жилья (PROMPTS 01), между ними баки и радиаторы."
+    },
+    "exterior.spine.diameter": {
+      "kind": "canon",
+      "value": 1.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Поперечник фермы хребта — для силуэта."
+    },
+    "exterior.comms.station": {
+      "kind": "canon",
+      "value": [
+        0,
+        6
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §1",
+      "note": "Предложение, не согласовано. Станции носовой секции «sensor / comms» (м от носа)."
+    },
+    "exterior.hub.station": {
+      "kind": "canon",
+      "value": 12,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/maya_ari_ship_3d_build_spec.md §1",
+      "note": "Предложение, не согласовано. Станция ступицы — узла, где корни обеих ферм встречаются с хребтом; здесь же ядро ARI. Оси обеих ферм — на этой станции."
+    },
+    "exterior.boom.width": {
+      "kind": "canon",
+      "value": 1.2,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §5",
+        "sources/maya_ari_ship_3d_build_spec.md §34"
+      ],
+      "note": "Предложение, не согласовано. Поперечник проходной фермы: внутри гермотрубка под люк Ø0,8 м, трассы и жёсткая линия ARI ISOLATE."
+    },
+    "exterior.boom.elbow_x": {
+      "kind": "canon",
+      "value": -4.3,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/contradictions.md §C-003",
+      "note": "Предложение, не согласовано. X оси фермы в лок. рамке модуля для варианта SPEC (люк в корме): колено за кормовым торцем. Модуль висит на ферме носом вперёд; его центр на 4,3 м к носу от станции ступицы."
+    },
+    "exterior.counterweight.radius": {
+      "kind": "canon",
+      "value": [
+        22,
+        26
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "sources/maya_ari_ship_3d_build_spec.md §32"
+      ],
+      "note": "Предложение, не согласовано. Радиус центра противовеса — диапазон хода («~variable» SPEC §1.1): баланс m·r при расходе запасов. Центр противовеса — на одной станции с центром жилого модуля (динамический баланс)."
+    },
+    "exterior.counterweight.length": {
+      "kind": "canon",
+      "value": 4.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 15",
+      "note": "Предложение, не согласовано. Длина противовеса вдоль X."
+    },
+    "exterior.counterweight.diameter": {
+      "kind": "canon",
+      "value": 3.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "sources/anatomy_prompts.md §Prompt 15",
+      "note": "Предложение, не согласовано. Диаметр противовеса — короче и толще жилого модуля, не его близнец."
+    },
+    "exterior.tanks.station": {
+      "kind": "canon",
+      "value": [
+        16,
+        28
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "ru/90-reference/contradictions.md §C-007"
+      ],
+      "note": "Предложение, не согласовано. Станции баков рабочего тела на хребте сразу за ступицей (C-007, вариант а): их масса прикрывает ядро ARI с кормы."
+    },
+    "exterior.tanks.diameter": {
+      "kind": "canon",
+      "value": 5.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Поперечник пакета баков вокруг хребта."
+    },
+    "exterior.radiators.station": {
+      "kind": "canon",
+      "value": [
+        31,
+        55
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "sources/anatomy_prompts.md §Prompt 14"
+      ],
+      "note": "Предложение, не согласовано. Станции раскладных радиаторов между баками и реактором (SPEC §1.1)."
+    },
+    "exterior.radiators.half_span": {
+      "kind": "canon",
+      "value": 9,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Вылет панели радиатора от оси хребта; на чертеже панели в плоскости ферм, их ориентация не решена."
+    },
+    "exterior.reactor.station": {
+      "kind": "canon",
+      "value": [
+        58,
+        63
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "sources/anatomy_prompts.md §Prompt 14"
+      ],
+      "note": "Предложение, не согласовано. Станции реактора с теневой защитой на носовой стороне; до жилого модуля ≈50 м по оси."
+    },
+    "exterior.reactor.diameter": {
+      "kind": "canon",
+      "value": 3.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Поперечник блока реактора и защиты."
+    },
+    "exterior.propulsion.station": {
+      "kind": "canon",
+      "value": [
+        64,
+        72
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": [
+        "sources/maya_ari_ship_3d_build_spec.md §1",
+        "sources/anatomy_prompts.md §Prompt 14"
+      ],
+      "note": "Предложение, не согласовано. Станции осевой двигательной установки; срез сопел — корма хребта."
+    },
+    "exterior.ari_core.station": {
+      "kind": "canon",
+      "value": 12,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/decisions.md §D-010",
+      "note": "Предложение, не согласовано. Станция центра ядра ARI — на оси вращения в ступице. На оси ядро не нарушает статический баланс; его прикрывают баки за ним и сам хребет."
+    },
+    "exterior.ari_core.vault_length": {
+      "kind": "canon",
+      "value": 3.0,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "https://www.jpl.nasa.gov/news/juno-armored-up-to-go-to-jupiter",
+      "note": "Предложение, не согласовано. Длина бронированного сейфа ядра вдоль хребта. Прецедент — титановый сейф электроники Juno: стенки ≈1 см, ≈200 кг, «размером с багажник внедорожника» (NASA JPL, 2010)."
+    },
+    "exterior.ari_core.vault_diameter": {
+      "kind": "canon",
+      "value": 2.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "https://www.jpl.nasa.gov/news/juno-armored-up-to-go-to-jupiter",
+      "note": "Предложение, не согласовано. Диаметр сейфа ядра ARI, соосного хребту."
+    },
+    "exterior.ari_core.power": {
+      "kind": "canon",
+      "value": [
+        20,
+        50
+      ],
+      "unit": "кВт",
+      "unit_en": "kW",
+      "status": "draft",
+      "source": "ru/90-reference/decisions.md §D-010",
+      "note": "Предложение, не согласовано. Электрическая мощность ядра: «десятки кВт» от реактора; тепло — по хребту на радиаторы."
+    },
+    "exterior.ari_core.battery_energy": {
+      "kind": "canon",
+      "value": 100,
+      "unit": "кВт·ч",
+      "unit_en": "kWh",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Батарейный буфер ядра: ≈2 ч при 50 кВт или ≈5 ч при 20 кВт — переждать останов и перезапуск реактора."
+    },
+    "exterior.ari_core.battery_station": {
+      "kind": "canon",
+      "value": [
+        13.5,
+        15.0
+      ],
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": null,
+      "note": "Предложение, не согласовано. Станции кольцевого блока батарей сразу за сейфом, перед баками."
+    },
+    "exterior.ari_core.manual_breaker.station": {
+      "kind": "canon",
+      "value": 12,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/decisions.md §D-010",
+      "note": "Предложение, не согласовано. Станция ручного механического рубильника питания ARI — у сейфа, в торце проходной фермы жилого модуля. Рядом силовые контакторы: их держит только жёсткий провод от ARI ISOLATE в кабине, без ПО в цепи."
+    },
+    "exterior.ari_core.manual_breaker.radius": {
+      "kind": "canon",
+      "value": 1.6,
+      "unit": "м",
+      "unit_en": "m",
+      "status": "draft",
+      "source": "ru/90-reference/decisions.md §D-010",
+      "note": "Предложение, не согласовано. Расстояние рубильника от оси вращения; тяжесть там ≈0,03 g — Майя добирается по ферме, где вес падает от 0,5 g почти до нуля."
+    },
+    "habitat.floor_accel": {
+      "kind": "derived",
+      "value": 4.905,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "format": {
+        "decimals": 3
+      },
+      "formula": "a = g_пол · g",
+      "inputs": [
+        "habitat.floor_gravity",
+        "physics.g_earth"
+      ],
+      "note": "Целевое ускорение на полу; совпадает с 4,905 м/с² из SPEC §4 и CONCEPT."
+    },
+    "production.blender_gravity_z": {
+      "kind": "derived",
+      "value": -4.905,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "format": {
+        "decimals": 3
+      },
+      "formula": "Z = −a",
+      "inputs": [
+        "habitat.floor_accel"
+      ],
+      "note": "Scene Gravity Z в Blender (SPEC §4): интерьер не вращается, тяжесть — постоянная вниз."
+    },
+    "ship.spin_omega": {
+      "kind": "derived",
+      "value": 0.418543,
+      "unit": "рад/с",
+      "unit_en": "rad/s",
+      "status": "draft",
+      "format": {
+        "decimals": 3
+      },
+      "formula": "ω = √(a / r)",
+      "inputs": [
+        "habitat.floor_accel",
+        "habitat.floor_radius"
+      ],
+      "note": "Угловая скорость вращения корабля вокруг продольной оси (из a = ω²r)."
+    },
+    "ship.spin_rpm": {
+      "kind": "derived",
+      "value": 3.99679,
+      "unit": "об/мин",
+      "unit_en": "rpm",
+      "status": "draft",
+      "format": {
+        "decimals": 1,
+        "approx": true
+      },
+      "formula": "n = 60 · ω / 2π",
+      "inputs": [
+        "ship.spin_omega"
+      ],
+      "note": "SPEC §1.1 и §40 округляют до «~4 rpm»."
+    },
+    "ship.spin_period": {
+      "kind": "derived",
+      "value": 15.012,
+      "unit": "с",
+      "unit_en": "s",
+      "status": "draft",
+      "format": {
+        "decimals": 1,
+        "approx": true
+      },
+      "formula": "T = 2π / ω",
+      "inputs": [
+        "ship.spin_omega"
+      ],
+      "note": "Период одного оборота корабля."
+    },
+    "ship.spin_rpm_concept": {
+      "kind": "derived",
+      "value": 4.22981,
+      "unit": "об/мин",
+      "unit_en": "rpm",
+      "status": "draft",
+      "format": {
+        "decimals": 2,
+        "approx": true
+      },
+      "formula": "n = 60 · √(a / r_concept) / 2π",
+      "inputs": [
+        "habitat.floor_accel",
+        "habitat.floor_radius_concept"
+      ],
+      "note": "Обороты для варианта CONCEPT 25 м; совпадает с «4.23 rpm» из CONCEPT (C-001)."
+    },
+    "ship.spin_period_concept": {
+      "kind": "derived",
+      "value": 14.185,
+      "unit": "с",
+      "unit_en": "s",
+      "status": "draft",
+      "format": {
+        "decimals": 1,
+        "approx": true
+      },
+      "formula": "T = 2π / √(a / r_concept)",
+      "inputs": [
+        "habitat.floor_accel",
+        "habitat.floor_radius_concept"
+      ],
+      "note": "Период вращения для варианта CONCEPT 25 м."
+    },
+    "ship.spin_rpm_concept_range": {
+      "kind": "derived",
+      "value": [
+        3.86127,
+        4.72907
+      ],
+      "unit": "об/мин",
+      "unit_en": "rpm",
+      "status": "draft",
+      "format": {
+        "decimals": 1,
+        "approx": true
+      },
+      "formula": "n = 60 · √(a / r) / 2π, r = 30…20 м",
+      "inputs": [
+        "habitat.floor_accel",
+        "habitat.floor_radius_concept_range"
+      ],
+      "note": "Обороты на краях диапазона радиусов CONCEPT 20–30 м."
+    },
+    "habitat.gross_volume": {
+      "kind": "derived",
+      "value": 36.9451,
+      "unit": "м³",
+      "unit_en": "m³",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "V = π · (D / 2)² · L",
+      "inputs": [
+        "habitat.inner_diameter",
+        "habitat.inner_length"
+      ],
+      "note": "Брутто-объём внутреннего цилиндра без торцевых днищ; SPEC §3: «roughly 37 m³»."
+    },
+    "habitat.usable_fraction": {
+      "kind": "derived",
+      "value": [
+        64.9612,
+        75.7881
+      ],
+      "unit": "%",
+      "unit_en": "%",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "V_полезн / V × 100 %",
+      "inputs": [
+        "habitat.usable_volume",
+        "habitat.gross_volume"
+      ],
+      "note": "Доля полезного объёма от брутто-объёма цилиндра."
+    },
+    "gravity.head_accel": {
+      "kind": "derived",
+      "value": 4.6072,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "format": {
+        "decimals": 2
+      },
+      "formula": "a_гол = ω² · (r − h)",
+      "inputs": [
+        "ship.spin_omega",
+        "habitat.floor_radius",
+        "maya.height"
+      ],
+      "note": "Тяжесть на высоте головы стоящей Майи (h — рост, голова на h над полом, ближе к оси)."
+    },
+    "gravity.head_g": {
+      "kind": "derived",
+      "value": 0.469643,
+      "unit": "g",
+      "unit_en": "g",
+      "status": "draft",
+      "format": {
+        "decimals": 2
+      },
+      "formula": "a_гол / g",
+      "inputs": [
+        "gravity.head_accel",
+        "physics.g_earth"
+      ],
+      "note": "То же в долях земной тяжести."
+    },
+    "gravity.gradient_head": {
+      "kind": "derived",
+      "value": 6.07143,
+      "unit": "%",
+      "unit_en": "%",
+      "status": "draft",
+      "format": {
+        "decimals": 1
+      },
+      "formula": "(a − a_гол) / a × 100 % = h / r × 100 %",
+      "inputs": [
+        "habitat.floor_accel",
+        "gravity.head_accel"
+      ],
+      "note": "Перепад тяжести от ног к голове: голова легче ступней на эту долю."
+    },
+    "gravity.coriolis_across": {
+      "kind": "derived",
+      "value": 0.837087,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "format": {
+        "decimals": 2
+      },
+      "formula": "a_К = 2 · ω · v",
+      "inputs": [
+        "ship.spin_omega",
+        "physics.walk_speed"
+      ],
+      "note": "Шаг поперёк кабины (по Y, касательно вращению; v ⊥ ω). Кориолисово ускорение радиальное: по ходу вращения Майя тяжелее, против — легче на эту величину; центробежная поправка v²/r ≈ 0,04 м/с² — на порядок меньше."
+    },
+    "gravity.coriolis_across_frac": {
+      "kind": "derived",
+      "value": 17.066,
+      "unit": "%",
+      "unit_en": "%",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "2 · ω · v / a × 100 %",
+      "inputs": [
+        "gravity.coriolis_across",
+        "habitat.floor_accel"
+      ],
+      "note": "Кориолис при шаге поперёк кабины в долях местной тяжести на полу."
+    },
+    "gravity.coriolis_along": {
+      "kind": "derived",
+      "value": 0.0,
+      "unit": "м/с²",
+      "unit_en": "m/s²",
+      "status": "draft",
+      "format": {
+        "decimals": 0
+      },
+      "formula": "a_К = 2 · ω × v = 0 при v ∥ ω",
+      "inputs": [
+        "ship.spin_omega",
+        "physics.walk_speed"
+      ],
+      "note": "Шаг вдоль кабины: ось модуля параллельна оси вращения (SPEC §4: +X — вперёд по оси), v ∥ ω, векторное произведение равно нулю. Подъём и приседание (по Z) дают боковой снос."
+    },
+    "habitat.window_image_period": {
+      "kind": "derived",
+      "value": 15.012,
+      "unit": "с",
+      "unit_en": "s",
+      "status": "draft",
+      "format": {
+        "decimals": 1,
+        "approx": true
+      },
+      "formula": "T_окно = T = 2π / ω",
+      "inputs": [
+        "ship.spin_period"
+      ],
+      "note": "Окно смотрит вдоль оси вращения (SPEC §8): картинка не уходит из окна, а поворачивается вокруг центра окна с периодом вращения корабля; объект точно на оси вращается на месте."
+    },
+    "astro.earth_jupiter_min_au": {
+      "kind": "derived",
+      "value": 3.95037,
+      "unit": "а. е.",
+      "unit_en": "AU",
+      "status": "draft",
+      "format": {
+        "decimals": 2,
+        "approx": true
+      },
+      "formula": "d_min = a_J · (1 − e_J) − a_З",
+      "inputs": [
+        "astro.jupiter_a",
+        "astro.jupiter_e",
+        "astro.earth_a"
+      ],
+      "note": "Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc)."
+    },
+    "astro.earth_jupiter_max_au": {
+      "kind": "derived",
+      "value": 6.45723,
+      "unit": "а. е.",
+      "unit_en": "AU",
+      "status": "draft",
+      "format": {
+        "decimals": 2,
+        "approx": true
+      },
+      "formula": "d_max = a_J · (1 + e_J) + a_З",
+      "inputs": [
+        "astro.jupiter_a",
+        "astro.jupiter_e",
+        "astro.earth_a"
+      ],
+      "note": "Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc)."
+    },
+    "astro.earth_jupiter_min": {
+      "kind": "derived",
+      "value": 590.968,
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "d_min · а. е.",
+      "inputs": [
+        "astro.earth_jupiter_min_au",
+        "physics.au"
+      ],
+      "note": "Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc)."
+    },
+    "astro.earth_jupiter_max": {
+      "kind": "derived",
+      "value": 965.987,
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "d_max · а. е.",
+      "inputs": [
+        "astro.earth_jupiter_max_au",
+        "physics.au"
+      ],
+      "note": "Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc)."
+    },
+    "astro.earth_jupiter_distance": {
+      "kind": "derived",
+      "value": [
+        590.968,
+        965.987
+      ],
+      "unit": "млн км",
+      "unit_en": "million km",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "[d_min, d_max]",
+      "inputs": [
+        "astro.earth_jupiter_min",
+        "astro.earth_jupiter_max"
+      ],
+      "note": "Модель: Земля на круговой орбите 1 а. е.; Юпитер — кеплеров эллипс (a, e по NSSDC); орбиты компланарны (наклон Юпитера 1,3° не учтён); минимум — противостояние при Юпитере в перигелии, максимум — соединение при Юпитере в афелии. Корабль в системе Юпитера считается в его центре (орбиты спутников — до ~1,9 млн км, < 0,5 %). Теоретические крайние значения NSSDC с учётом эксцентриситета Земли — 588,5–968,5 млн км (astro.earth_jupiter_*_nssdc)."
+    },
+    "astro.light_delay_min": {
+      "kind": "derived",
+      "value": 32.8543,
+      "unit": "мин",
+      "unit_en": "min",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "τ_min = d_min / c",
+      "inputs": [
+        "astro.earth_jupiter_min",
+        "physics.speed_of_light"
+      ],
+      "note": "Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских поправок. Допущения расстояния — см. astro.earth_jupiter_distance."
+    },
+    "astro.light_delay_max": {
+      "kind": "derived",
+      "value": 53.7031,
+      "unit": "мин",
+      "unit_en": "min",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "τ_max = d_max / c",
+      "inputs": [
+        "astro.earth_jupiter_max",
+        "physics.speed_of_light"
+      ],
+      "note": "Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских поправок. Допущения расстояния — см. astro.earth_jupiter_distance."
+    },
+    "astro.light_delay": {
+      "kind": "derived",
+      "value": [
+        32.8543,
+        53.7031
+      ],
+      "unit": "мин",
+      "unit_en": "min",
+      "status": "draft",
+      "format": {
+        "decimals": 0,
+        "approx": true
+      },
+      "formula": "[τ_min, τ_max]",
+      "inputs": [
+        "astro.light_delay_min",
+        "astro.light_delay_max"
+      ],
+      "note": "Задержка сигнала в одну сторону: расстояние / c, по прямой, без задержек в аппаратуре и релятивистских поправок. Допущения расстояния — см. astro.earth_jupiter_distance."
+    }
+  }
+}

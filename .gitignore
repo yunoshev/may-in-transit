@@ -1,0 +1,12 @@
+.DS_Store
+.obsidian/workspace*.json
+.obsidian/cache
+.venv/
+__pycache__/
+node_modules/
+*.pyc
+
+# сайт (Quartz): рабочие папки сборки
+site/.work/
+public/
+.quartz-cache/

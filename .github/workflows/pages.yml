@@ -1,0 +1,56 @@
+# Публикация вики на GitHub Pages: https://yunoshev.github.io/may-in-transit/
+# Один раз включить: Settings -> Pages -> Source: GitHub Actions.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # Quartz v4 требует Node >= 22 (engines в его package.json)
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      # клон Quartz на закреплённом коммите (см. QUARTZ_COMMIT в site/prepare.mjs),
+      # наложение конфига из site/, сборка content/ из ru/ и assets/
+      - name: Подготовка
+        run: node site/prepare.mjs
+
+      - name: Сборка Quartz
+        working-directory: site/.work/quartz
+        run: npx quartz build
+
+      # отчёт о битых внутренних ссылках; публикацию не блокирует (страницы пишутся параллельно)
+      - name: Проверка ссылок
+        run: node site/check-links.mjs
+        continue-on-error: true
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/.work/quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

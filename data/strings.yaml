@@ -1,0 +1,189 @@
+# Таблица строк для генерируемых графиков и страниц: ключ → {ru, en}.
+# Подстановки в фигурных скобках ({gravity}, {radius}) заполняет скрипт значениями из canon/derived.
+
+spin_vs_radius:
+  title:
+    ru: Обороты корабля при {gravity} на полу
+    en: Ship spin rate for {gravity} at the floor
+  xlabel:
+    ru: Радиус пола от оси вращения, м
+    en: Floor radius from spin axis, m
+  ylabel:
+    ru: Скорость вращения, об/мин
+    en: Spin rate, rpm
+  spec_point:
+    ru: "SPEC: {radius}\n{rpm}"
+    en: "SPEC: {radius}\n{rpm}"
+  concept_point:
+    ru: "CONCEPT: {radius}\n{rpm}"
+    en: "CONCEPT: {radius}\n{rpm}"
+  concept_band:
+    ru: диапазон CONCEPT {range}
+    en: CONCEPT range {range}
+  formula:
+    ru: "n = 60·√(a / r) / 2π,  a = {accel}"
+    en: "n = 60·√(a / r) / 2π,  a = {accel}"
+
+canon_groups:
+  mission: {ru: Миссия, en: Mission}
+  habitat: {ru: Жилой модуль, en: Habitat}
+  ship: {ru: Вращение корабля, en: Ship spin}
+  gravity: {ru: Искусственная тяжесть, en: Artificial gravity}
+  maya: {ru: Майя, en: Maya}
+  production: {ru: Производство, en: Production}
+  series: {ru: Сериал, en: Series}
+  physics: {ru: Физические константы и параметры, en: Physical constants and parameters}
+  astro: {ru: Земля и Юпитер, en: Earth and Jupiter}
+  reference: {ru: Реальные ориентиры, en: Real-world references}
+  layout: {ru: Раскладка жилого модуля (черновик), en: Habitat layout (draft)}
+  exterior: {ru: Внешний облик корабля (черновик), en: Ship exterior (draft)}
+
+# Чертежи-синьки figures/blueprints → assets/ship/<лист>.{ru,en}.svg. {…} заполняет генератор из canon.json.
+blueprints:
+  common:
+    project: {ru: MAYA IN TRANSIT — REF, en: MAYA IN TRANSIT — REF}
+    rev: {ru: REV draft, en: REV draft}
+    date: {ru: "2026-10-11", en: "2026-10-11"}
+    canon_rev: {ru: "Размеры: data/canon.yaml → canon.json", en: "Dimensions: data/canon.yaml → canon.json"}
+    draft:
+      ru: "Черновик: размеры из data/canon.yaml (layout.*, exterior.*), не согласованы"
+      en: "Draft: dimensions from data/canon.yaml (layout.*, exterior.*), not agreed"
+    unit_m: {ru: м, en: m}
+    scale: {ru: "Масштаб — по линейке", en: "Scale — per bar"}
+    maya: {ru: "Майя {h}", en: "Maya {h}"}
+  habitat_cross:
+    title: {ru: Жилой модуль — поперечный разрез, en: Habitat — cross-section}
+    desc:
+      ru: "Поперечный разрез гермокорпуса через главную кабину: пол, подпольные баки, шкафы, высоты, Майя 1,7 м, направления «вниз» и к оси вращения."
+      en: "Cross-section of the pressure vessel through the main cabin: floor, underfloor tanks, lockers, heights, Maya at 1.7 m, “down” and the direction to the spin axis."
+    subtitle:
+      ru: "Разрез по креслу, X = {x} (лок. рамка модуля), вид в нос; +Y — слева"
+      en: "Cut through the chair, X = {x} (habitat local frame), looking forward; +Y on the left"
+    sheet_name: {ru: "Поперечный разрез модуля", en: "Habitat cross-section"}
+    to_axis: {ru: "к оси вращения (+Z): пол в {r} от оси", en: "to spin axis (+Z): floor {r} from axis"}
+    to_axis2: {ru: "«вверх» в кабине — к оси корабля", en: "cabin “up” points to the ship axis"}
+    down: {ru: "вниз (−Z): {g} на полу, {a}", en: "down (−Z): {g} at floor, {a}"}
+    down2: {ru: "«вниз» — радиально наружу, от оси", en: "“down” is radially outward, away from the axis"}
+    head_g: {ru: "у головы Майи {g} — градиент по высоте", en: "at Maya’s head {g} — height gradient"}
+    display:
+      ru: "основной дисплей {d},\nцентр на высоте {z}"
+      en: "primary display {d},\ncentre at {z}"
+    hero_wall:
+      ru: "геройская стена (+Y):\nзона A, шкафы за панелями"
+      en: "hero wall (+Y):\nzone A, lockers behind panels"
+    desk: {ru: "стол, столешница {h}", en: "desk, top at {h}"}
+    chair: {ru: "кресло, сиденье {h}", en: "chair, seat at {h}"}
+    window:
+      ru: "осевое окно за плоскостью\nразреза, центр на {z}"
+      en: "axial window beyond the cut,\ncentre at {z}"
+    ceiling:
+      ru: "потолочная панель: свет,\nмикрофоны и динамики ARI"
+      en: "ceiling panel: lights,\nARI microphones and speakers"
+    bins: {ru: верхние шкафы, en: overhead lockers}
+    lockers: {ru: "стеновые шкафы, зона B (−Y)", en: "wall lockers, zone B (−Y)"}
+    tanks: {ru: "вода: подпольные баки (SPEC §13)", en: "water: underfloor tanks (SPEC §13)"}
+    pshell: {ru: "гермооболочка, внутр. Ø{d}", en: "pressure shell, inner Ø{d}"}
+    oshell: {ru: "защитная оболочка, наружн. Ø{d}", en: "protective shell, outer Ø{d}"}
+    axis: {ru: ось цилиндра модуля, en: habitat cylinder axis}
+    x_axis: {ru: "+X — в нос, от зрителя", en: "+X — forward, away from viewer"}
+  habitat_plan:
+    title: {ru: Жилой модуль — план, en: Habitat — plan}
+    desc:
+      ru: "План жилого модуля сверху: зоны по длине, окно, люк на ферму по SPEC и вариант C-003, камеры A, B, C с конусами обзора, панель ARI ISOLATE."
+      en: "Habitat plan view: zones along the length, window, boom hatch per SPEC and the C-003 alternative, cameras A, B, C with view cones, ARI ISOLATE panel."
+    subtitle:
+      ru: "Вид от оси вращения на пол, разрез на высоте оси модуля; нос вверху, +Y слева"
+      en: "Seen from the spin axis down to the floor, cut at cylinder-axis height; nose up, +Y on the left"
+    sheet_name: {ru: "План жилого модуля", en: "Habitat plan"}
+    view: {ru: "окно смотрит вдоль оси вращения (+X)", en: "window looks along the spin axis (+X)"}
+    z_window: {ru: окно и носовая переборка, en: window and forward bulkhead}
+    z_main: {ru: главная кабина, en: main cabin}
+    z_galley: {ru: камбуз · хранение, en: galley · storage}
+    z_aisle: {ru: проход, en: aisle}
+    z_vest: {ru: тамбур, en: vestibule}
+    z_eclss: {ru: стена СЖО, en: ECLSS wall}
+    z_stasis: {ru: "SLEEP / MED / SAFE", en: "SLEEP / MED / SAFE"}
+    z_wc: {ru: WC, en: WC}
+    z_nook: {ru: ниша, en: nook}
+    displays:
+      ru: "дисплеи: основной {p} и\nвспомогательный {s}, центры на {z}"
+      en: "displays: primary {p} and\nsecondary {s}, centres at {z}"
+    desk: {ru: "рабочее место A: стол X {x},\nстолешница {h}", en: "workstation A: desk X {x},\ntop at {h}"}
+    isolate:
+      ru: "ARI ISOLATE — защищённая панель,\nцентр на {z}; жёсткий провод → ферма → ядро ARI"
+      en: "ARI ISOLATE — guarded panel,\ncentre at {z}; hard wire → boom → ARI core"
+    galley: {ru: "камбуз: столешница {h}", en: "galley: worktop at {h}"}
+    wc: {ru: "санузел WC, X {x},\nсдвижная дверь в проход", en: "hygiene / WC, X {x},\nsliding door to the aisle"}
+    nook: {ru: "сервисная ниша (позиция 5),\nмедшкаф на борту", en: "service nook (position 5),\nmedical locker on the hull side"}
+    eclss: {ru: "модули СЖО лицом в нишу,\nстена X {x}", en: "ECLSS modules facing the nook,\nwall X {x}"}
+    cam_c: {ru: "C — крупный план, высота {z}", en: "C — close-up, height {z}"}
+    window:
+      ru: "осевое окно {w} × {h},\nцентр на {z}; шторка"
+      en: "axial window {w} × {h},\ncentre at {z}; shutter"
+    cam_a: {ru: "A — влог, высота {z}", en: "A — vlog, height {z}"}
+    zone_b: {ru: "B — назначение не определено\n(метка SPEC §5 без описания)", en: "B — purpose undefined\n(SPEC §5 label without text)"}
+    cam_b: {ru: "B — общий план, высота {z}\n(сервисная стена не видна)", en: "B — wide, height {z}\n(service wall not visible)"}
+    storage: {ru: "хранение: шкафы", en: "storage: lockers"}
+    stasis:
+      ru: "отсек стазиса, X {x}: койка вдоль X,\nдверь SLEEP / MED / SAFE в проход"
+      en: "stasis bay, X {x}: berth along X,\nSLEEP / MED / SAFE door to the aisle"
+    water: {ru: "вода — экран укрытия (SPEC §11, §13)", en: "water — shelter shielding (SPEC §11, §13)"}
+    hatch_alt:
+      ru: "вариант: люк Ø{d} в «потолке» над\nтамбуром, ферма без колена (пунктир)"
+      en: "alternative: Ø{d} hatch in the “ceiling”\nabove the vestibule, no elbow (dashed)"
+    hatch_spec:
+      ru: "люк на ферму Ø{d} по SPEC §5 —\nв кормовой переборке"
+      en: "boom hatch Ø{d} per SPEC §5 —\nin the aft bulkhead"
+    elbow: {ru: "колено → ферма к оси вращения\n(идёт к зрителю, +Z)", en: "elbow → boom to the spin axis\n(toward the viewer, +Z)"}
+    c003: {ru: "C-003: положение люка не решено", en: "C-003: hatch position not decided"}
+    cones: {ru: "конусы — горизонтальное поле кадра 9:16", en: "cones — horizontal field of a 9:16 frame"}
+    d_in: {ru: "Ø{d} внутр.", en: "Ø{d} inner"}
+    d_out: {ru: "Ø{d} наружн.", en: "Ø{d} outer"}
+    ax_x: {ru: "+X нос", en: "+X forward"}
+    ax_z: {ru: "+Z — к оси вращения, к зрителю", en: "+Z — to spin axis, toward viewer"}
+  habitat_long:
+    title: {ru: Жилой модуль — продольный разрез, en: Habitat — long section}
+    desc:
+      ru: "Продольный разрез жилого модуля: окно, зоны по длине, высоты, геройская стена, тамбур и люк на ферму по SPEC с вариантом C-003."
+      en: "Long section of the habitat: window, zones along the length, heights, hero wall, vestibule and boom hatch per SPEC with the C-003 alternative."
+    subtitle:
+      ru: "Разрез по оси кабины (Y = 0), вид на геройскую стену (+Y); нос справа"
+      en: "Cut along the cabin centreline (Y = 0), looking at the hero wall (+Y); nose on the right"
+    sheet_name: {ru: "Продольный разрез модуля", en: "Habitat long section"}
+    water: {ru: вода, en: water}
+    wc: {ru: "санузел (+Y)", en: "WC (+Y)"}
+    med: {ru: медшкаф, en: medical}
+    eclss: {ru: модули СЖО, en: ECLSS modules}
+    axis: {ru: ось цилиндра модуля, en: habitat cylinder axis}
+    cam_a: {ru: "A, −Y: {z}", en: "A, −Y: {z}"}
+    cam_b: {ru: "B, −Y: {z}", en: "B, −Y: {z}"}
+    cam_c: {ru: "C — крупный план, {z}", en: "C — close-up, {z}"}
+    view: {ru: "+X: окно смотрит вдоль оси", en: "+X: window looks along the axis"}
+    down: {ru: "вниз (−Z): {g}", en: "down (−Z): {g}"}
+    down2: {ru: "от оси вращения", en: "away from spin axis"}
+    to_axis: {ru: "к оси вращения (+Z): пол в {r} от оси", en: "to spin axis (+Z): floor {r} from axis"}
+    spec: {ru: "по SPEC §5: люк в корме → колено → ферма", en: "per SPEC §5: aft hatch → elbow → boom"}
+    alt: {ru: "вариант: люк в «потолке», ферма над тамбуром", en: "alternative: “ceiling” hatch, boom above vestibule"}
+    c003: {ru: "C-003: положение люка не решено", en: "C-003: hatch position not decided"}
+    wire: {ru: "жёсткая линия ARI ISOLATE → ядро ARI", en: "ARI ISOLATE hard line → ARI core"}
+    cams_ab:
+      ru: "Камеры A ({a}) и B ({b}) — у стены −Y,\nза плоскостью разреза (пунктир)"
+      en: "Cameras A ({a}) and B ({b}) are on the −Y wall,\nbehind the cut plane (dashed)"
+    n_vest: {ru: тамбур, en: vestibule}
+    n_eclss: {ru: СЖО, en: ECLSS}
+    n_aft: {ru: "санузел +Y · стазис −Y", en: "WC +Y · stasis −Y"}
+    n_galley: {ru: камбуз, en: galley}
+    n_main: {ru: главная кабина, en: main cabin}
+    n_window: {ru: окно, en: window}
+    hatch_c: {ru: "центр {z}", en: "centre {z}"}
+    hatch_d: {ru: "Ø{d}", en: "Ø{d}"}
+    win_c: {ru: "центр окна {z}", en: "window centre {z}"}
+    isolate: {ru: "ARI ISOLATE под крышкой, центр {z}", en: "ARI ISOLATE under guard, centre {z}"}
+    desk: {ru: "стол {h} · сиденье кресла {s}", en: "desk {h} · chair seat {s}"}
+    galley: {ru: "камбуз: столешница {h}", en: "galley worktop {h}"}
+    displays:
+      ru: "дисплеи {p} и {s} (пунктир — меньший размер), центры {z}"
+      en: "displays {p} and {s} (dashed — smaller size), centres {z}"
+    window: {ru: "осевое окно {w} × {h}; шторка (пунктир)", en: "axial window {w} × {h}; shutter (dashed)"}
+    ax_x: {ru: "+X нос", en: "+X forward"}
+    ax_y: {ru: "+Y — от зрителя", en: "+Y — away from viewer"}

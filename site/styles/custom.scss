@@ -1,0 +1,91 @@
+@use "./base.scss";
+
+// Накладывается скриптом site/prepare.mjs поверх quartz/styles/custom.scss.
+
+// ---------------------------------------------------------------------------------------
+// Callout'ы вики: цвета и иконки (lucide) — те же, что в .obsidian/snippets/wiki.css.
+// Quartz красит callout через --color/--border/--bg/--callout-icon; --callout-color оставлен
+// в формате wiki.css ("r, g, b"), остальное считается из него.
+// ---------------------------------------------------------------------------------------
+$icon-verified: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path><path d="m9 12 2 2 4-4"></path></svg>');
+$icon-fiction: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg>');
+$icon-production: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z"></path><path d="m6.2 5.3 3.1 3.9"></path><path d="m12.4 3.4 3.1 4"></path><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"></path></svg>');
+$icon-realism: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg>');
+$icon-conflict: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><path d="M11 18H8a2 2 0 0 1-2-2V9"></path></svg>');
+$icon-open: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>');
+
+@mixin wiki-callout($name, $rgb, $icon) {
+  .callout[data-callout="#{$name}"] {
+    --callout-color: #{$rgb};
+    --color: rgb(var(--callout-color));
+    --border: rgba(var(--callout-color), 0.3);
+    --bg: rgba(var(--callout-color), 0.1);
+    --callout-icon: #{$icon};
+  }
+}
+
+@include wiki-callout("verified", "46, 160, 67", $icon-verified);
+@include wiki-callout("fiction", "163, 113, 247", $icon-fiction);
+@include wiki-callout("production", "210, 153, 34", $icon-production);
+@include wiki-callout("realism", "56, 139, 253", $icon-realism);
+@include wiki-callout("conflict", "248, 81, 73", $icon-conflict);
+@include wiki-callout("open", "139, 148, 158", $icon-open);
+
+// ---------------------------------------------------------------------------------------
+// Числа, привязанные к data/canon.yaml: пунктирное подчёркивание, ключ по наведению
+// ---------------------------------------------------------------------------------------
+span[data-canon] {
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  cursor: help;
+  position: relative;
+
+  &:hover::after {
+    content: attr(data-canon);
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 4px);
+    z-index: 20;
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+    border: 1px solid var(--lightgray);
+    background: var(--light);
+    color: var(--darkgray);
+    font-family: var(--codeFont);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    text-decoration: none;
+    pointer-events: none;
+  }
+}
+
+// Ссылки на файлы вне вики (sources/, CLAUDE.md): на сайте это просто подпись
+.source-ref {
+  padding: 0.02em 0.35em;
+  border-radius: 4px;
+  background: var(--highlight);
+  color: var(--darkgray);
+  font-size: 0.9em;
+  cursor: help;
+}
+
+// Крошки: технический уровень «ru» (языковая папка) не показываем
+.breadcrumb-element:has(> a[href$="/ru/"]) {
+  display: none;
+}
+
+// У раздела (ru/…/index.md) оглавление уже написано вручную; автосписок папки под ним дублирует его
+body[data-slug^="ru/"][data-slug$="/index"] .page-listing {
+  display: none;
+}
+
+// Тег `index` у страниц-оглавлений — служебный (в Quartz ведёт на общий список тегов)
+ul.tags > li:has(> a.tag-link[href$="/tags/"]) {
+  display: none;
+}
+
+// Картинки и чертежи
+article img {
+  border-radius: 6px;
+}

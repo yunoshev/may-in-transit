@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="1080" viewBox="0 0 1460 1080" lang="ru" role="img">
+<title>Жилой модуль — поперечный разрез</title>
+<desc>Поперечный разрез гермокорпуса через главную кабину: пол, подпольные баки, шкафы, высоты, Майя 1,7 м, направления «вниз» и к оси вращения.</desc>
+<defs><style>text{font-family:'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif;} .h{paint-order:stroke;stroke:#0e2c4f;stroke-width:4px;stroke-linejoin:round;}</style><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#2b5a8a" stroke-width="0.5" opacity="0.45"/></pattern><pattern id="grid5" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#2b5a8a" stroke-width="0.8" opacity="0.55"/></pattern><marker id="ad" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#c9defa"/></marker><marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#eef5ff"/></marker><marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ffbe55"/></marker><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ff7f6e"/></marker><marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#8ee6ff"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#a9c8ec"/></marker><marker id="awt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#6fc3ff"/></marker><pattern id="h-shell" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#a9c8ec" stroke-width="0.8" opacity="0.55"/></pattern><clipPath id="clip-hull"><circle cx="640.0" cy="557.5" r="264.8"/></clipPath><clipPath id="clip-tank"><circle cx="640.0" cy="557.5" r="256.5"/></clipPath><pattern id="h-water" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#6fc3ff" stroke-width="0.9" opacity="0.55"/></pattern><pattern id="h-locker" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(90)"><line x1="0" y1="0" x2="0" y2="10" stroke="#a9c8ec" stroke-width="0.6" opacity="0.25"/></pattern></defs>
+<rect width="1460" height="1080" fill="#0e2c4f"/>
+<rect width="1460" height="1080" fill="url(#grid)"/>
+<rect width="1460" height="1080" fill="url(#grid5)"/>
+<rect x="12" y="12" width="1436" height="1056" fill="none" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="17" y="17" width="1426" height="1046" fill="none" stroke="#eef5ff" stroke-width="0.6" opacity="0.7"/>
+<text x="40" y="58" font-size="22" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="0.4" class="h">Жилой модуль — поперечный разрез</text>
+<text x="40" y="80" font-size="13" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Разрез по креслу, X = 1,75 м (лок. рамка модуля), вид в нос; +Y — слева</text>
+<rect x="545" y="372.25" width="190" height="123.5" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="7 4" opacity="0.9"/>
+<rect x="564" y="391.25" width="152" height="85.5" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="2 4" opacity="0.7"/>
+<path d="M 317.0 557.5 a 323.0 323.0 0 1 0 646.0 0 a 323.0 323.0 0 1 0 -646.0 0 Z M 374.0 557.5 a 266.0 266.0 0 1 1 532.0 0 a 266.0 266.0 0 1 1 -532.0 0 Z" stroke="none" stroke-width="1.2" fill="url(#h-shell)" stroke-linejoin="round" fill-rule="evenodd"/>
+<circle cx="640" cy="557.5" r="323" stroke="#eef5ff" stroke-width="1.6" fill="none"/>
+<circle cx="640" cy="557.5" r="266" stroke="#eef5ff" stroke-width="2.2" fill="none"/>
+<circle cx="640" cy="557.5" r="272.65" stroke="#eef5ff" stroke-width="0.8" fill="none" opacity="0.8"/>
+<g clip-path="url(#clip-hull)">
+<g clip-path="url(#clip-tank)">
+<rect x="393" y="715.2" width="157.7" height="95" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+<rect x="558.3" y="715.2" width="163.4" height="95" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+<rect x="729.3" y="715.2" width="157.7" height="95" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+</g>
+<rect x="374" y="700" width="532" height="11.4" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<polygon points="450,700 450,396 554.57,310.5 336,310.5 336,700" stroke="none" stroke-width="1.2" fill="#16395f" stroke-linejoin="round"/>
+<polygon points="450,700 450,396 554.57,310.5 336,310.5 336,700" stroke="none" stroke-width="1.2" fill="url(#h-locker)" stroke-linejoin="round"/>
+<polyline points="450,700 450,396 554.57,310.5" stroke="#eef5ff" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+<line x1="450" y1="614.5" x2="336" y2="614.5" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="450" y1="529" x2="336" y2="529" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="450" y1="453" x2="336" y2="453" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="383.5" y1="700" x2="383.5" y2="310.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="5 4" stroke-linecap="round"/>
+<polygon points="830,700 830,396 725.43,310.5 944,310.5 944,700" stroke="none" stroke-width="1.2" fill="#16395f" stroke-linejoin="round"/>
+<polygon points="830,700 830,396 725.43,310.5 944,310.5 944,700" stroke="none" stroke-width="1.2" fill="url(#h-locker)" stroke-linejoin="round"/>
+<polyline points="830,700 830,396 725.43,310.5" stroke="#eef5ff" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+<line x1="830" y1="614.5" x2="944" y2="614.5" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="830" y1="529" x2="944" y2="529" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="830" y1="453" x2="944" y2="453" stroke="#a9c8ec" stroke-width="0.8" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="896.5" y1="700" x2="896.5" y2="310.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="5 4" stroke-linecap="round"/>
+<rect x="516.57" y="303.85" width="246.85" height="6.65" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<rect x="676.5" y="310.5" width="22" height="4" stroke="none" stroke-width="1.2" fill="#eef5ff" opacity="0.9"/>
+<rect x="581.5" y="310.5" width="22" height="4" stroke="none" stroke-width="1.2" fill="#eef5ff" opacity="0.9"/>
+<circle cx="640" cy="316.2" r="4" stroke="#eef5ff" stroke-width="1" fill="#0e2c4f"/>
+</g>
+<rect x="450" y="559.4" width="104.5" height="7.6" stroke="#eef5ff" stroke-width="1.4" fill="#1d4673"/>
+<rect x="450" y="424.68" width="9.5" height="94.64" stroke="#eef5ff" stroke-width="1.4" fill="#a9c8ec"/>
+<rect x="571.6" y="614.5" width="87.4" height="13.3" rx="3" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<polygon points="659,618.3 670.4,496.7 659,492.9 647.6,618.3" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673" stroke-linejoin="round"/>
+<line x1="615.3" y1="627.8" x2="615.3" y2="688.6" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<line x1="569.7" y1="696.2" x2="660.9" y2="696.2" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<polygon points="767.3,420.7 795.8,432.1 802.45,491 800.55,548 792.95,548 790.1,491 786.3,510 790.1,532.8 786.3,608.8 777.75,688.6 781.55,700 763.5,700 764.45,612.6 757.8,548 757.8,548 751.15,612.6 752.1,700 734.05,700 737.85,688.6 729.3,608.8 725.5,532.8 729.3,510 725.5,491 722.65,548 715.05,548 713.15,491 719.8,432.1 748.3,420.7" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="757.8" cy="398.85" r="19.95" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<line x1="269.5" y1="557.5" x2="1010.5" y2="557.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="16 4 3 4" stroke-linecap="round"/>
+<line x1="640" y1="586" x2="640" y2="529" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="640" y1="226.5" x2="640" y2="150" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="654" y="162" font-size="13.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">к оси вращения (+Z): пол в 28 м от оси</text>
+<text x="654" y="180" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">«вверх» в кабине — к оси корабля</text>
+<line x1="1083" y1="580" x2="1083" y2="690" stroke="#eef5ff" stroke-width="2.4" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="1097" y="626" font-size="13" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">вниз (−Z): 0,5 g на полу, 4,905 м/с²</text>
+<text x="1097" y="644" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">«вниз» — радиально наружу, от оси</text>
+<text x="1097" y="662" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">у головы Майи 0,47 g — градиент по высоте</text>
+<line x1="683.7" y1="700" x2="683.7" y2="310.5" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="679.7" y="505.25" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 679.7 505.25)">2,05 м</text>
+<line x1="814.8" y1="700" x2="814.8" y2="377" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="828.4" y="538.5" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 828.4 538.5)">Майя 1,7 м</text>
+<line x1="864.61" y1="700" x2="1007" y2="700" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1010.5" y1="557.5" x2="1007" y2="557.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="999" y1="700" x2="999" y2="557.5" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1012.6" y="628.75" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1012.6 628.75)">0,75 м</text>
+<line x1="830" y1="715.2" x2="1007" y2="715.2" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="721.7" y1="810.2" x2="1007" y2="810.2" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="999" y1="810.2" x2="999" y2="715.2" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1012.6" y="762.7" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1012.6 762.7)">0,5 м</text>
+<line x1="450" y1="703" x2="450" y2="926.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="830" y1="703" x2="830" y2="926.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="450" y1="918.5" x2="830" y2="918.5" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="640" y="914.5" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">2,0 м</text>
+<line x1="830" y1="491" x2="896.5" y2="491" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="863.25" y="487" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">0,35 м</text>
+<circle cx="454.75" cy="449.2" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="454.75,449.2 287,355 277,355" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="273" y="351.56" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h"><tspan x="273" dy="0">основной дисплей 32–40″,</tspan><tspan x="273" dy="15.62">центр на высоте 1,2 м</tspan></text>
+<circle cx="450" cy="424.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="450,424.5 287,300 277,300" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="273" y="296.56" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h"><tspan x="273" dy="0">геройская стена (+Y):</tspan><tspan x="273" dy="15.62">зона A, шкафы за панелями</tspan></text>
+<circle cx="502.25" cy="559.4" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="502.25,559.4 287,455 277,455" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="273" y="459.38" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">стол, столешница 0,74 м</text>
+<circle cx="615.3" cy="614.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="615.3,614.5 287,530 277,530" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="273" y="534.38" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">кресло, сиденье 0,45 м</text>
+<circle cx="583" cy="372.25" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="583,372.25 287,245 277,245" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="273" y="241.56" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h"><tspan x="273" dy="0">осевое окно за плоскостью</tspan><tspan x="273" dy="15.62">разреза, центр на 1,4 м</tspan></text>
+<circle cx="659" cy="306.7" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="659,306.7 1083,245 1093,245" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="241.56" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h"><tspan x="1097" dy="0">потолочная панель: свет,</tspan><tspan x="1097" dy="15.62">микрофоны и динамики ARI</tspan></text>
+<circle cx="787.21" cy="347.55" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="787.21,347.55 1083,300 1093,300" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="304.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">верхние шкафы</text>
+<circle cx="858.5" cy="491" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="858.5,491 1083,395 1093,395" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="399.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">стеновые шкафы, зона B (−Y)</text>
+<circle cx="782.5" cy="762.7" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="782.5,762.7 1083,790 1093,790" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="794.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">вода: подпольные баки (SPEC §13)</text>
+<circle cx="799.6" cy="770.3" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="799.6,770.3 1083,835 1093,835" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="839.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">гермооболочка, внутр. Ø2,8 м</text>
+<circle cx="785.35" cy="844.97" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="785.35,844.97 1083,880 1093,880" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1097" y="884.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">защитная оболочка, наружн. Ø3,4 м</text>
+<text x="1020" y="534.7" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">ось цилиндра модуля</text>
+<line x1="92" y1="205" x2="92" y2="153" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<line x1="92" y1="205" x2="40" y2="205" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<circle cx="92" cy="205" r="7" stroke="#a9c8ec" stroke-width="1.2" fill="none"/>
+<line x1="87" y1="200" x2="97" y2="210" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<line x1="87" y1="210" x2="97" y2="200" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<text x="98" y="147" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Z</text>
+<text x="18" y="209" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Y</text>
+<text x="104" y="227" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X — в нос, от зрителя</text>
+<rect x="40" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="135" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<rect x="230" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="325" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<text x="40" y="990" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0</text>
+<text x="135" y="990" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0,5</text>
+<text x="230" y="990" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">1</text>
+<text x="325" y="990" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">1,5</text>
+<text x="420" y="990" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">2</text>
+<text x="432" y="977" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">м</text>
+<text x="40" y="962" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Масштаб — по линейке</text>
+<text x="40" y="1040" font-size="11.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">Черновик: размеры из data/canon.yaml (layout.*, exterior.*), не согласованы</text>
+<rect x="990" y="940" width="440" height="112" stroke="#eef5ff" stroke-width="1.4" fill="#0e2c4f"/>
+<line x1="990" y1="982.56" x2="1430" y2="982.56" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="1306.8" y1="982.56" x2="1306.8" y2="1052" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<text x="1002" y="970.56" font-size="17" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="1.2">MAYA IN TRANSIT — REF</text>
+<text x="1002" y="1004.56" font-size="13" fill="#eef5ff" text-anchor="start" font-weight="normal">Поперечный разрез модуля</text>
+<text x="1002" y="1024.56" font-size="10.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">Размеры: data/canon.yaml → canon.json</text>
+<text x="1316.8" y="1002.56" font-size="12" fill="#ffbe55" text-anchor="start" font-weight="bold">REV draft</text>
+<text x="1316.8" y="1020.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">2026-10-11</text>
+<text x="1316.8" y="1037.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">BP-03</text>
+</svg>

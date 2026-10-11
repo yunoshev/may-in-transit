@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1140" viewBox="0 0 1560 1140" lang="en" role="img">
+<title>Habitat — long section</title>
+<desc>Long section of the habitat: window, zones along the length, heights, hero wall, vestibule and boom hatch per SPEC with the C-003 alternative.</desc>
+<defs><style>text{font-family:'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif;} .h{paint-order:stroke;stroke:#0e2c4f;stroke-width:4px;stroke-linejoin:round;}</style><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#2b5a8a" stroke-width="0.5" opacity="0.45"/></pattern><pattern id="grid5" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#2b5a8a" stroke-width="0.8" opacity="0.55"/></pattern><marker id="ad" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#c9defa"/></marker><marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#eef5ff"/></marker><marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ffbe55"/></marker><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ff7f6e"/></marker><marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#8ee6ff"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#a9c8ec"/></marker><marker id="awt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#6fc3ff"/></marker><pattern id="h-shell" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#a9c8ec" stroke-width="0.8" opacity="0.55"/></pattern><pattern id="h-water" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#6fc3ff" stroke-width="0.9" opacity="0.55"/></pattern><pattern id="h-lk" patternUnits="userSpaceOnUse" width="9" height="9" patternTransform="rotate(90)"><line x1="0" y1="0" x2="0" y2="9" stroke="#a9c8ec" stroke-width="0.6" opacity="0.28"/></pattern></defs>
+<rect width="1560" height="1140" fill="#0e2c4f"/>
+<rect width="1560" height="1140" fill="url(#grid)"/>
+<rect width="1560" height="1140" fill="url(#grid5)"/>
+<rect x="12" y="12" width="1536" height="1116" fill="none" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="17" y="17" width="1526" height="1106" fill="none" stroke="#eef5ff" stroke-width="0.6" opacity="0.7"/>
+<text x="40" y="58" font-size="22" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="0.4" class="h">Habitat — long section</text>
+<text x="40" y="80" font-size="13" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Cut along the cabin centreline (Y = 0), looking at the hero wall (+Y); nose on the right</text>
+<path d="M372.0,418.75 H1172.0 Q1209.5,418.75 1209.5,456.25 V806.25 Q1209.5,843.75 1172.0,843.75 H372.0 Q334.5,843.75 334.5,806.25 V456.25 Q334.5,418.75 372.0,418.75 Z M397.0,456.25 V806.25 H1147.0 V456.25 Z" stroke="none" stroke-width="1.2" fill="url(#h-shell)" stroke-linejoin="round" fill-rule="evenodd"/>
+<rect x="1144.5" y="509.38" width="67.5" height="81.25" stroke="none" stroke-width="1.2" fill="#0e2c4f"/>
+<line x1="1162" y1="509.38" x2="1162" y2="590.62" stroke="#8ee6ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<line x1="1172" y1="509.38" x2="1172" y2="590.62" stroke="#8ee6ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<line x1="1147" y1="509.38" x2="1209.5" y2="509.38" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<line x1="1134.5" y1="521.88" x2="1147" y2="521.88" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="3 2" stroke-linecap="round"/>
+<line x1="1147" y1="590.62" x2="1209.5" y2="590.62" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<line x1="1134.5" y1="578.12" x2="1147" y2="578.12" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="3 2" stroke-linecap="round"/>
+<rect x="1213.25" y="415.63" width="10" height="87.5" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+<rect x="332" y="562.5" width="67.5" height="100" stroke="none" stroke-width="1.2" fill="#0e2c4f"/>
+<line x1="334.5" y1="562.5" x2="397" y2="562.5" stroke="#eef5ff" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<line x1="334.5" y1="662.5" x2="397" y2="662.5" stroke="#eef5ff" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<polygon points="334.5,562.5 309.5,562.5 309.5,168.75 159.5,168.75 159.5,675 278.25,662.5 334.5,662.5" stroke="#eef5ff" stroke-width="1.4" fill="#16395f" stroke-linejoin="round"/>
+<polyline points="147,168.75 226.5,168.75 231.5,160.75 237.5,176.75 242.5,168.75 322,168.75" stroke="#eef5ff" stroke-width="1.3" fill="#0e2c4f" stroke-linejoin="round"/>
+<rect x="397" y="416.25" width="100" height="42.5" stroke="none" stroke-width="1.2" fill="#0e2c4f"/>
+<line x1="397" y1="456.25" x2="397" y2="418.75" stroke="#ffbe55" stroke-width="1.3" fill="none" stroke-dasharray="5 3" stroke-linecap="round"/>
+<line x1="372" y1="418.75" x2="372" y2="168.75" stroke="#ffbe55" stroke-width="1.3" fill="none" stroke-dasharray="7 4" stroke-linecap="round"/>
+<line x1="497" y1="456.25" x2="497" y2="418.75" stroke="#ffbe55" stroke-width="1.3" fill="none" stroke-dasharray="5 3" stroke-linecap="round"/>
+<line x1="522" y1="418.75" x2="522" y2="168.75" stroke="#ffbe55" stroke-width="1.3" fill="none" stroke-dasharray="7 4" stroke-linecap="round"/>
+<line x1="397" y1="456.25" x2="497" y2="456.25" stroke="#ffbe55" stroke-width="1.6" fill="none" stroke-dasharray="5 3" stroke-linecap="round"/>
+<polyline points="359.5,168.75 439,168.75 444,160.75 450,176.75 455,168.75 534.5,168.75" stroke="#ffbe55" stroke-width="1.3" fill="#0e2c4f" stroke-linejoin="round"/>
+<rect x="397" y="725" width="750" height="7.5" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<rect x="525.75" y="735" width="242.5" height="62.5" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+<text x="647" y="770.25" font-size="11" fill="#6fc3ff" text-anchor="middle" font-weight="normal" class="h">water</text>
+<rect x="775.75" y="735" width="155" height="62.5" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+<text x="853.25" y="770.25" font-size="11" fill="#6fc3ff" text-anchor="middle" font-weight="normal" class="h">water</text>
+<rect x="938.25" y="735" width="155" height="62.5" rx="4" stroke="#6fc3ff" stroke-width="1.1" fill="url(#h-water)"/>
+<text x="1015.75" y="770.25" font-size="11" fill="#6fc3ff" text-anchor="middle" font-weight="normal" class="h">water</text>
+<rect x="403.25" y="735" width="112.5" height="62.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="4 3"/>
+<rect x="472" y="464.38" width="675" height="4.38" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<rect x="772" y="525" width="325" height="200" stroke="#a9c8ec" stroke-width="0.9" fill="url(#h-lk)"/>
+<rect x="772" y="468.75" width="325" height="56.25" stroke="#a9c8ec" stroke-width="0.9" fill="#16395f"/>
+<line x1="822" y1="525" x2="822" y2="468.75" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="872" y1="525" x2="872" y2="468.75" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="934.5" y1="525" x2="934.5" y2="468.75" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="997" y1="525" x2="997" y2="468.75" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="1047" y1="525" x2="1047" y2="468.75" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<rect x="774.5" y="612.5" width="95" height="112.5" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<rect x="774.5" y="607.5" width="95" height="5" stroke="#eef5ff" stroke-width="1.2" fill="#a9c8ec"/>
+<line x1="778.25" y1="687.5" x2="865.75" y2="687.5" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<line x1="778.25" y1="650" x2="865.75" y2="650" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<rect x="897" y="632.5" width="187.5" height="5" stroke="#eef5ff" stroke-width="1.4" fill="#1d4673"/>
+<line x1="903.25" y1="637.5" x2="903.25" y2="725" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<rect x="960.4" y="543.87" width="110.69" height="62.26" stroke="#eef5ff" stroke-width="1.4" fill="#22507f"/>
+<rect x="971.47" y="550.09" width="88.55" height="49.81" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-dasharray="3 3"/>
+<rect x="878.39" y="553.99" width="74.72" height="42.03" stroke="#eef5ff" stroke-width="1.4" fill="#22507f"/>
+<rect x="888.08" y="559.43" width="55.35" height="31.13" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-dasharray="3 3"/>
+<rect x="900.75" y="606.25" width="30" height="12.5" stroke="#ff7f6e" stroke-width="1.4" fill="#0e2c4f"/>
+<rect x="902.62" y="608.75" width="3.75" height="7.5" stroke="#ff7f6e" stroke-width="0.9" fill="none"/>
+<rect x="910.12" y="608.75" width="3.75" height="7.5" stroke="#ff7f6e" stroke-width="0.9" fill="none"/>
+<rect x="917.62" y="608.75" width="3.75" height="7.5" stroke="#ff7f6e" stroke-width="0.9" fill="none"/>
+<rect x="925.12" y="608.75" width="3.75" height="7.5" stroke="#ff7f6e" stroke-width="0.9" fill="#ff7f6e"/>
+<rect x="960.75" y="668.75" width="60" height="8.75" stroke="#eef5ff" stroke-width="1.2" fill="none"/>
+<rect x="963.25" y="591.25" width="55" height="75" rx="6" stroke="#eef5ff" stroke-width="1.2" fill="none"/>
+<line x1="990.75" y1="677.5" x2="990.75" y2="718.75" stroke="#eef5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="959.5" y1="722.5" x2="1022" y2="722.5" stroke="#eef5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="634.5" y="468.75" width="137.5" height="256.25" stroke="#eef5ff" stroke-width="1.3" fill="#16395f"/>
+<rect x="665.75" y="487.5" width="81.25" height="235" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="5 3"/>
+<text x="703.25" y="575" font-size="11.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">WC (+Y)</text>
+<rect x="528.25" y="525" width="100" height="87.5" stroke="#a9c8ec" stroke-width="1" fill="url(#h-lk)"/>
+<text x="578.25" y="572.75" font-size="10.5" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">medical</text>
+<rect x="472" y="464.38" width="50" height="260.62" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<line x1="472" y1="656.25" x2="522" y2="656.25" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="472" y1="587.5" x2="522" y2="587.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="472" y1="525" x2="522" y2="525" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<text x="501" y="618.75" font-size="10.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 501 618.75)">ECLSS modules</text>
+<path d="M372.0,418.75 H1172.0 Q1209.5,418.75 1209.5,456.25 V806.25 Q1209.5,843.75 1172.0,843.75 H372.0 Q334.5,843.75 334.5,806.25 V456.25 Q334.5,418.75 372.0,418.75 Z" stroke="#eef5ff" stroke-width="1.6" fill="none" stroke-linejoin="round"/>
+<rect x="397" y="456.25" width="750" height="350" stroke="#eef5ff" stroke-width="2.2" fill="none"/>
+<line x1="297" y1="631.25" x2="1247" y2="631.25" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="16 4 3 4" stroke-linecap="round"/>
+<polyline points="915.75,606.25 915.75,460 409.5,460 409.5,575 234.5,575 234.5,181.25" stroke="#ff7f6e" stroke-width="1.6" fill="none" stroke-dasharray="7 4" stroke-linejoin="round"/>
+<text x="209.5" y="400" font-size="11.5" fill="#ff7f6e" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 209.5 400)">ARI ISOLATE hard line → ARI core</text>
+<polygon points="1110.75,541.25 1102.62,555 1106.38,593.75 1101.38,615 1106.38,650 1106.38,683.75 1108.25,725 1139.5,725 1122,715 1123.25,668.75 1125.12,660 1126.38,625 1126.38,600 1131.38,568.75 1121.38,541.25" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<polygon points="1112,550 1120.12,550 1123.25,621.25 1116.38,621.25" stroke="#eef5ff" stroke-width="1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="1118.25" cy="526.88" r="13.12" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<text x="1113.25" y="497.5" font-size="11.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">Maya 1.7 m</text>
+<circle cx="1078.25" cy="562.5" r="9" stroke="#8ee6ff" stroke-width="1.3" fill="#0e2c4f"/>
+<text x="1078.25" y="566.46" font-size="11" fill="#8ee6ff" text-anchor="middle" font-weight="bold">C</text>
+<circle cx="953.25" cy="562.5" r="9" stroke="#8ee6ff" stroke-width="1.1" fill="#0e2c4f" stroke-dasharray="2 2"/>
+<text x="953.25" y="566.5" font-size="11" fill="#8ee6ff" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="778.25" cy="506.25" r="9" stroke="#8ee6ff" stroke-width="1.1" fill="#0e2c4f" stroke-dasharray="2 2"/>
+<text x="778.25" y="510.25" font-size="11" fill="#8ee6ff" text-anchor="middle" font-weight="bold">B</text>
+<line x1="1217" y1="550" x2="1279" y2="550" stroke="#eef5ff" stroke-width="2" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="1281" y="554" font-size="12" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">+X</text>
+<line x1="1265.75" y1="743.75" x2="1265.75" y2="835.75" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="1277.75" y="789.75" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">down (−Z): 0.5 g</text>
+<text x="1277.75" y="807.75" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">away from spin axis</text>
+<line x1="234.5" y1="143.75" x2="234.5" y2="113.75" stroke="#eef5ff" stroke-width="2" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="248.5" y="129.75" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">to spin axis (+Z): floor 28 m from axis</text>
+<text x="537" y="187.5" font-size="12" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">alternative: “ceiling” hatch, boom above vestibule</text>
+<text x="40" y="712" font-size="12" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">per SPEC §5: aft hatch → elbow → boom</text>
+<text x="40" y="732" font-size="12.5" fill="#ffbe55" text-anchor="start" font-weight="bold" class="h">C-003: hatch position not decided</text>
+<text x="40" y="770" font-size="11.5" fill="#8ee6ff" text-anchor="start" font-weight="normal" class="h"><tspan x="40" dy="0">Cameras A (1.3 m) and B (1.75 m) are on the −Y wall,</tspan><tspan x="40" dy="14.38">behind the cut plane (dashed)</tspan></text>
+<line x1="397" y1="809.25" x2="397" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="472" y1="809.25" x2="472" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="397" y1="873.75" x2="472" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="434.5" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">0.6 m</text>
+<text x="434.5" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">vestibule</text>
+<line x1="472" y1="809.25" x2="472" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="522" y1="809.25" x2="522" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="472" y1="873.75" x2="522" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="497" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">0.4 m</text>
+<text x="497" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">ECLSS</text>
+<line x1="522" y1="809.25" x2="522" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="772" y1="809.25" x2="772" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="522" y1="873.75" x2="772" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="647" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">2.0 m</text>
+<text x="647" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">WC +Y · stasis −Y</text>
+<line x1="772" y1="809.25" x2="772" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="872" y1="809.25" x2="872" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="772" y1="873.75" x2="872" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="822" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">0.8 m</text>
+<text x="822" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">galley</text>
+<line x1="872" y1="809.25" x2="872" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1097" y1="809.25" x2="1097" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="872" y1="873.75" x2="1097" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="984.5" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">1.8 m</text>
+<text x="984.5" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">main cabin</text>
+<line x1="1097" y1="809.25" x2="1097" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1147" y1="809.25" x2="1147" y2="879.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1097" y1="873.75" x2="1147" y2="873.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1122" y="869.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">0.4 m</text>
+<text x="1122" y="895.75" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">window</text>
+<line x1="397" y1="809.25" x2="397" y2="937.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1147" y1="809.25" x2="1147" y2="937.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="397" y1="931.75" x2="1147" y2="931.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="772" y="927.75" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">6.0 m</text>
+<line x1="334.5" y1="846.75" x2="334.5" y2="973.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1209.5" y1="846.75" x2="1209.5" y2="973.75" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="334.5" y1="967.75" x2="1209.5" y2="967.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="772" y="963.75" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">7.0 m</text>
+<line x1="578.25" y1="725" x2="578.25" y2="468.75" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="574.25" y="596.88" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 574.25 596.88)">2.05 m</text>
+<line x1="409.5" y1="725" x2="409.5" y2="612.5" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="405.5" y="668.75" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 405.5 668.75)">centre 0.9 m</text>
+<line x1="397" y1="612.5" x2="449.5" y2="612.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="397" y1="562.5" x2="457" y2="562.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="397" y1="662.5" x2="457" y2="662.5" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="449.5" y1="662.5" x2="449.5" y2="562.5" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="462.3" y="612.5" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 462.3 612.5)">Ø0.8 m</text>
+<line x1="1209.5" y1="725" x2="1327.5" y2="725" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1278.25" y1="550" x2="1327.5" y2="550" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1319.5" y1="725" x2="1319.5" y2="550" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1332.3" y="637.5" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1332.3 637.5)">window centre 1.4 m</text>
+<line x1="1209.5" y1="509.38" x2="1367.5" y2="509.38" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1209.5" y1="590.62" x2="1367.5" y2="590.62" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1359.5" y1="590.62" x2="1359.5" y2="509.38" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1372.3" y="550" font-size="11" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1372.3 550)">0.45–0.65 m</text>
+<circle cx="840.75" cy="607.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="840.75,607.5 840.75,396.75 832.75,396.75" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="828.75" y="400.75" font-size="12" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">galley worktop 0.9 m</text>
+<circle cx="915.75" cy="606.25" r="2.4" stroke="none" stroke-width="1.2" fill="#ff7f6e"/>
+<polyline points="915.75,606.25 915.75,362.75 907.75,362.75" stroke="#ff7f6e" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="903.75" y="366.75" font-size="12" fill="#ff7f6e" text-anchor="end" font-weight="normal" class="h">ARI ISOLATE under guard, centre 0.9 m</text>
+<circle cx="934.5" cy="632.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="934.5,632.5 934.5,328.75 926.5,328.75" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="922.5" y="332.75" font-size="12" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">desk 0.74 m · chair seat 0.45 m</text>
+<circle cx="1040.75" cy="547.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="1040.75,547.5 1040.75,294.75 1032.75,294.75" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1028.75" y="298.75" font-size="12" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">displays 32–40″ and 20–27″ (dashed — smaller size), centres 1.2 m</text>
+<circle cx="1078.25" cy="553.75" r="2.4" stroke="none" stroke-width="1.2" fill="#8ee6ff"/>
+<polyline points="1078.25,553.75 1078.25,260.75 1070.25,260.75" stroke="#8ee6ff" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1066.25" y="264.75" font-size="12" fill="#8ee6ff" text-anchor="end" font-weight="normal" class="h">C — close-up, 1.3 m</text>
+<circle cx="1172" cy="459.38" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="1172,459.38 1172,226.75 1164,226.75" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1160" y="230.75" font-size="12" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">axial window 0.8–1.0 m × 0.45–0.65 m; shutter (dashed)</text>
+<line x1="82" y1="900" x2="134" y2="900" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<line x1="82" y1="900" x2="82" y2="848" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<circle cx="82" cy="900" r="7" stroke="#a9c8ec" stroke-width="1.2" fill="none"/>
+<line x1="77" y1="895" x2="87" y2="905" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<line x1="77" y1="905" x2="87" y2="895" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<text x="140" y="904" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X forward</text>
+<text x="90" y="848" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Z</text>
+<text x="74" y="924" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Y — away from viewer</text>
+<rect x="40" y="1030" width="62.5" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="102.5" y="1030" width="62.5" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<rect x="165" y="1030" width="62.5" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="227.5" y="1030" width="62.5" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<text x="40" y="1050" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0</text>
+<text x="102.5" y="1050" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0.5</text>
+<text x="165" y="1050" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">1</text>
+<text x="227.5" y="1050" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">1.5</text>
+<text x="290" y="1050" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">2</text>
+<text x="302" y="1037" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">m</text>
+<text x="40" y="1022" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Scale — per bar</text>
+<text x="40" y="1100" font-size="11.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">Draft: dimensions from data/canon.yaml (layout.*, exterior.*), not agreed</text>
+<rect x="1090" y="1000" width="440" height="112" stroke="#eef5ff" stroke-width="1.4" fill="#0e2c4f"/>
+<line x1="1090" y1="1042.56" x2="1530" y2="1042.56" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="1406.8" y1="1042.56" x2="1406.8" y2="1112" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<text x="1102" y="1030.56" font-size="17" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="1.2">MAYA IN TRANSIT — REF</text>
+<text x="1102" y="1064.56" font-size="13" fill="#eef5ff" text-anchor="start" font-weight="normal">Habitat long section</text>
+<text x="1102" y="1084.56" font-size="10.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">Dimensions: data/canon.yaml → canon.json</text>
+<text x="1416.8" y="1062.56" font-size="12" fill="#ffbe55" text-anchor="start" font-weight="bold">REV draft</text>
+<text x="1416.8" y="1080.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">2026-10-11</text>
+<text x="1416.8" y="1097.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">BP-04</text>
+</svg>
