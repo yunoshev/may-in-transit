@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" lang="ru">
+<title>Maya in Transit</title>
+<defs><style>text{font-family:'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif;} .h{paint-order:stroke;stroke:#0e2c4f;stroke-width:5px;stroke-linejoin:round;}</style><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#2b5a8a" stroke-width="0.5" opacity="0.5"/></pattern><pattern id="g5" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#2b5a8a" stroke-width="1" opacity="0.7"/></pattern><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#eef5ff"/></marker><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L10,5 L0,9" fill="none" stroke="#a9c8ec" stroke-width="1.4"/></marker><marker id="tick" viewBox="0 0 10 2" refX="5" refY="1" markerWidth="14" markerHeight="3" orient="auto"><rect width="10" height="2" fill="#a9c8ec" transform="rotate(90 5 1)"/></marker><clipPath id="jup"><circle cx="1095" cy="230" r="250"/></clipPath></defs>
+<rect width="1200" height="630" fill="#0e2c4f"/>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#g5)"/>
+<circle cx="1095" cy="230" r="250" fill="#16395f" stroke="#a9c8ec" stroke-width="1.6" opacity="0.9"/>
+<g clip-path="url(#jup)" stroke="#a9c8ec" fill="none" opacity="0.55">
+<path d="M845,50.0 Q970.0,45.0 1095,50.0 T1345,50.0" stroke-width="2.4"/>
+<path d="M845,92.5 Q970.0,98.5 1095,92.5 T1345,92.5" stroke-width="1.4"/>
+<path d="M845,135.0 Q970.0,130.0 1095,135.0 T1345,135.0" stroke-width="1.4"/>
+<path d="M845,180.0 Q970.0,186.0 1095,180.0 T1345,180.0" stroke-width="2.4"/>
+<path d="M845,217.5 Q970.0,212.5 1095,217.5 T1345,217.5" stroke-width="1.4"/>
+<path d="M845,260.0 Q970.0,266.0 1095,260.0 T1345,260.0" stroke-width="1.4"/>
+<path d="M845,305.0 Q970.0,300.0 1095,305.0 T1345,305.0" stroke-width="2.4"/>
+<path d="M845,347.5 Q970.0,353.5 1095,347.5 T1345,347.5" stroke-width="1.4"/>
+<path d="M845,387.5 Q970.0,382.5 1095,387.5 T1345,387.5" stroke-width="1.4"/>
+<path d="M845,430.0 Q970.0,436.0 1095,430.0 T1345,430.0" stroke-width="2.4"/>
+<ellipse cx="1170.0" cy="100.0" rx="37.5" ry="18.8" stroke-width="1.8"/>
+</g>
+<rect x="689.9" y="225.2" width="183.3" height="68.8" rx="0" fill="#16395f" stroke="#eef5ff" stroke-width="1.2"/>
+<line x1="720.4" y1="225.2" x2="720.4" y2="294.0" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="751.0" y1="225.2" x2="751.0" y2="294.0" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="781.5" y1="225.2" x2="781.5" y2="294.0" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="812.1" y1="225.2" x2="812.1" y2="294.0" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="842.6" y1="225.2" x2="842.6" y2="294.0" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<rect x="689.9" y="306.0" width="183.3" height="68.8" rx="0" fill="#16395f" stroke="#eef5ff" stroke-width="1.2"/>
+<line x1="720.4" y1="306.0" x2="720.4" y2="374.8" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="751.0" y1="306.0" x2="751.0" y2="374.8" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="781.5" y1="306.0" x2="781.5" y2="374.8" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="812.1" y1="306.0" x2="812.1" y2="374.8" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<line x1="842.6" y1="306.0" x2="842.6" y2="374.8" stroke="#a9c8ec" stroke-width="0.8" opacity="0.7"/>
+<rect x="560.0" y="293.9" width="550.0" height="12.2" rx="0" fill="#1d4673" stroke="#eef5ff" stroke-width="1.4"/>
+<rect x="560.0" y="286.2" width="42.8" height="27.5" rx="0" fill="#1d4673" stroke="#eef5ff" stroke-width="1.6"/>
+<path d="M560.0,290.8 L538.0,280.1 L538.0,319.9 L560.0,309.2 Z" fill="#16395f" stroke="#eef5ff" stroke-width="1.4"/>
+<path d="M536.0,281.7 L455.0,258.0 M536.0,318.3 L455.0,342.0" stroke="#a9c8ec" stroke-width="1.2" stroke-dasharray="6 5"/>
+<rect x="628.8" y="288.5" width="38.2" height="22.9" rx="0" fill="#1d4673" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="663.9" y="278.2" width="7.6" height="43.5" rx="0" fill="#a9c8ec" stroke="#eef5ff" stroke-width="1"/>
+<rect x="958.7" y="280.9" width="27.6" height="38.2" rx="14.7" fill="#1d4673" stroke="#eef5ff" stroke-width="1.5"/>
+<rect x="928.2" y="280.9" width="27.6" height="38.2" rx="14.7" fill="#1d4673" stroke="#eef5ff" stroke-width="1.5"/>
+<rect x="897.6" y="280.9" width="27.6" height="38.2" rx="14.7" fill="#1d4673" stroke="#eef5ff" stroke-width="1.5"/>
+<rect x="1013.8" y="128.1" width="9.2" height="359.8" rx="0" fill="#16395f" stroke="#eef5ff" stroke-width="1.2"/>
+<line x1="1018.3" y1="310" x2="1018.3" y2="485.9" stroke="#ff7f6e" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="991.6" y="487.9" width="53.5" height="26.0" rx="8" fill="#1d4673" stroke="#eef5ff" stroke-width="1.8"/>
+<rect x="1003.1" y="105.2" width="30.6" height="22.9" rx="6" fill="#1d4673" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="1006.9" y="290.1" width="22.9" height="19.9" rx="0" fill="#2a5d94" stroke="#eef5ff" stroke-width="1.8"/>
+<circle cx="1018.3" cy="300" r="22.8" fill="none" stroke="#a9c8ec" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1064.2" y="297.0" width="45.8" height="6.0" rx="0" fill="#16395f" stroke="#eef5ff" stroke-width="1.2"/>
+<line x1="430.0" y1="300" x2="1156.0" y2="300" stroke="#a9c8ec" stroke-width="1" stroke-dasharray="14 5 3 5"/>
+<path d="M1136.0,266 A12,36 0 0 1 1136.0,334" fill="none" stroke="#eef5ff" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="560.0" y1="547.9" x2="1110.0" y2="547.9" stroke="#a9c8ec" stroke-width="1.1" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
+<line x1="560.0" y1="312.0" x2="560.0" y2="553.9" stroke="#a9c8ec" stroke-width="0.7" stroke-dasharray="3 4" opacity="0.7"/>
+<line x1="1110.0" y1="312.0" x2="1110.0" y2="553.9" stroke="#a9c8ec" stroke-width="0.7" stroke-dasharray="3 4" opacity="0.7"/>
+<line x1="1067.1" y1="300.0" x2="1067.1" y2="513.9" stroke="#a9c8ec" stroke-width="1.1" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
+<text x="835.0" y="538.9" text-anchor="middle" font-size="17" fill="#a9c8ec" class="h">хребет 72 м</text>
+<text x="1076.1" y="412.9" font-size="17" fill="#a9c8ec" class="h">R 28 м</text>
+<path d="M283.7,299.6 C287.1,300.9 283.2,305.3 286.6,307.4 C290.0,309.5 299.8,310.3 304.1,312.3 C308.5,314.2 311.1,314.0 312.9,319.1 C314.6,324.1 314.1,333.0 314.8,342.4 C315.4,351.7 316.7,362.7 316.7,375.4 C316.7,388.0 315.3,407.7 314.8,418.1 C314.3,428.4 314.8,433.3 313.8,437.5 C312.9,441.7 310.1,443.9 309.0,443.3 C307.8,442.6 307.2,439.1 307.0,433.6 C306.9,428.1 308.0,420.0 308.0,410.3 C308.0,400.6 307.7,385.1 307.0,375.4 C306.4,365.6 305.2,351.4 304.1,352.1 C303.0,352.7 301.0,372.8 300.2,379.2 C299.4,385.7 298.5,385.7 299.3,390.9 C300.1,396.1 304.0,403.8 305.1,410.3 C306.2,416.8 306.5,420.0 306.1,429.7 C305.6,439.4 303.6,457.5 302.2,468.5 C300.7,479.5 298.6,484.4 297.3,495.7 C296.0,507.0 295.4,523.9 294.4,536.5 C293.4,549.1 291.0,564.0 291.5,571.4 C292.0,578.9 296.5,578.9 297.3,581.1 C298.1,583.4 298.9,584.4 296.4,585.0 C293.8,585.6 284.1,587.3 281.8,585.0 C279.5,582.7 282.3,579.5 282.8,571.4 C283.2,563.3 284.4,549.1 284.7,536.5 C285.0,523.9 285.2,508.6 284.7,495.7 C284.2,482.8 283.4,468.5 281.8,458.8 C280.2,449.1 277.3,437.5 275.0,437.5 C272.7,437.5 269.8,449.1 268.2,458.8 C266.6,468.5 265.8,482.8 265.3,495.7 C264.8,508.6 265.0,523.9 265.3,536.5 C265.6,549.1 266.8,563.3 267.2,571.4 C267.7,579.5 270.5,582.7 268.2,585.0 C265.9,587.3 256.2,585.6 253.6,585.0 C251.1,584.4 251.9,583.4 252.7,581.1 C253.5,578.9 258.0,578.9 258.5,571.4 C259.0,564.0 256.6,549.1 255.6,536.5 C254.6,523.9 254.0,507.0 252.7,495.7 C251.4,484.4 249.3,479.5 247.8,468.5 C246.4,457.5 244.4,439.4 243.9,429.7 C243.5,420.0 243.8,416.8 244.9,410.3 C246.0,403.8 249.9,396.1 250.7,390.9 C251.5,385.7 250.6,385.7 249.8,379.2 C249.0,372.8 247.0,352.7 245.9,352.1 C244.8,351.4 243.6,365.6 243.0,375.4 C242.3,385.1 242.0,400.6 242.0,410.3 C242.0,420.0 243.1,428.1 243.0,433.6 C242.8,439.1 242.2,442.6 241.0,443.3 C239.9,443.9 237.1,441.7 236.2,437.5 C235.2,433.3 235.7,428.4 235.2,418.1 C234.7,407.7 233.3,388.0 233.3,375.4 C233.3,362.7 234.6,351.7 235.2,342.4 C235.9,333.0 235.4,324.1 237.1,319.1 C238.9,314.0 241.5,314.2 245.9,312.3 C250.2,310.3 260.0,309.5 263.4,307.4 C266.8,305.3 262.9,300.9 266.3,299.6 C269.7,298.4 280.3,298.4 283.7,299.6 Z" fill="#1d4673" stroke="#eef5ff" stroke-width="2.2" stroke-linejoin="round"/>
+<ellipse cx="275.0" cy="277.3" rx="14.0" ry="19.0" fill="#1d4673" stroke="#eef5ff" stroke-width="2.2"/>
+<path d="M275.0,253.1 C279.5,253.1 285.5,253.5 288.6,256.0 C291.7,258.4 292.8,262.8 293.4,267.6 C294.1,272.5 293.1,281.0 292.5,285.1 C291.8,289.1 290.2,292.9 289.6,291.9 C288.9,290.9 289.2,283.3 288.6,279.3 C287.9,275.2 287.9,270.2 285.7,267.6 C283.4,265.0 278.6,263.7 275.0,263.7 C271.4,263.7 266.6,265.0 264.3,267.6 C262.1,270.2 262.1,275.2 261.4,279.3 C260.8,283.3 261.1,290.9 260.4,291.9 C259.8,292.9 258.2,289.1 257.5,285.1 C256.9,281.0 255.9,272.5 256.6,267.6 C257.2,262.8 258.3,258.4 261.4,256.0 C264.5,253.5 270.5,253.1 275.0,253.1 Z" fill="#16395f" stroke="#eef5ff" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="281.8" cy="248.2" r="8.7" fill="#16395f" stroke="#eef5ff" stroke-width="2"/>
+<line x1="275.0" y1="309.4" x2="275.0" y2="418.1" stroke="#a9c8ec" stroke-width="1.2"/>
+<path d="M250.2,390.9 Q275.0,393.8 299.8,390.9" fill="none" stroke="#a9c8ec" stroke-width="1.2"/>
+<circle cx="251.7" cy="332.6" r="4.9" fill="none" stroke="#8ee6ff" stroke-width="1.4"/>
+<text x="979.6" y="506.9" text-anchor="end" font-size="17" fill="#eef5ff" class="h">жилой модуль · 0,5 g</text>
+<text x="1032.3" y="274.1" text-anchor="start" font-size="17" fill="#eef5ff" class="h">ядро ARI</text>
+<line x1="378" y1="255" x2="378" y2="585" stroke="#a9c8ec" stroke-width="1.2" marker-start="url(#tick)" marker-end="url(#tick)"/>
+<text x="392" y="426" font-size="18" fill="#a9c8ec">1,7 м</text>
+<line x1="150" y1="585" x2="410" y2="585" stroke="#a9c8ec" stroke-width="1.2"/>
+<text x="275" y="611" text-anchor="middle" font-size="18" fill="#eef5ff" letter-spacing="1.5">МАЙЯ</text>
+<text x="64" y="112" font-size="66" font-weight="700" fill="#eef5ff" letter-spacing="0.5">Maya in Transit</text>
+<text x="66" y="160" font-size="25" fill="#a9c8ec">2050-е. Майя одна летит к Юпитеру</text>
+<text x="66" y="192" font-size="25" fill="#a9c8ec">и ведёт с борта влог.</text>
+<text x="1172" y="606" text-anchor="end" font-size="15" fill="#a9c8ec" letter-spacing="1">ВИКИ МИРА · ЧЕРТЕЖИ · РАСЧЁТЫ</text>
+<rect x="12" y="12" width="1176" height="606" fill="none" stroke="#eef5ff" stroke-width="1.6"/>
+</svg>

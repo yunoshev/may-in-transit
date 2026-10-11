@@ -88,6 +88,13 @@ async function overlay() {
       fs.copyFileSync(path.join(compDir, f), path.join(QUARTZ_DIR, "quartz/components", f))
     }
   }
+  // картинка превью ссылок (og:image) и прочая статика: site/static/* -> quartz/static/
+  const staticDir = path.join(SITE_DIR, "static")
+  if (fs.existsSync(staticDir)) {
+    for (const f of fs.readdirSync(staticDir)) {
+      fs.copyFileSync(path.join(staticDir, f), path.join(QUARTZ_DIR, "quartz/static", f))
+    }
+  }
   await applyPatches()
 }
 
