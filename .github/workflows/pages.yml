@@ -27,6 +27,14 @@ jobs:
         with:
           node-version: 22
 
+      # чертежи, графики и числа в тексте пересобираются из data/canon.yaml,
+      # чтобы сайт не отставал от канона, даже если локально забыли tools/build.py
+      - name: Установка uv
+        run: pipx install uv
+
+      - name: Пересборка из канона
+        run: uv run tools/build.py --no-verify
+
       # клон Quartz на закреплённом коммите (см. QUARTZ_COMMIT в site/prepare.mjs),
       # наложение конфига из site/, сборка content/ из ru/ и assets/
       - name: Подготовка

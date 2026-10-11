@@ -20,24 +20,13 @@ tags: [series/blender]
 
 Рекомендуемая каноническая система ([Ориентация и оси](../30-ship/orientation-and-axes.md)):
 
-```text
-+X = вперёд / направление основной тяги
--X = корма
-
-+Z локально для жилого модуля = внутрь, к оси вращения корабля
--Z локально для жилого модуля = пол / «низ» искусственной гравитации
-
-Y = влево / вправо поперёк кабины
-```
+- `+X` — вперёд, направление основной тяги; `−X` — корма;
+- `+Z` (локально для жилого модуля) — внутрь, к оси вращения корабля; `−Z` — пол, «низ» искусственной гравитации;
+- `Y` — влево и вправо поперёк кабины.
 
 ## Гравитация сцены
 
-Для обычных интерьерных кадров:
-
-```text
-Blender scene gravity:
-Z = -4.905 m/s²
-```
+Для обычных интерьерных кадров — `Scene Gravity: Z = -4.905 m/s²`.
 
 Интерьерный набор сам не вращается. Вращающаяся система отсчёта приближается обычной комнатой с 0,5 g для рутинных производственных кадров ([конвейер](production-pipeline.md), [искусственная гравитация](../30-ship/artificial-gravity.md)).
 
@@ -47,40 +36,12 @@ Z = -4.905 m/s²
 
 ## Структура коллекций
 
-```text
-SHIP
-├── EXT_SPINE
-├── EXT_HAB_POD
-├── EXT_SERVICE_POD
-├── EXT_BOOMS
-├── EXT_PROPULSION
-├── EXT_RADIATORS
-├── EXT_ANTENNAS
-├── EXT_CAMERAS
-│
-├── INT_HAB_SHELL
-├── INT_STRUCTURE
-├── INT_WORKSTATION
-├── INT_GALLEY
-├── INT_HYGIENE
-├── INT_STASIS
-├── INT_ECLSS
-├── INT_STORAGE
-├── INT_MEDICAL
-├── INT_EXERCISE
-├── INT_LIGHTING
-│
-├── PROPS_STATIC
-├── PROPS_RIGIDBODY
-├── CHARACTER_MAYA
-├── CHARACTER_CLOTH
-├── CHARACTER_HAIR
-│
-├── CAMERA_A_VLOG
-├── CAMERA_B_WIDE
-├── CAMERA_C_CLOSE
-└── CAMERA_EXTERNAL
-```
+Корневая коллекция `SHIP`, внутри четыре группы:
+
+- **снаружи:** `EXT_SPINE`, `EXT_HAB_POD`, `EXT_SERVICE_POD`, `EXT_BOOMS`, `EXT_PROPULSION`, `EXT_RADIATORS`, `EXT_ANTENNAS`, `EXT_CAMERAS`;
+- **интерьер:** `INT_HAB_SHELL`, `INT_STRUCTURE`, `INT_WORKSTATION`, `INT_GALLEY`, `INT_HYGIENE`, `INT_STASIS`, `INT_ECLSS`, `INT_STORAGE`, `INT_MEDICAL`, `INT_EXERCISE`, `INT_LIGHTING`;
+- **реквизит и персонаж:** `PROPS_STATIC`, `PROPS_RIGIDBODY`, `CHARACTER_MAYA`, `CHARACTER_CLOTH`, `CHARACTER_HAIR`;
+- **камеры:** `CAMERA_A_VLOG`, `CAMERA_B_WIDE`, `CAMERA_C_CLOSE`, `CAMERA_EXTERNAL`.
 
 ### Коллекции и страницы вики
 

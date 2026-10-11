@@ -49,21 +49,7 @@ tags: [ship/habitat]
 - одна-две наклейки;
 - личные вещи Майи.
 
-Не покрывать каждую поверхность бессмысленными футуристическими знаками. Большинство надписей скучные. Примеры (английские надписи на борту):
-
-```text
-AIR RETURN
-FILTER A
-POTABLE H2O
-SERVICE ACCESS
-EMERGENCY O2
-BUS B
-CABIN FAN 2
-WASTE PROC
-MANUAL RELEASE
-```
-
-Куда эти надписи ложатся: `AIR RETURN`, `FILTER A`, `CABIN FAN 2`, `SERVICE ACCESS`, `WASTE PROC` — на [сервисную стену](service-wall.md); `POTABLE H2O` — на [камбуз](galley.md) и водные линии ([вода](../systems/water.md)); `EMERGENCY O2`, `MANUAL RELEASE` — на аварийное оборудование ([безопасность](safety-equipment.md), [отсек стазиса](stasis-shelter.md)); `BUS B` — на электрические панели.
+Не покрывать каждую поверхность бессмысленными футуристическими знаками. Большинство надписей скучные. Примеры английских надписей на борту и куда они ложатся: `AIR RETURN`, `FILTER A`, `CABIN FAN 2`, `SERVICE ACCESS`, `WASTE PROC` — на [сервисную стену](service-wall.md); `POTABLE H2O` — на [камбуз](galley.md) и водные линии ([вода](../systems/water.md)); `EMERGENCY O2`, `MANUAL RELEASE` — на аварийное оборудование ([безопасность](safety-equipment.md), [отсек стазиса](stasis-shelter.md)); `BUS B` — на электрические панели.
 
 ## Дополнительные правила визуала
 
