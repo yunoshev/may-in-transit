@@ -36,7 +36,7 @@ tags: [index]
 
 ## Корабль
 
-![Корабль Майи сбоку](../assets/ship/ship-side-schematic.ru.svg)
+[![Корабль Майи сбоку](../assets/ship/ship-side-schematic.ru.svg)](../assets/ship/ship-side-schematic.ru.svg)
 
 *Корабль сбоку: нос справа, ось вращения идёт по хребту, жилой модуль висит внизу на ферме. Все листы — в [галерее чертежей](90-reference/drawings.md).*
 
