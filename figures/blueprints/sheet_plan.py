@@ -163,14 +163,14 @@ def render(c) -> Sheet:
         sh.text((p[0], p[1] + size * 0.35), c.s(key, **kw), size=size, color=color, anchor="middle")
 
     zlabel(sum(z["window_bay"]) / 2 - 0.05, 0, "z_window", size=11.5)
-    zlabel(1.1, -0.3, "z_main", size=13)
+    zlabel(1.22, -0.3, "z_main", size=13)
     sh.text(V(2.2, 0.2), "A", size=26, weight="bold", color=INK2, anchor="middle")
     sh.text(V(2.2, -0.62), "B", size=26, weight="bold", color=INK2, anchor="middle")
     zlabel(sum(z["galley_storage"]) / 2, -0.2, "z_galley", size=11.5)
     zlabel(-1.0, 0, "z_aisle", size=11, color=INK2)
     zlabel(sum(z["vestibule"]) / 2 + 0.02, -1.0, "z_vest", size=11.5)
     zlabel(sum(z["eclss_wall"]) / 2, -0.75, "z_eclss", size=10.5)
-    zlabel(-0.75, -0.8, "z_stasis", size=11, color=INK)
+    zlabel(-0.75, -0.8, "z_stasis", size=10, color=INK)
     zlabel(-0.55, 0.75, "z_wc", size=11.5)
     zlabel(-1.6, 0.68, "z_nook", size=10.5, color=INK2)
 

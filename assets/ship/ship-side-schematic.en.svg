@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1660" height="1300" viewBox="0 0 1660 1300" lang="en" role="img">
+<title>Ship — side schematic</title>
+<desc>Ship side schematic: spine and spin axis, habitat at the 28 m floor radius, counterweight, boom, ARI core at the hub with the manual breaker and the ARI ISOLATE hard line, thrust and nose directions.</desc>
+<defs><style>text{font-family:'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif;} .h{paint-order:stroke;stroke:#0e2c4f;stroke-width:4px;stroke-linejoin:round;}</style><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#2b5a8a" stroke-width="0.5" opacity="0.45"/></pattern><pattern id="grid5" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#2b5a8a" stroke-width="0.8" opacity="0.55"/></pattern><marker id="ad" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#c9defa"/></marker><marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#eef5ff"/></marker><marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ffbe55"/></marker><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ff7f6e"/></marker><marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#8ee6ff"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#a9c8ec"/></marker><marker id="awt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#6fc3ff"/></marker><pattern id="h-rad" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(90)"><line x1="0" y1="0" x2="0" y2="8" stroke="#a9c8ec" stroke-width="0.6" opacity="0.35"/></pattern><pattern id="h-spine" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#a9c8ec" stroke-width="0.7" opacity="0.6"/></pattern><clipPath id="clip-detail"><rect x="557" y="160" width="532" height="220"/></clipPath><pattern id="h-spine2" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#a9c8ec" stroke-width="0.7" opacity="0.6"/></pattern><pattern id="h-vault" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#8ee6ff" stroke-width="0.7" opacity="0.35"/></pattern></defs>
+<rect width="1660" height="1300" fill="#0e2c4f"/>
+<rect width="1660" height="1300" fill="url(#grid)"/>
+<rect width="1660" height="1300" fill="url(#grid5)"/>
+<rect x="12" y="12" width="1636" height="1276" fill="none" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="17" y="17" width="1626" height="1266" fill="none" stroke="#eef5ff" stroke-width="0.6" opacity="0.7"/>
+<text x="40" y="58" font-size="22" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="0.4" class="h">Ship — side schematic</text>
+<text x="40" y="80" font-size="13" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Seen across the boom plane; nose on the right, habitat below the axis — its “down” is down the sheet</text>
+<line x1="83.25" y1="600" x2="1369.75" y2="600" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="22 5 4 5" stroke-linecap="round"/>
+<rect x="447.5" y="617.05" width="372" height="122.45" stroke="#eef5ff" stroke-width="1.2" fill="url(#h-rad)"/>
+<line x1="773" y1="617.05" x2="773" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="726.5" y1="617.05" x2="726.5" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="680" y1="617.05" x2="680" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="633.5" y1="617.05" x2="633.5" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="587" y1="617.05" x2="587" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="540.5" y1="617.05" x2="540.5" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="494" y1="617.05" x2="494" y2="739.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<rect x="447.5" y="460.5" width="372" height="122.45" stroke="#eef5ff" stroke-width="1.2" fill="url(#h-rad)"/>
+<line x1="773" y1="582.95" x2="773" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="726.5" y1="582.95" x2="726.5" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="680" y1="582.95" x2="680" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="633.5" y1="582.95" x2="633.5" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="587" y1="582.95" x2="587" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="540.5" y1="582.95" x2="540.5" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="494" y1="582.95" x2="494" y2="460.5" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<rect x="184" y="587.6" width="1116" height="24.8" stroke="#eef5ff" stroke-width="1.3" fill="url(#h-spine)"/>
+<rect x="1207" y="592.25" width="93" height="15.5" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<path d="M1296.7,565.9 Q1280.7,600.0 1296.7,634.1" stroke="#eef5ff" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+<line x1="1290.7" y1="600" x2="1309.3" y2="600" stroke="#eef5ff" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<line x1="1230.25" y1="607.75" x2="1250.4" y2="627.9" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<line x1="1230.25" y1="592.25" x2="1250.4" y2="572.1" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<rect x="992.33" y="561.25" width="57.35" height="77.5" rx="23.25" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<rect x="930.33" y="561.25" width="57.35" height="77.5" rx="23.25" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<rect x="868.33" y="561.25" width="57.35" height="77.5" rx="23.25" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<rect x="323.5" y="576.75" width="68.2" height="46.5" rx="4" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<rect x="391.7" y="565.12" width="9.3" height="69.75" stroke="#eef5ff" stroke-width="1.5" fill="#a9c8ec"/>
+<rect x="218.1" y="578.3" width="89.9" height="43.4" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<polygon points="218.1,582.17 184,577.52 184,594.58 218.1,589.92" stroke="#eef5ff" stroke-width="1.1" fill="#16395f" stroke-linejoin="round"/>
+<polygon points="218.1,596.12 184,591.48 184,608.52 218.1,603.88" stroke="#eef5ff" stroke-width="1.1" fill="#16395f" stroke-linejoin="round"/>
+<polygon points="218.1,610.08 184,605.42 184,622.48 218.1,617.83" stroke="#eef5ff" stroke-width="1.1" fill="#16395f" stroke-linejoin="round"/>
+<polygon points="184,586 89,566 89,634 184,614" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="5 4" opacity="0.9" stroke-linejoin="round"/>
+<rect x="1149.65" y="235.75" width="62" height="46.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="3 4"/>
+<rect x="1149.65" y="173.75" width="62" height="46.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="3 4"/>
+<rect x="1149.65" y="204.75" width="62" height="46.5" rx="6" stroke="#eef5ff" stroke-width="1.6" fill="#1d4673"/>
+<rect x="1104.7" y="223.35" width="18.6" height="356.5" stroke="#eef5ff" stroke-width="1.2" fill="#16395f"/>
+<rect x="1123.3" y="223.35" width="26.35" height="9.3" stroke="#eef5ff" stroke-width="1.2" fill="#16395f"/>
+<line x1="1230.25" y1="259" x2="1230.25" y2="197" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<rect x="1126.4" y="996.03" width="108.5" height="52.7" rx="6" stroke="#eef5ff" stroke-width="1.8" fill="#1d4673"/>
+<line x1="1227.15" y1="1034" x2="1134.15" y2="1034" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="4 3" stroke-linecap="round"/>
+<line x1="1234.9" y1="1006.1" x2="1234.9" y2="1018.5" stroke="#8ee6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+<polygon points="1203.28,1011.22 1202.27,1012.92 1202.74,1017.73 1202.12,1020.36 1202.74,1024.7 1202.74,1028.88 1202.97,1034 1206.85,1034 1204.68,1032.76 1204.83,1027.03 1205.06,1025.94 1205.22,1021.6 1205.22,1018.5 1205.84,1014.62 1204.6,1011.22" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<polygon points="1203.44,1012.3 1204.44,1012.3 1204.83,1021.13 1203.98,1021.13" stroke="#eef5ff" stroke-width="1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="1204.21" cy="1009.43" r="1.63" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<rect x="1104.7" y="620.15" width="18.6" height="409.2" stroke="#eef5ff" stroke-width="1.2" fill="#16395f"/>
+<rect x="1123.3" y="1013.85" width="3.1" height="12.4" stroke="#eef5ff" stroke-width="1.2" fill="#16395f"/>
+<line x1="1114" y1="623.25" x2="1114" y2="1020.05" stroke="#ff7f6e" stroke-width="1.6" fill="none" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="1114" y1="1020.05" x2="1126.4" y2="1020.05" stroke="#ff7f6e" stroke-width="1.6" fill="none" stroke-dasharray="6 4" stroke-linecap="round"/>
+<rect x="1067.5" y="582.95" width="23.25" height="34.1" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<rect x="1090.75" y="579.85" width="46.5" height="40.3" rx="3" stroke="#eef5ff" stroke-width="2.2" fill="#2a5d93"/>
+<circle cx="1114" cy="600" r="48.83" stroke="#8ee6ff" stroke-width="1.2" fill="none" stroke-dasharray="3 3"/>
+<circle cx="1114" cy="624.8" r="3.2" stroke="none" stroke-width="1.2" fill="#ff7f6e"/>
+<circle cx="1114" cy="624.8" r="2.4" stroke="none" stroke-width="1.2" fill="#ff7f6e"/>
+<polyline points="1114,624.8 1084,694.8 1074,694.8" stroke="#ff7f6e" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1070" y="698.82" font-size="11.5" fill="#ff7f6e" text-anchor="end" font-weight="normal" class="h">ARI manual breaker (detail A)</text>
+<text x="1253.5" y="652.7" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h"><tspan x="1253.5" dy="0">nose mast:</tspan><tspan x="1253.5" dy="15">comms, sensors</tspan></text>
+<text x="959" y="660.45" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">propellant tanks — shield the core from aft</text>
+<text x="633.5" y="764.3" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">radiators (in the sheet plane)</text>
+<text x="362.25" y="524.83" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">reactor + shadow shield</text>
+<text x="246" y="559.7" font-size="12" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">engines</text>
+<line x1="180.5" y1="655.8" x2="270.5" y2="655.8" stroke="#eef5ff" stroke-width="2.6" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="180.5" y="677.8" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">thrust → forward</text>
+<text x="84" y="556" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">exhaust</text>
+<text x="176.25" y="530.25" font-size="13" fill="#eef5ff" text-anchor="end" font-weight="bold" letter-spacing="1" class="h">AFT</text>
+<text x="1306.2" y="521.8" font-size="13" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="1" class="h">NOSE +X</text>
+<line x1="1306.2" y1="531.8" x2="1358.2" y2="531.8" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="1379.8" y="630" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">spin axis = spine axis</text>
+<text x="1086.1" y="548.85" font-size="15" fill="#8ee6ff" text-anchor="end" font-weight="bold" class="h">ARI CORE · hub</text>
+<path d="M1355.8,548.0 A13,52 0 1 1 1355.7,652.0" stroke="#eef5ff" stroke-width="1.8" fill="none" stroke-linejoin="round" marker-end="url(#aw)"/>
+<text x="1379.8" y="578" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">spin ≈4.0 rpm, period ≈15.0 s</text>
+<text x="1379.8" y="596" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">about the spine axis</text>
+<text x="1245.75" y="224" font-size="12" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">counterweight, R 22–26 m (movable ballast)</text>
+<text x="1245.75" y="241" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">at the habitat station — dynamic balance</text>
+<line x1="1237.9" y1="1012.3" x2="1292.9" y2="1012.3" stroke="#8ee6ff" stroke-width="1.8" fill="none" stroke-linecap="butt" marker-end="url(#ac)"/>
+<text x="1330.9" y="1016.3" font-size="12" fill="#8ee6ff" text-anchor="start" font-weight="normal" class="h">window → nose</text>
+<line x1="1230.25" y1="1034" x2="1329.7" y2="1034" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="1321.7" y1="600" x2="1321.7" y2="1034" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="1317.7" y="817" font-size="13" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1317.7 817)">floor R 28 m</text>
+<line x1="1152.75" y1="1034" x2="1152.75" y2="1096" stroke="#eef5ff" stroke-width="2.6" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="1142.75" y="1090" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="bold" class="h">0.5 g at floor (4.905 m/s²)</text>
+<circle cx="1165.15" cy="996.03" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="1165.15,996.03 1096,962.03 1086,962.03" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="1082" y="966.4" font-size="12.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">habitat, outer Ø3.4 m × 7.0 m</text>
+<text x="1103.35" y="1038" font-size="11.5" fill="#ffbe55" text-anchor="end" font-weight="normal" class="h">elbow to aft hatch (SPEC; C-003)</text>
+<text x="1095.4" y="801.5" font-size="11.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1095.4 801.5)">boom: crawlway to hub</text>
+<text x="1134.15" y="801.5" font-size="11.5" fill="#ff7f6e" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 1134.15 801.5)">ARI ISOLATE hard line</text>
+<line x1="1300" y1="630" x2="1300" y2="1134" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+<line x1="184" y1="640" x2="184" y2="1134" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+<line x1="184" y1="1128" x2="1300" y2="1128" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="742" y="1124" font-size="12.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h">spine 72 m</text>
+<rect x="556" y="104" width="534" height="340" stroke="#8ee6ff" stroke-width="1.2" fill="#0e2c4f"/>
+<g clip-path="url(#clip-detail)">
+<line x1="531.04" y1="254" x2="1179.04" y2="254" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="22 5 4 5" stroke-linecap="round"/>
+<rect x="531.04" y="225.2" width="648" height="57.6" stroke="#eef5ff" stroke-width="1.2" fill="url(#h-spine2)"/>
+<rect x="495.04" y="164" width="210.6" height="180" rx="54" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<rect x="833.44" y="38" width="43.2" height="169.2" stroke="#eef5ff" stroke-width="1.3" fill="#16395f"/>
+<rect x="833.44" y="300.8" width="43.2" height="169.2" stroke="#eef5ff" stroke-width="1.3" fill="#16395f"/>
+<rect x="840.64" y="300.8" width="28.8" height="169.2" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="4 3"/>
+<line x1="865.84" y1="311.6" x2="844.24" y2="311.6" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="324.2" x2="844.24" y2="324.2" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="336.8" x2="844.24" y2="336.8" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="349.4" x2="844.24" y2="349.4" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="362" x2="844.24" y2="362" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="374.6" x2="844.24" y2="374.6" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="387.2" x2="844.24" y2="387.2" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="399.8" x2="844.24" y2="399.8" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="412.4" x2="844.24" y2="412.4" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<line x1="865.84" y1="425" x2="844.24" y2="425" stroke="#a9c8ec" stroke-width="0.7" fill="none" opacity="0.7" stroke-linecap="round"/>
+<rect x="747.04" y="214.4" width="54" height="79.2" stroke="#eef5ff" stroke-width="1.3" fill="#1d4673"/>
+<line x1="783.04" y1="214.4" x2="783.04" y2="293.6" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<line x1="765.04" y1="214.4" x2="765.04" y2="293.6" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+<rect x="801.04" y="207.2" width="108" height="93.6" rx="4" stroke="#8ee6ff" stroke-width="2.6" fill="#2a5d93"/>
+<rect x="803.92" y="210.08" width="102.24" height="87.84" stroke="none" stroke-width="1.2" fill="url(#h-vault)"/>
+<text x="855.04" y="263" font-size="26" fill="#eef5ff" text-anchor="middle" font-weight="bold" class="h">ARI</text>
+<rect x="874.64" y="290" width="22" height="11" stroke="#ff7f6e" stroke-width="1.4" fill="#0e2c4f"/>
+<circle cx="849.64" cy="311.6" r="4" stroke="#ff7f6e" stroke-width="1.6" fill="#0e2c4f"/>
+<line x1="849.64" y1="311.6" x2="863.64" y2="323.6" stroke="#ff7f6e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<polyline points="885.64,301 885.64,309.8 864.04,309.8 864.04,470" stroke="#ff7f6e" stroke-width="1.8" fill="none" stroke-dasharray="6 4" stroke-linejoin="round"/>
+</g>
+<text x="570" y="128" font-size="14" fill="#8ee6ff" text-anchor="start" font-weight="bold" class="h">Detail A — hub: ARI core</text>
+<text x="570" y="147" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">the ship’s main node; on the axis, shielded by tanks</text>
+<circle cx="898.24" cy="207.2" r="2.4" stroke="none" stroke-width="1.2" fill="#8ee6ff"/>
+<polyline points="898.24,207.2 916.24,170 926.24,170" stroke="#8ee6ff" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="930.24" y="174.03" font-size="11.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">shielded vault Ø2.6 m × 3.0 m</text>
+<circle cx="774.04" cy="214.4" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="774.04,214.4 756.04,180 746.04,180" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="742.04" y="184.03" font-size="11.5" fill="#eef5ff" text-anchor="end" font-weight="normal" class="h">buffer battery 100 kWh</text>
+<circle cx="896.64" cy="296" r="2.4" stroke="none" stroke-width="1.2" fill="#ff7f6e"/>
+<polyline points="896.64,296 929.64,348 939.64,348" stroke="#ff7f6e" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="943.64" y="344.84" font-size="11.5" fill="#ff7f6e" text-anchor="start" font-weight="normal" class="h"><tspan x="943.64" dy="0">contactors:</tspan><tspan x="943.64" dy="14.38">hard wire only</tspan></text>
+<circle cx="845.64" cy="311.6" r="2.4" stroke="none" stroke-width="1.2" fill="#ff7f6e"/>
+<polyline points="845.64,311.6 818,368 808,368" stroke="#ff7f6e" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<text x="804" y="372.02" font-size="11.5" fill="#ff7f6e" text-anchor="end" font-weight="normal" class="h">manual breaker (from crawlway)</text>
+<text x="570" y="398" font-size="11.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">reactor power 20–50 kW, heat → radiators</text>
+<text x="570" y="416" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">precedent: Juno’s titanium vault</text>
+<text x="570" y="433" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">tanks shield the core from aft; from the nose only the spine</text>
+<line x1="1092.3" y1="553.5" x2="1088" y2="444" stroke="#8ee6ff" stroke-width="0.9" fill="none" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="1068" y="438" font-size="14" fill="#8ee6ff" text-anchor="start" font-weight="bold" class="h">A</text>
+<rect x="40" y="104" width="500" height="340" stroke="#a9c8ec" stroke-width="1" fill="#0e2c4f"/>
+<text x="54" y="128" font-size="14" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">Gravity in the cabin</text>
+<line x1="70" y1="358" x2="270" y2="358" stroke="#eef5ff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<polygon points="156.4,225.7 150.55,235.6 153.25,263.5 149.65,278.8 153.25,304 153.25,328.3 154.6,358 177.1,358 164.5,350.8 165.4,317.5 166.75,311.2 167.65,286 167.65,268 171.25,245.5 164.05,225.7" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<polygon points="157.3,232 163.15,232 165.4,283.3 160.45,283.3" stroke="#eef5ff" stroke-width="1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="161.8" cy="215.35" r="9.45" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<line x1="310" y1="356" x2="310" y2="426" stroke="#eef5ff" stroke-width="2.6" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<line x1="380" y1="205" x2="380" y2="270.75" stroke="#a9c8ec" stroke-width="2.2" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<line x1="190" y1="205" x2="392" y2="205" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="322" y="382" font-size="12" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">floor: 0.5 g (4.905 m/s²)</text>
+<text x="392" y="229" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">head: 0.47 g (−6.1%)</text>
+<line x1="100" y1="318" x2="100" y2="228" stroke="#a9c8ec" stroke-width="1.6" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<text x="116" y="246" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h" transform="rotate(-90 116 246)">to axis</text>
+<text x="54" y="150" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">“down” is radially outward, away from the axis</text>
+<rect x="40" y="1190" width="155" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="195" y="1190" width="155" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<rect x="350" y="1190" width="155" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<text x="40" y="1210" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0</text>
+<text x="195" y="1210" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">10</text>
+<text x="350" y="1210" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">20</text>
+<text x="505" y="1210" font-size="11" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">30</text>
+<text x="517" y="1197" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">m</text>
+<text x="40" y="1182" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Scale — per bar</text>
+<text x="40" y="1260" font-size="11.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">Draft: dimensions from data/canon.yaml (layout.*, exterior.*), not agreed</text>
+<rect x="1190" y="1160" width="440" height="112" stroke="#eef5ff" stroke-width="1.4" fill="#0e2c4f"/>
+<line x1="1190" y1="1202.56" x2="1630" y2="1202.56" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="1506.8" y1="1202.56" x2="1506.8" y2="1272" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<text x="1202" y="1190.56" font-size="17" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="1.2">MAYA IN TRANSIT — REF</text>
+<text x="1202" y="1224.56" font-size="13" fill="#eef5ff" text-anchor="start" font-weight="normal">Ship side view, ARI core</text>
+<text x="1202" y="1244.56" font-size="10.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">Dimensions: data/canon.yaml → canon.json</text>
+<text x="1516.8" y="1222.56" font-size="12" fill="#ffbe55" text-anchor="start" font-weight="bold">REV draft</text>
+<text x="1516.8" y="1240.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">2026-10-11</text>
+<text x="1516.8" y="1257.56" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal">BP-01</text>
+</svg>

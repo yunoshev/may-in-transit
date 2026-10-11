@@ -128,9 +128,10 @@ def render(c) -> Sheet:
     sh.circle(pc, V.L(cl) * 1.05, stroke=CAM, sw=1.2, dash="3 3")
     br = V(v("exterior.ari_core.manual_breaker.station"), v("exterior.ari_core.manual_breaker.radius"))
     sh.circle(br, 3.2, stroke="none", fill=SAFE)
+    sh.leader(br, (br[0] - 30, br[1] + 70), c.s("breaker_short"), side="left", color=SAFE, tcolor=SAFE, size=11.5)
 
     # --- надписи узлов ---
-    sh.text(V(c1 - 3.0, -3.6), c.s("comms"), size=12, anchor="middle")
+    sh.text(V(c1 - 3.0, 3.4), c.s("comms"), size=12, anchor="middle")
     sh.text(V((t0 + t1) / 2, td / 2 + 1.4), c.s("tanks"), size=12, anchor="middle")
     sh.text(V((r0 + r1) / 2, span + 1.6), c.s("radiators"), size=12, anchor="middle")
     pr = V((e0 + e1) / 2, -rd * 0.75 - 2.6)
@@ -142,9 +143,11 @@ def render(c) -> Sheet:
     sh.text((pt[0] - 50, pt[1] + 22), c.s("thrust"), size=12.5, weight="bold")
     sh.text((pe[0] - 100, pe[1] - 44), c.s("exhaust"), size=11.5, color=INK2)
     sh.text(V(Ls + 0.5, -4.5), c.s("aft"), size=13, weight="bold", anchor="end", spacing=1)
-    sh.text(V(-1.0, -4.2), c.s("nose"), size=13, weight="bold", spacing=1)
+    pn = V(-0.4, -4.4)
+    sh.text((pn[0], pn[1] - 10), c.s("nose"), size=13, weight="bold", spacing=1)
+    sh.arrow(pn, (pn[0] + 52, pn[1]), color=INK, sw=2.2)
     sh.text((V(-3.6, 0)[0] + 24, oy + 30), c.s("axis"), size=11.5, color=INK2)
-    sh.text(V(shp.hub + 1.4, -3.3), c.s("core_short"), size=15, weight="bold", color=CAM, anchor="end")
+    sh.text(V(shp.hub + 1.8, -3.3), c.s("core_short"), size=15, weight="bold", color=CAM, anchor="end")
 
     # вращение
     pspin = V(-3.6, 0)
@@ -205,10 +208,10 @@ def _detail(sh: Sheet, c, shp, hb, V0):
     sh.rect(bx, by, bw_, bh, stroke=CAM, sw=1.2, fill=BG)
     kk = 36.0
     core = v("exterior.ari_core.station")
-    cx, cy = bx + bw_ * 0.56, by + 178
+    cx, cy = bx + bw_ * 0.56, by + 150
     V = View(cx + core * kk, cy, kk, ux=(-1, 0), uy=(0, 1))
     clip = "clip-detail"
-    sh.defs.append(f'<clipPath id="{clip}"><rect x="{bx + 1}" y="{by + 56}" width="{bw_ - 2}" height="{bh - 150}"/>'
+    sh.defs.append(f'<clipPath id="{clip}"><rect x="{bx + 1}" y="{by + 56}" width="{bw_ - 2}" height="{bh - 120}"/>'
                    f'</clipPath>')
     sh.add(f'<g clip-path="url(#{clip})">')
     d = shp.d
@@ -260,16 +263,16 @@ def _detail(sh: Sheet, c, shp, hb, V0):
     bt = V((b0 + b1) / 2, -1.1)
     sh.leader(bt, (bt[0] - 18, by + 76), c.s("battery", e=c.fv("exterior.ari_core.battery_energy")), side="left",
               size=11.5)
-    sh.leader((kc[0] - 11, kc[1] - 3), (bx + 196, by + bh - 82), c.s("contactors"), side="left", color=SAFE,
+    sh.leader((kc[0] + 11, kc[1] - 3), (kc[0] + 44, by + bh - 96), c.s("contactors"), side="right", color=SAFE,
               tcolor=SAFE, size=11.5)
-    sh.leader((mb[0] + 12, mb[1] + 10), (mb[0] + 40, by + bh - 82), c.s("breaker"), side="right", color=SAFE,
+    sh.leader((mb[0] - 4, mb[1]), (bx + 262, by + bh - 76), c.s("breaker"), side="left", color=SAFE,
               tcolor=SAFE, size=11.5)
     sh.text((bx + 14, by + bh - 46), c.s("power", p=c.fv("exterior.ari_core.power")), size=11.5, color=INK)
     sh.text((bx + 14, by + bh - 28), c.s("juno"), size=11, color=INK2)
     sh.text((bx + 14, by + bh - 11), c.s("tanks_shield"), size=11, color=INK2)
     # связь детали с главным видом
     hub = V0(shp.hub, 0)
-    sh.line((hub[0] - V0.L(1.4), hub[1] - V0.L(3.0)), (bx + bw_ - 30, by + bh), stroke=CAM, sw=0.9, dash="3 3")
+    sh.line((hub[0] - V0.L(1.4), hub[1] - V0.L(3.0)), (bx + bw_ - 2, by + bh), stroke=CAM, sw=0.9, dash="3 3")
     sh.text((bx + bw_ - 22, by + bh - 6), "A", size=14, weight="bold", color=CAM)
 
 
@@ -297,5 +300,5 @@ def _maya_inset(sh: Sheet, c):
     sh.text((ax_ + 82, head_y + 24), c.s("inset_head", g=c.fv("gravity.head_g"), p=c.fv("gravity.gradient_head")),
             size=12, color=INK2)
     sh.arrow((fx - 60, fy - 40), (fx - 60, fy - 130), color=INK2, sw=1.6, marker="ai")
-    sh.text((fx - 54, fy - 112), c.s("inset_axis"), size=11, color=INK2, anchor="start", rot=-90)
+    sh.text((fx - 44, fy - 112), c.s("inset_axis"), size=11, color=INK2, anchor="start", rot=-90)
     sh.text((bx + 14, by + 46), c.s("inset_sub"), size=11.5, color=INK2)

@@ -97,8 +97,8 @@
 <circle cx="787.21" cy="347.55" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
 <polyline points="787.21,347.55 1083,300 1093,300" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
 <text x="1097" y="304.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">верхние шкафы</text>
-<circle cx="858.5" cy="491" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
-<polyline points="858.5,491 1083,395 1093,395" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
+<circle cx="852.8" cy="424.5" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
+<polyline points="852.8,424.5 1083,395 1093,395" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
 <text x="1097" y="399.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">стеновые шкафы, зона B (−Y)</text>
 <circle cx="782.5" cy="762.7" r="2.4" stroke="none" stroke-width="1.2" fill="#a9c8ec"/>
 <polyline points="782.5,762.7 1083,790 1093,790" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
@@ -110,14 +110,14 @@
 <polyline points="785.35,844.97 1083,880 1093,880" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-linejoin="round"/>
 <text x="1097" y="884.38" font-size="12.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">защитная оболочка, наружн. Ø3,4 м</text>
 <text x="1020" y="534.7" font-size="11.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">ось цилиндра модуля</text>
-<line x1="92" y1="205" x2="92" y2="153" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
-<line x1="92" y1="205" x2="40" y2="205" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
-<circle cx="92" cy="205" r="7" stroke="#a9c8ec" stroke-width="1.2" fill="none"/>
-<line x1="87" y1="200" x2="97" y2="210" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
-<line x1="87" y1="210" x2="97" y2="200" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
-<text x="98" y="147" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Z</text>
-<text x="18" y="209" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Y</text>
-<text x="104" y="227" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X — в нос, от зрителя</text>
+<line x1="92" y1="790" x2="92" y2="738" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<line x1="92" y1="790" x2="40" y2="790" stroke="#a9c8ec" stroke-width="1.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<circle cx="92" cy="790" r="7" stroke="#a9c8ec" stroke-width="1.2" fill="none"/>
+<line x1="87" y1="785" x2="97" y2="795" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<line x1="87" y1="795" x2="97" y2="785" stroke="#a9c8ec" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+<text x="98" y="732" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Z</text>
+<text x="18" y="794" font-size="12" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+Y</text>
+<text x="104" y="812" font-size="11" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X — в нос, от зрителя</text>
 <rect x="40" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
 <rect x="135" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
 <rect x="230" y="970" width="95" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>

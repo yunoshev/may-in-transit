@@ -187,3 +187,51 @@ blueprints:
     window: {ru: "осевое окно {w} × {h}; шторка (пунктир)", en: "axial window {w} × {h}; shutter (dashed)"}
     ax_x: {ru: "+X нос", en: "+X forward"}
     ax_y: {ru: "+Y — от зрителя", en: "+Y — away from viewer"}
+  ship_side:
+    title: {ru: Корабль — схема сбоку, en: Ship — side schematic}
+    desc:
+      ru: "Схема корабля сбоку: хребет и ось вращения, жилой модуль на радиусе пола 28 м, противовес, ферма, ядро ARI на ступице с ручным рубильником и жёсткой линией ARI ISOLATE, направления тяги и носа."
+      en: "Ship side schematic: spine and spin axis, habitat at the 28 m floor radius, counterweight, boom, ARI core at the hub with the manual breaker and the ARI ISOLATE hard line, thrust and nose directions."
+    subtitle:
+      ru: "Вид поперёк плоскости ферм; нос справа, жилой модуль под осью — его «вниз» совпадает с низом листа"
+      en: "Seen across the boom plane; nose on the right, habitat below the axis — its “down” is down the sheet"
+    sheet_name: {ru: "Корабль сбоку, ядро ARI", en: "Ship side view, ARI core"}
+    comms: {ru: "носовая мачта:\nсвязь, датчики", en: "nose mast:\ncomms, sensors"}
+    tanks: {ru: "баки топлива — экран ядра от кормы", en: "propellant tanks — shield the core from aft"}
+    radiators: {ru: "радиаторы (в плоскости листа)", en: "radiators (in the sheet plane)"}
+    reactor: {ru: "реактор + теневая защита", en: "reactor + shadow shield"}
+    propulsion: {ru: двигатели, en: engines}
+    thrust: {ru: "тяга → в нос", en: "thrust → forward"}
+    exhaust: {ru: выхлоп, en: exhaust}
+    aft: {ru: "КОРМА", en: "AFT"}
+    nose: {ru: "НОС +X", en: "NOSE +X"}
+    axis: {ru: "ось вращения = ось хребта", en: "spin axis = spine axis"}
+    core_short: {ru: "ЯДРО ARI · ступица", en: "ARI CORE · hub"}
+    spin: {ru: "вращение {rpm}, период {t}", en: "spin {rpm}, period {t}"}
+    spin2: {ru: "вокруг оси хребта", en: "about the spine axis"}
+    cw: {ru: "противовес, R {r} (балласт двигается)", en: "counterweight, R {r} (movable ballast)"}
+    cw2: {ru: "на станции жилого модуля — динамический баланс", en: "at the habitat station — dynamic balance"}
+    window: {ru: "окно → нос", en: "window → nose"}
+    radius: {ru: "R пола {r}", en: "floor R {r}"}
+    floor_g: {ru: "{g} на полу ({a})", en: "{g} at floor ({a})"}
+    habitat: {ru: "жилой модуль, наружн. Ø{d} × {l}", en: "habitat, outer Ø{d} × {l}"}
+    c003: {ru: "колено к кормовому люку (SPEC; C-003)", en: "elbow to aft hatch (SPEC; C-003)"}
+    boom: {ru: "ферма: лаз к ступице", en: "boom: crawlway to hub"}
+    wire: {ru: "жёсткая линия ARI ISOLATE", en: "ARI ISOLATE hard line"}
+    spine: {ru: "хребет {l}", en: "spine {l}"}
+    detail_title: {ru: "Деталь A — ступица: ядро ARI", en: "Detail A — hub: ARI core"}
+    detail_sub: {ru: "главный узел корабля; в оси, под защитой баков", en: "the ship’s main node; on the axis, shielded by tanks"}
+    vault_in: {ru: ARI, en: ARI}
+    vault: {ru: "экранированный сейф Ø{d} × {l}", en: "shielded vault Ø{d} × {l}"}
+    battery: {ru: "буферная батарея {e}", en: "buffer battery {e}"}
+    contactors: {ru: "контакторы:\nтолько жёсткий провод", en: "contactors:\nhard wire only"}
+    breaker: {ru: "ручной рубильник (из лаза)", en: "manual breaker (from crawlway)"}
+    breaker_short: {ru: "ручной рубильник ARI (деталь A)", en: "ARI manual breaker (detail A)"}
+    power: {ru: "питание от реактора {p}, тепло → радиаторы", en: "reactor power {p}, heat → radiators"}
+    juno: {ru: "прецедент: титановый сейф Juno", en: "precedent: Juno’s titanium vault"}
+    tanks_shield: {ru: "с кормы ядро закрыто баками, с носа — только хребтом", en: "tanks shield the core from aft; from the nose only the spine"}
+    inset_title: {ru: "Тяжесть в кабине", en: "Gravity in the cabin"}
+    inset_floor: {ru: "пол: {g} ({a})", en: "floor: {g} ({a})"}
+    inset_head: {ru: "голова: {g} (−{p})", en: "head: {g} (−{p})"}
+    inset_axis: {ru: "к оси", en: "to axis"}
+    inset_sub: {ru: "«вниз» — радиально наружу, от оси", en: "“down” is radially outward, away from the axis"}
