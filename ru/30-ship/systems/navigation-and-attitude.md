@@ -30,7 +30,7 @@ tags: [ship/systems]
 - ARI автоматически управляет балансом вращающегося аппарата по мере перемещения расходных запасов; точное балансировочное оборудование — допущение дизайна (SPEC §32; [Служебный модуль](../exterior/service-pod.md)).
 - Основной дисплей показывает траекторию и навигацию; вторичный — состояние корабля и таймеры; статусная строка — «acceleration state», «spin / gravity status», «next manoeuvre» (SPEC §6; [Дисплеи и органы управления](../habitat/displays-and-controls.md)).
 - Внешняя камера «forward navigation» (SPEC §26; [Антенны, датчики и камеры](../exterior/antennas-and-sensors.md)).
-- ARI подключена к навигации и управлению двигателями (PROMPTS 12; [ARI в корабле](ari-interfaces.md)).
+- ARI подключён к навигации и управлению двигателями (PROMPTS 12; [ARI в корабле](ari-interfaces.md)).
 - Шаблоны экранов: «orbital map» и другие (SPEC §36; [Экранные шаблоны](../../70-series/screen-templates.md)).
 - Орган «manual propulsion inhibit» (SPEC §6; [Двигательная установка](../exterior/propulsion.md)).
 - Траектория: до дальнейших расчётов все числа (расстояния, скорости, высоты, периоды, даты) — под правилом «не придумывать» (CONCEPT «Important realism rule»); конкретной траектории нет ([Перелёт к Юпитеру](../../20-mission/interplanetary-cruise.md), [Тур по системе Юпитера](../../20-mission/jovian-tour.md)).

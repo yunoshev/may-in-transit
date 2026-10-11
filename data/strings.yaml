@@ -51,6 +51,12 @@ blueprints:
     unit_m: {ru: м, en: m}
     scale: {ru: "Масштаб — по линейке", en: "Scale — per bar"}
     maya: {ru: "Майя {h}", en: "Maya {h}"}
+    st_draft: {ru: "черновик", en: "draft"}
+    st_proposed: {ru: "предложение", en: "proposed"}
+    st_floor_r: {ru: "{st}, C-001", en: "{st}, C-001"}
+    draft2:
+      ru: "Черновик: размеры из data/canon.yaml\n(layout.*, exterior.*), не согласованы"
+      en: "Draft: dimensions from data/canon.yaml\n(layout.*, exterior.*), not agreed"
   habitat_cross:
     title: {ru: Жилой модуль — поперечный разрез, en: Habitat — cross-section}
     desc:
@@ -190,8 +196,8 @@ blueprints:
   ship_side:
     title: {ru: Корабль — схема сбоку, en: Ship — side schematic}
     desc:
-      ru: "Схема корабля сбоку: хребет и ось вращения, жилой модуль на радиусе пола 28 м, противовес, ферма, ядро ARI на ступице с ручным рубильником и жёсткой линией ARI ISOLATE, направления тяги и носа."
-      en: "Ship side schematic: spine and spin axis, habitat at the 28 m floor radius, counterweight, boom, ARI core at the hub with the manual breaker and the ARI ISOLATE hard line, thrust and nose directions."
+      ru: "Схема корабля сбоку: хребет и ось вращения, жилой модуль на радиусе пола 28 м, противовес, ферма, ядро ARI на ступице с рычагом подключения и жёсткой линией ARI ISOLATE, направления тяги и носа."
+      en: "Ship side schematic: spine and spin axis, habitat at the 28 m floor radius, counterweight, boom, ARI core at the hub with the engage lever and the ARI ISOLATE hard line, thrust and nose directions."
     subtitle:
       ru: "Вид поперёк плоскости ферм; нос справа, жилой модуль под осью — его «вниз» совпадает с низом листа"
       en: "Seen across the boom plane; nose on the right, habitat below the axis — its “down” is down the sheet"
@@ -225,8 +231,8 @@ blueprints:
     vault: {ru: "экранированный сейф Ø{d} × {l}", en: "shielded vault Ø{d} × {l}"}
     battery: {ru: "буферная батарея {e}", en: "buffer battery {e}"}
     contactors: {ru: "контакторы:\nтолько жёсткий провод", en: "contactors:\nhard wire only"}
-    breaker: {ru: "ручной рубильник (из лаза)", en: "manual breaker (from crawlway)"}
-    breaker_short: {ru: "ручной рубильник ARI (деталь A)", en: "ARI manual breaker (detail A)"}
+    breaker: {ru: "рычаг подключения (из лаза)", en: "engage lever (from crawlway)"}
+    breaker_short: {ru: "рычаг подключения ARI (деталь A)", en: "ARI engage lever (detail A)"}
     power: {ru: "питание от реактора {p}, тепло → радиаторы", en: "reactor power {p}, heat → radiators"}
     juno: {ru: "прецедент: титановый сейф Juno", en: "precedent: Juno’s titanium vault"}
     tanks_shield: {ru: "с кормы ядро закрыто баками, с носа — только хребтом", en: "tanks shield the core from aft; from the nose only the spine"}
@@ -235,3 +241,139 @@ blueprints:
     inset_head: {ru: "голова: {g} (−{p})", en: "head: {g} (−{p})"}
     inset_axis: {ru: "к оси", en: "to axis"}
     inset_sub: {ru: "«вниз» — радиально наружу, от оси", en: "“down” is radially outward, away from the axis"}
+  ship_axes:
+    title: {ru: Оси и системы координат, en: Axes and coordinate frames}
+    desc:
+      ru: "Канонические оси корабля и жилого модуля: +X — нос и направление тяги, ось X — общая для хребта, вращения и цилиндра модуля; в локальной рамке модуля +Z — к оси вращения, −Z — пол, Y — поперёк кабины; сцена Blender и направление окна."
+      en: "Canonical ship and habitat axes: +X is the nose and thrust direction, one X axis for the spine, the spin and the habitat cylinder; in the habitat local frame +Z points to the spin axis, −Z is the floor, Y runs across the cabin; the Blender scene and where the window looks."
+    subtitle:
+      ru: "Одна ось X: продольная ось корабля = ось вращения = ось цилиндра модуля"
+      en: "One X axis: ship long axis = spin axis = habitat cylinder axis"
+    sheet_name: {ru: "Оси и системы координат", en: "Axes and coordinate frames"}
+    a_title: {ru: "А · Корабль сбоку — корабельная рамка", en: "A · Ship, side view — ship frame"}
+    a_sub:
+      ru: "Нос справа; жилой модуль под осью — его «вниз» совпадает с низом листа"
+      en: "Nose on the right; habitat below the axis — its “down” is down the sheet"
+    frames: {ru: "Три рамки", en: "Three frames"}
+    f_ship: {ru: "корабельная (вид А)", en: "ship frame (view A)"}
+    f_ship2: {ru: "хребет, модули, двигатели; вращается вокруг X", en: "spine, pods, engines; spins about X"}
+    f_local: {ru: "локальная рамка модуля (вид Б)", en: "habitat local frame (view B)"}
+    f_local2: {ru: "интерьер под 0,5 g; X — как у корабля", en: "interior at 0.5 g; X same as the ship"}
+    f_sky: {ru: "инерциальная — «небо»", en: "inertial — the “sky”"}
+    f_sky2: {ru: "звёзды, Юпитер, Земля; к кораблю не привязана", en: "stars, Jupiter, Earth; not tied to the ship"}
+    nose: {ru: "НОС · FORWARD", en: "NOSE · FORWARD"}
+    nose2: {ru: "вперёд, по тяге", en: "along the thrust"}
+    spin: {ru: "ω: вращение вокруг X", en: "ω: spin about X"}
+    spin2: {ru: "{rpm} · период {t}", en: "{rpm} · period {t}"}
+    from_nose: {ru: "вид с носа", en: "seen from the nose"}
+    dir_cond: {ru: "направление:", en: "direction:"}
+    dir_cond2: {ru: "условно, не задано", en: "notional, not decided"}
+    aft: {ru: "КОРМА · AFT · −X", en: "AFT · −X"}
+    aft2: {ru: "двигатели и энергетика", en: "propulsion and power"}
+    exhaust: {ru: "выхлоп → −X", en: "exhaust → −X"}
+    thrust: {ru: "тяга → +X", en: "thrust → +X"}
+    axis: {ru: "ось X = ось хребта = ось вращения", en: "X axis = spine axis = spin axis"}
+    axis2: {ru: "она же ось цилиндра модуля (параллельна)", en: "parallel to the habitat cylinder axis"}
+    cw: {ru: "противовес", en: "counterweight"}
+    hab: {ru: "жилой модуль", en: "habitat"}
+    radius: {ru: "R пола {r}", en: "floor R {r}"}
+    window: {ru: "окно → +X", en: "window → +X"}
+    down_a: {ru: "−Z: {g}", en: "−Z: {g}"}
+    z_up: {ru: "+Z — к оси вращения", en: "+Z — to the spin axis"}
+    z_up2: {ru: "«вверх» в кабине", en: "cabin “up”"}
+    y_away: {ru: "+Y от зрителя", en: "+Y away from viewer"}
+    local: {ru: "локальная рамка модуля", en: "habitat local frame"}
+    thr_title: {ru: "Тяга и «низ» в кабине", en: "Thrust and “down” in the cabin"}
+    thr_1: {ru: "без тяги: «вниз» = −Z, {a}", en: "no thrust: “down” = −Z, {a}"}
+    thr_2: {ru: "при тяге: инерция → к корме, −X", en: "thrusting: inertia → aft, −X"}
+    thr_3: {ru: "«вниз» наклоняется к корме", en: "“down” tilts toward aft"}
+    thr_4: {ru: "на arctan(a_тяги / {a})", en: "by arctan(a_thrust / {a})"}
+    thr_5: {ru: "a_тяги не задано (C-004) — угол условный", en: "a_thrust not set (C-004) — angle notional"}
+    scale_a: {ru: "Вид А — масштаб", en: "View A — scale"}
+    b_title: {ru: "Б · Разрез модуля — локальная рамка", en: "B · Habitat section — local frame"}
+    b_sub: {ru: "Вид в нос: +X — от зрителя, +Y — слева", en: "Looking forward: +X away from viewer, +Y on the left"}
+    to_axis: {ru: "к оси вращения, пол в {r}", en: "to the spin axis, floor {r} away"}
+    to_axis2: {ru: "«вверх» в кабине = к оси корабля", en: "cabin “up” = toward the ship axis"}
+    down: {ru: "пол, «вниз»: {g} ({a})", en: "floor, “down”: {g} ({a})"}
+    down2: {ru: "радиально наружу, от оси", en: "radially outward, away from the axis"}
+    y_across: {ru: "Y — поперёк кабины", en: "Y — across the cabin"}
+    x_into: {ru: "⊗ +X — в нос, от зрителя", en: "⊗ +X — forward,\naway from viewer"}
+    win_b: {ru: "окно — за плоскостью\nразреза, смотрит в +X", en: "window beyond the cut,\nlooks along +X"}
+    y_note:
+      ru: "Знак Y — +Y влево при взгляде в нос (правая тройка) —\nчерновик раскладки (canon.yaml); на странице вопрос открыт"
+      en: "Sign of Y — +Y to the left looking forward (right-handed) —\nlayout draft (canon.yaml); still open on the page"
+    scale_b: {ru: "Вид Б — масштаб", en: "View B — scale"}
+    amber_legend:
+      ru: "Янтарным — не решено: направление вращения,\nзнак Y, вращение неба в окне, величина тяги"
+      en: "Amber — not decided: spin direction, sign of Y,\nsky rotation in the window, thrust magnitude"
+    bl_title: {ru: "Сцена Blender", en: "Blender scene"}
+    bl_sub: {ru: "= локальная рамка модуля", en: "= habitat local frame"}
+    bl_grav: {ru: "X 0 · Y 0 · Z {gz}", en: "X 0 · Y 0 · Z {gz}"}
+    bl_unit: {ru: "1 единица = {u}", en: "1 unit = {u}"}
+    bl_static: {ru: "набор не вращается:", en: "the set does not spin:"}
+    bl_static2: {ru: "комната с постоянными {g}", en: "a room with a constant {g}"}
+    w_title: {ru: "Куда смотрит окно", en: "Where the window looks"}
+    w_sub: {ru: "вид из кабины в +X", en: "cabin view along +X"}
+    w_1: {ru: "вдоль оси вращения, в +X:", en: "along the spin axis, +X:"}
+    w_2: {ru: "точка неба на оси неподвижна", en: "the sky point on the axis is still"}
+    w_3: {ru: "остальное небо кружит", en: "the rest of the sky circles it"}
+    w_4: {ru: "вокруг неё, оборот {t}", en: "once every {t}"}
+    w_5: {ru: "SPEC §8 — спор, не решено", en: "SPEC §8 — disputed, not decided"}
+  rotation_gravity:
+    title: {ru: Вращение и искусственная гравитация, en: Spin and artificial gravity}
+    desc:
+      ru: "Вращение корабля и искусственная гравитация: вид вдоль оси вращения с носа — центр O, фермы к жилому модулю на радиусе пола и к противовесу, обороты и период; центростремительное ускорение на уровне пола и головы Майи; Кориолис при ходьбе вдоль и поперёк кабины."
+      en: "Ship spin and artificial gravity: view along the spin axis from the nose — centre O, booms to the habitat at the floor radius and to the counterweight, rpm and period; centripetal acceleration at Maya’s floor and head level; Coriolis when walking along and across the cabin."
+    subtitle:
+      ru: "Весь корабль вращается вокруг оси X как одно целое; тяжесть на полу — a = ω²r"
+      en: "The whole ship spins about the X axis as one body; floor gravity is a = ω²r"
+    sheet_name: {ru: "Вращение и гравитация", en: "Spin and gravity"}
+    a_title: {ru: "А · Вид вдоль оси вращения, с носа", en: "A · View along the spin axis, from the nose"}
+    a_sub:
+      ru: "+X — к зрителю; жилой модуль под O — его «вниз» совпадает с низом листа"
+      en: "+X toward the viewer; habitat below O — its “down” is down the sheet"
+    path: {ru: "траектория пола", en: "floor path"}
+    spin: {ru: "вращение {rpm}", en: "spin {rpm}"}
+    spin2: {ru: "период {t} · ω = {w}", en: "period {t} · ω = {w}"}
+    spin3: {ru: "вращается весь корабль — одна жёсткая система", en: "the whole ship spins as one rigid system"}
+    dir: {ru: "янтарные дуги — направление условно, не задано", en: "amber arcs — direction notional, not decided"}
+    o: {ru: "O — ось вращения", en: "O — spin axis"}
+    o2: {ru: "+X к зрителю, ось хребта", en: "+X toward viewer, spine axis"}
+    r_floor: {ru: "R пола {r}", en: "floor R {r}"}
+    r_cw: {ru: "R {r}", en: "R {r}"}
+    cw: {ru: "служебный модуль-противовес", en: "service pod — counterweight"}
+    cw2: {ru: "балласт двигается: баланс m·r", en: "movable ballast: balances m·r"}
+    hab: {ru: "жилой модуль", en: "habitat"}
+    hab2: {ru: "крупно — деталь Б", en: "enlarged in detail B"}
+    a_floor: {ru: "a = ω²r: на полу {g} ({a})", en: "a = ω²r: {g} at the floor ({a})"}
+    a_floor2: {ru: "центростремительное — к оси O", en: "centripetal — toward O"}
+    scale_a: {ru: "Вид А — масштаб", en: "View A — scale"}
+    g_title: {ru: "Б · Градиент: пол и голова", en: "B · Gradient: floor and head"}
+    g_sub: {ru: "Стрелки — центростремительное ускорение, к оси O", en: "Arrows: centripetal acceleration, toward O"}
+    g_floor: {ru: "пол: {g}", en: "floor: {g}"}
+    g_head: {ru: "голова: {g}", en: "head: {g}"}
+    g_head2: {ru: "{a} · на {p} меньше", en: "{a} · {p} less"}
+    g_1: {ru: "Голова ближе к оси", en: "The head is closer to the axis"}
+    g_2: {ru: "на рост Майи ({h}): r меньше —", en: "by Maya’s height ({h}): smaller r —"}
+    g_3: {ru: "и ускорение меньше", en: "so less acceleration"}
+    g_4: {ru: "Майя чувствует это как вес", en: "Maya feels it as weight"}
+    g_5: {ru: "«вниз» — наружу, от O (−Z)", en: "“down” — outward, away from O (−Z)"}
+    c_title: {ru: "В · Кориолис при ходьбе: a_К = 2ωv", en: "C · Coriolis when walking: a_C = 2ωv"}
+    c_sub: {ru: "шаг v = {v}; величина не зависит от радиуса", en: "step v = {v}; the magnitude does not depend on radius"}
+    c_plan: {ru: "вид сверху на пол (от оси)", en: "plan: the floor seen from the axis"}
+    c_omega: {ru: "ω ‖ X", en: "ω ‖ X"}
+    c_nose: {ru: "нос +X →", en: "nose +X →"}
+    c_along: {ru: "вдоль модуля (v ‖ ω): {a}", en: "along the pod (v ‖ ω): {a}"}
+    c_along2: {ru: "от камбуза к окну — без эффекта", en: "galley to window — no effect"}
+    c_across: {ru: "поперёк кабины (v ⊥ ω): {a} · {p} веса", en: "across the cabin (v ⊥ ω): {a} · {p} of weight"}
+    c_across2: {ru: "направлен по радиусу: вес больше или меньше", en: "radial: weight goes up or down"}
+    c_nose_view: {ru: "вид с носа", en: "seen from the nose"}
+    c_move: {ru: "вращение (условно)", en: "spin (notional)"}
+    c_pro: {ru: "→ по ходу вращения: тяжелее на {p}", en: "→ with the spin: heavier by {p}"}
+    c_retro: {ru: "← против вращения: легче на {p}", en: "← against the spin: lighter by {p}"}
+    c_drop:
+      ru: "подъём и падение (по Z) — снос вбок:\nпадающий предмет сносится против вращения"
+      en: "rising and falling (along Z) drift sideways:\na dropped object drifts against the spin"
+    amber_legend:
+      ru: "Янтарным — не решено: направление вращения;\nрадиусы — статус в canon.yaml (C-001)"
+      en: "Amber — not decided: spin direction;\nradii — status in canon.yaml (C-001)"

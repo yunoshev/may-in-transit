@@ -6,6 +6,8 @@
   habitat-plan          — план жилого модуля: зоны, окно, люки (C-003), камеры A/B/C, панель ARI ISOLATE
   habitat-cross-section — поперечный разрез через главную кабину
   habitat-long-section  — продольный разрез: окно, зоны, высоты, тамбур и люк (C-003)
+  ship-axes             — оси и системы координат: корабельная рамка, локальная рамка модуля, Blender, окно
+  rotation-gravity      — вращение и искусственная гравитация: вид с носа, градиент пол–голова, Кориолис
 Числа — только из data/canon.json (сначала uv run calc/derive.py); геометрия проверяется (geom.py) и при
 невозможной раскладке сборка падает. Детерминирован: при неизменном входе файлы не переписываются.
 """
@@ -20,9 +22,11 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
 import bp  # noqa: E402
+import sheet_axes  # noqa: E402
 import sheet_cross  # noqa: E402
 import sheet_long  # noqa: E402
 import sheet_plan  # noqa: E402
+import sheet_rotation  # noqa: E402
 import sheet_side  # noqa: E402
 
 ROOT = bp.ROOT
@@ -32,6 +36,8 @@ SHEETS = {
     "habitat-plan": ("habitat_plan", sheet_plan.render),
     "habitat-cross-section": ("habitat_cross", sheet_cross.render),
     "habitat-long-section": ("habitat_long", sheet_long.render),
+    "ship-axes": ("ship_axes", sheet_axes.render),
+    "rotation-gravity": ("rotation_gravity", sheet_rotation.render),
 }
 
 

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1800" viewBox="0 0 1000 1800" lang="ru" role="img">
+<title>Вращение и искусственная гравитация</title>
+<desc>Вращение корабля и искусственная гравитация: вид вдоль оси вращения с носа — центр O, фермы к жилому модулю на радиусе пола и к противовесу, обороты и период; центростремительное ускорение на уровне пола и головы Майи; Кориолис при ходьбе вдоль и поперёк кабины.</desc>
+<defs><style>text{font-family:'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif;} .h{paint-order:stroke;stroke:#0e2c4f;stroke-width:4px;stroke-linejoin:round;}</style><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#2b5a8a" stroke-width="0.5" opacity="0.45"/></pattern><pattern id="grid5" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#2b5a8a" stroke-width="0.8" opacity="0.55"/></pattern><marker id="ad" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#c9defa"/></marker><marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="13" markerHeight="13" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#eef5ff"/></marker><marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ffbe55"/></marker><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#ff7f6e"/></marker><marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#8ee6ff"/></marker><marker id="ai" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#a9c8ec"/></marker><marker id="awt" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,1.2 L10,5 L0,8.8 z" fill="#6fc3ff"/></marker><pattern id="h-rg-shell" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#a9c8ec" stroke-width="0.8" opacity="0.5"/></pattern></defs>
+<rect width="1000" height="1800" fill="#0e2c4f"/>
+<rect width="1000" height="1800" fill="url(#grid)"/>
+<rect width="1000" height="1800" fill="url(#grid5)"/>
+<rect x="12" y="12" width="976" height="1776" fill="none" stroke="#eef5ff" stroke-width="1.6"/>
+<rect x="17" y="17" width="966" height="1766" fill="none" stroke="#eef5ff" stroke-width="0.6" opacity="0.7"/>
+<text x="40" y="60" font-size="28.6" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="0.4" class="h">Вращение и искусственная гравитация</text>
+<text x="40" y="88.6" font-size="16.9" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Весь корабль вращается вокруг оси X как одно целое; тяжесть на полу — a = ω²r</text>
+<text x="40" y="142" font-size="18" fill="#8ee6ff" text-anchor="start" font-weight="bold" class="h">А · Вид вдоль оси вращения, с носа</text>
+<text x="40" y="164" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X — к зрителю; жилой модуль под O — его «вниз» совпадает с низом листа</text>
+<circle cx="500" cy="476" r="252" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="3 5" opacity="0.9"/>
+<text x="288.4" y="653.2" font-size="14.5" fill="#a9c8ec" text-anchor="end" font-weight="normal" class="h">траектория пола</text>
+<rect x="494.6" y="260" width="10.8" height="216" stroke="#eef5ff" stroke-width="1.1" fill="#16395f"/>
+<rect x="494.6" y="476" width="10.8" height="245.25" stroke="#eef5ff" stroke-width="1.1" fill="#16395f"/>
+<circle cx="500" cy="476" r="22.5" stroke="#a9c8ec" stroke-width="1" fill="#0e2c4f" stroke-dasharray="4 3"/>
+<circle cx="500" cy="476" r="8.2" stroke="#eef5ff" stroke-width="1.4" fill="#1d4673"/>
+<circle cx="500" cy="476" r="6" stroke="#eef5ff" stroke-width="1.3" fill="#0e2c4f"/>
+<circle cx="500" cy="476" r="2.2" stroke="none" stroke-width="1.2" fill="#eef5ff"/>
+<circle cx="500" cy="278" r="13.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="3 4"/>
+<circle cx="500" cy="242" r="13.5" stroke="#a9c8ec" stroke-width="0.9" fill="none" stroke-dasharray="3 4"/>
+<circle cx="500" cy="260" r="13.5" stroke="#eef5ff" stroke-width="1.6" fill="#1d4673"/>
+<circle cx="500" cy="721.25" r="15.3" stroke="#eef5ff" stroke-width="1.6" fill="#1d4673"/>
+<circle cx="500" cy="721.25" r="12.6" stroke="#a9c8ec" stroke-width="0.9" fill="none"/>
+<line x1="489.36" y1="728" x2="510.64" y2="728" stroke="#eef5ff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+<polygon points="498.45,714.77 499.8,715.31 500.12,718.1 500.02,720.8 499.67,720.8 499.53,718.1 499.35,719 499.53,720.08 499.35,723.68 498.94,727.46 499.12,728 498.27,728 498.31,723.86 498,720.8 498,720.8 497.69,723.86 497.73,728 496.88,728 497.06,727.46 496.65,723.68 496.47,720.08 496.65,719 496.47,718.1 496.33,720.8 495.98,720.8 495.88,718.1 496.2,715.31 497.55,714.77" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="498" cy="713.74" r="0.94" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<circle cx="500" cy="721.25" r="31.3" stroke="#8ee6ff" stroke-width="1.1" fill="none" stroke-dasharray="4 3"/>
+<circle cx="541.3" cy="691.95" r="11" stroke="#8ee6ff" stroke-width="1.3" fill="#0e2c4f"/>
+<text x="541.3" y="696.63" font-size="13" fill="#8ee6ff" text-anchor="middle" font-weight="bold">Б</text>
+<path d="M735.78,635.03 A284.40,284.40 0 0 0 735.78,316.97" stroke="#ffbe55" stroke-width="2.6" fill="none" stroke-linejoin="round" marker-end="url(#aa)"/>
+<path d="M264.22,316.97 A284.40,284.40 0 0 0 264.22,635.03" stroke="#ffbe55" stroke-width="2.6" fill="none" stroke-linejoin="round" marker-end="url(#aa)"/>
+<text x="40" y="214" font-size="18" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">вращение ≈4,0 об/мин</text>
+<text x="40" y="238" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">период ≈15,0 с · ω = 0,419 рад/с</text>
+<text x="40" y="260" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">вращается весь корабль — одна жёсткая система</text>
+<text x="40" y="284" font-size="14.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">янтарные дуги — направление условно, не задано</text>
+<text x="520" y="470" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">O — ось вращения</text>
+<text x="520" y="490" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">+X к зрителю, ось хребта</text>
+<line x1="492" y1="260" x2="464" y2="260" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="489.36" y1="728" x2="464" y2="728" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="490" y1="476" x2="464" y2="476" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="470" y1="474" x2="470" y2="260" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<line x1="470" y1="478" x2="470" y2="728" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="462" y="602" font-size="15.5" fill="#eef5ff" text-anchor="middle" font-weight="bold" class="h" transform="rotate(-90 462 602)">R пола 28 м</text>
+<text x="442" y="602" font-size="14.5" fill="#ffbe55" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 442 602)">предложение, C-001</text>
+<text x="462" y="368" font-size="15.5" fill="#eef5ff" text-anchor="middle" font-weight="bold" class="h" transform="rotate(-90 462 368)">R 22–26 м</text>
+<text x="442" y="368" font-size="14.5" fill="#ffbe55" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 442 368)">черновик</text>
+<text x="526" y="254" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">служебный модуль-противовес</text>
+<text x="526" y="274" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">балласт двигается: баланс m·r</text>
+<text x="554" y="731.25" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">жилой модуль</text>
+<text x="554" y="751.25" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">крупно — деталь Б</text>
+<text x="40" y="690" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">a = ω²r: на полу 0,5 g (4,905 м/с²)</text>
+<text x="40" y="710" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">центростремительное — к оси O</text>
+<rect x="40" y="760" width="90" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="130" y="760" width="90" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<text x="40" y="783.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0</text>
+<text x="130" y="783.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">10</text>
+<text x="220" y="783.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">20</text>
+<text x="232" y="767" font-size="12.87" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">м</text>
+<text x="40" y="752" font-size="12.87" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Вид А — масштаб</text>
+<rect x="40" y="812" width="920" height="424" stroke="#8ee6ff" stroke-width="1.1" fill="#0e2c4f"/>
+<text x="56" y="840" font-size="17" fill="#8ee6ff" text-anchor="start" font-weight="bold" class="h">Б · Градиент: пол и голова</text>
+<text x="56" y="862" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">Стрелки — центростремительное ускорение, к оси O</text>
+<path d="M 83.6 1052.4 a 156.4 156.4 0 1 0 312.8 0 a 156.4 156.4 0 1 0 -312.8 0 Z M 111.20000000000002 1052.4 a 128.79999999999998 128.79999999999998 0 1 1 257.59999999999997 0 a 128.79999999999998 128.79999999999998 0 1 1 -257.59999999999997 0 Z" stroke="none" stroke-width="1.2" fill="url(#h-rg-shell)" stroke-linejoin="round" fill-rule="evenodd"/>
+<circle cx="240" cy="1052.4" r="156.4" stroke="#eef5ff" stroke-width="1.5" fill="none"/>
+<circle cx="240" cy="1052.4" r="128.8" stroke="#eef5ff" stroke-width="2" fill="none"/>
+<rect x="131.24" y="1121.4" width="217.52" height="5.52" stroke="#eef5ff" stroke-width="1.2" fill="#1d4673"/>
+<polygon points="253.8,986.16 267.6,991.68 270.82,1020.2 269.9,1047.8 266.22,1047.8 264.84,1020.2 263,1029.4 264.84,1040.44 263,1077.24 258.86,1115.88 260.7,1121.4 251.96,1121.4 252.42,1079.08 249.2,1047.8 249.2,1047.8 245.98,1079.08 246.44,1121.4 237.7,1121.4 239.54,1115.88 235.4,1077.24 233.56,1040.44 235.4,1029.4 233.56,1020.2 232.18,1047.8 228.5,1047.8 227.58,1020.2 230.8,991.68 244.6,986.16" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="249.2" cy="975.58" r="9.66" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<line x1="181.4" y1="965" x2="243.2" y2="965" stroke="#c9defa" stroke-width="0.7" fill="none" opacity="0.8" stroke-linecap="round"/>
+<line x1="189.4" y1="1121.4" x2="189.4" y2="965" stroke="#c9defa" stroke-width="0.9" fill="none" stroke-linecap="round" marker-end="url(#ad)" marker-start="url(#ad)"/>
+<text x="185.4" y="1043.2" font-size="14.5" fill="#eef5ff" text-anchor="middle" font-weight="normal" class="h" transform="rotate(-90 185.4 1043.2)">1,7 м</text>
+<line x1="271.2" y1="1121.4" x2="500" y2="1121.4" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-dasharray="3 3" stroke-linecap="round"/>
+<line x1="271.2" y1="965" x2="610" y2="965" stroke="#a9c8ec" stroke-width="0.8" fill="none" stroke-dasharray="3 3" stroke-linecap="round"/>
+<line x1="490" y1="1121.4" x2="490" y2="1009.4" stroke="#eef5ff" stroke-width="3" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<line x1="600" y1="965" x2="600" y2="859.8" stroke="#eef5ff" stroke-width="3" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="504" y="1091.4" font-size="18" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">пол: 0,5 g</text>
+<text x="504" y="1112.4" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">4,905 м/с²</text>
+<text x="614" y="935" font-size="18" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">голова: 0,47 g</text>
+<text x="614" y="956" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">4,61 м/с² · на 6,1% меньше</text>
+<text x="640" y="1086" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">Голова ближе к оси</text>
+<text x="640" y="1108" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">на рост Майи (1,7 м): r меньше —</text>
+<text x="640" y="1128" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">и ускорение меньше</text>
+<text x="640" y="1156" font-size="14.5" fill="#eef5ff" text-anchor="start" font-weight="normal" class="h">Майя чувствует это как вес</text>
+<text x="640" y="1176" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">«вниз» — наружу, от O (−Z)</text>
+<rect x="640" y="1210" width="46" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#eef5ff"/>
+<rect x="686" y="1210" width="46" height="6" stroke="#eef5ff" stroke-width="0.9" fill="#0e2c4f"/>
+<text x="640" y="1233.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0</text>
+<text x="686" y="1233.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">0,5</text>
+<text x="732" y="1233.4" font-size="12.87" fill="#a9c8ec" text-anchor="middle" font-weight="normal" class="h">1</text>
+<text x="744" y="1217" font-size="12.87" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">м</text>
+<text x="640" y="1202" font-size="12.87" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h"></text>
+<rect x="40" y="1254" width="920" height="380" stroke="#8ee6ff" stroke-width="1.1" fill="#0e2c4f"/>
+<text x="56" y="1282" font-size="17" fill="#8ee6ff" text-anchor="start" font-weight="bold" class="h">В · Кориолис при ходьбе: a_К = 2ωv</text>
+<text x="56" y="1304" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">шаг v = 1 м/с; величина не зависит от радиуса</text>
+<text x="56" y="1346" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">вид сверху на пол (от оси)</text>
+<rect x="80" y="1380" width="264" height="88" stroke="#eef5ff" stroke-width="1.6" fill="#16395f"/>
+<line x1="66" y1="1424" x2="366" y2="1424" stroke="#a9c8ec" stroke-width="1" fill="none" stroke-dasharray="16 4 3 4" stroke-linecap="round"/>
+<text x="370" y="1429" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">ω ‖ X</text>
+<text x="340" y="1372" font-size="14.5" fill="#a9c8ec" text-anchor="end" font-weight="normal" class="h">нос +X →</text>
+<line x1="120" y1="1446" x2="230" y2="1446" stroke="#eef5ff" stroke-width="2.6" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<text x="120" y="1436" font-size="14.5" fill="#eef5ff" text-anchor="start" font-weight="bold" font-style="italic" class="h">v</text>
+<line x1="285" y1="1462" x2="285" y2="1386" stroke="#ffbe55" stroke-width="2.6" fill="none" stroke-linecap="butt" marker-end="url(#aa)"/>
+<text x="293" y="1406" font-size="14.5" fill="#ffbe55" text-anchor="start" font-weight="bold" font-style="italic" class="h">v</text>
+<text x="60" y="1502" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">вдоль модуля (v ‖ ω): 0 м/с²</text>
+<text x="60" y="1522" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">от камбуза к окну — без эффекта</text>
+<text x="60" y="1550" font-size="15.5" fill="#ffbe55" text-anchor="start" font-weight="bold" class="h">поперёк кабины (v ⊥ ω): 0,84 м/с² · ≈17% веса</text>
+<text x="60" y="1570" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">направлен по радиусу: вес больше или меньше</text>
+<text x="540" y="1346" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h">вид с носа</text>
+<circle cx="730" cy="1448.8" r="74.8" stroke="#eef5ff" stroke-width="1.4" fill="#16395f"/>
+<circle cx="730" cy="1448.8" r="61.6" stroke="#a9c8ec" stroke-width="1" fill="none"/>
+<line x1="677.99" y1="1481.8" x2="782.01" y2="1481.8" stroke="#eef5ff" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<polygon points="732.2,1417.12 738.8,1419.76 740.34,1433.4 739.9,1446.6 738.14,1446.6 737.48,1433.4 736.6,1437.8 737.48,1443.08 736.6,1460.68 734.62,1479.16 735.5,1481.8 731.32,1481.8 731.54,1461.56 730,1446.6 730,1446.6 728.46,1461.56 728.68,1481.8 724.5,1481.8 725.38,1479.16 723.4,1460.68 722.52,1443.08 723.4,1437.8 722.52,1433.4 721.86,1446.6 720.1,1446.6 719.66,1433.4 721.2,1419.76 727.8,1417.12" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673" stroke-linejoin="round"/>
+<circle cx="730" cy="1412.06" r="4.62" stroke="#eef5ff" stroke-width="1.1" fill="#1d4673"/>
+<line x1="660" y1="1360" x2="800" y2="1360" stroke="#ffbe55" stroke-width="2.2" fill="none" stroke-linecap="butt" marker-end="url(#aa)"/>
+<text x="810" y="1365" font-size="14.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h">вращение (условно)</text>
+<line x1="742" y1="1471.8" x2="776" y2="1471.8" stroke="#eef5ff" stroke-width="2.4" fill="none" stroke-linecap="butt" marker-end="url(#aw)"/>
+<line x1="718" y1="1471.8" x2="684" y2="1471.8" stroke="#a9c8ec" stroke-width="2.4" fill="none" stroke-linecap="butt" marker-end="url(#ai)"/>
+<text x="540" y="1553.6" font-size="15.5" fill="#eef5ff" text-anchor="start" font-weight="bold" class="h">→ по ходу вращения: тяжелее на ≈17%</text>
+<text x="540" y="1575.6" font-size="15.5" fill="#a9c8ec" text-anchor="start" font-weight="bold" class="h">← против вращения: легче на ≈17%</text>
+<text x="540" y="1601.6" font-size="14.5" fill="#a9c8ec" text-anchor="start" font-weight="normal" class="h"><tspan x="540" dy="0">подъём и падение (по Z) — снос вбок:</tspan><tspan x="540" dy="18.12">падающий предмет сносится против вращения</tspan></text>
+<text x="40" y="1666.8" font-size="14.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h"><tspan x="40" dy="0">Черновик: размеры из data/canon.yaml</tspan><tspan x="40" dy="18.85">(layout.*, exterior.*), не согласованы</tspan></text>
+<text x="40" y="1712.5" font-size="14.5" fill="#ffbe55" text-anchor="start" font-weight="normal" class="h"><tspan x="40" dy="0">Янтарным — не решено: направление вращения;</tspan><tspan x="40" dy="18.85">радиусы — статус в canon.yaml (C-001)</tspan></text>
+<rect x="486" y="1648.8" width="484" height="123.2" stroke="#eef5ff" stroke-width="1.4" fill="#0e2c4f"/>
+<line x1="486" y1="1695.62" x2="970" y2="1695.62" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<line x1="834.48" y1="1695.62" x2="834.48" y2="1772" stroke="#eef5ff" stroke-width="0.9" fill="none" stroke-linecap="round"/>
+<text x="498" y="1682.42" font-size="18.7" fill="#eef5ff" text-anchor="start" font-weight="bold" letter-spacing="1.2">MAYA IN TRANSIT — REF</text>
+<text x="498" y="1719.82" font-size="14.3" fill="#eef5ff" text-anchor="start" font-weight="normal">Вращение и гравитация</text>
+<text x="498" y="1741.82" font-size="11.55" fill="#a9c8ec" text-anchor="start" font-weight="normal">Размеры: data/canon.yaml → canon.json</text>
+<text x="844.48" y="1717.62" font-size="13.2" fill="#ffbe55" text-anchor="start" font-weight="bold">REV draft</text>
+<text x="844.48" y="1737.42" font-size="12.65" fill="#a9c8ec" text-anchor="start" font-weight="normal">2026-10-11</text>
+<text x="844.48" y="1756.12" font-size="12.65" fill="#a9c8ec" text-anchor="start" font-weight="normal">BP-06</text>
+</svg>

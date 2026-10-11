@@ -195,35 +195,36 @@ class Sheet:
             f'stroke-width="{sw}" opacity="{op}"/></pattern>')
         return f"url(#{pid})"
 
-    def scale_bar(self, x, y, k, meters: list[float], unit: str, label: str):
-        """Линейка: чередующиеся ячейки, подписи делений, подпись «масштаб»."""
+    def scale_bar(self, x, y, k, meters: list[float], unit: str, label: str, z: float = 1.0):
+        """Линейка: чередующиеся ячейки, подписи делений, подпись «масштаб». z — множитель кегля."""
         x0 = x
         for i in range(len(meters) - 1):
             a, b = meters[i], meters[i + 1]
             self.rect(x0 + a * k, y, (b - a) * k, 6, stroke=INK, sw=0.9, fill=INK if i % 2 == 0 else BG)
         for m in meters:
-            self.text((x0 + m * k, y + 20), fnum(m, self.lang), size=11, color=INK2, anchor="middle")
-        self.text((x0 + meters[-1] * k + 12, y + 7), unit, size=11, color=INK2)
-        self.text((x0, y - 8), label, size=11, color=INK2)
+            self.text((x0 + m * k, y + 20 * z), fnum(m, self.lang), size=11 * z, color=INK2, anchor="middle")
+        self.text((x0 + meters[-1] * k + 12, y + 7), unit, size=11 * z, color=INK2)
+        self.text((x0, y - 8), label, size=11 * z, color=INK2)
 
-    def title_block(self, x, y, w, h, project, sheet_name, sheet_id, rev, date, small):
-        """Штамп: проект, имя листа, ревизия, дата."""
+    def title_block(self, x, y, w, h, project, sheet_name, sheet_id, rev, date, small, z: float = 1.0):
+        """Штамп: проект, имя листа, ревизия, дата. z — множитель кегля и отступов (w, h задаёт вызов)."""
         self.rect(x, y, w, h, stroke=INK, sw=1.4, fill=BG)
         r1 = y + h * 0.38
         self.line((x, r1), (x + w, r1), stroke=INK, sw=0.9)
         cx = x + w * 0.72
         self.line((cx, r1), (cx, y + h), stroke=INK, sw=0.9)
-        self.text((x + 12, y + h * 0.38 - 12), project, size=17, weight="bold", spacing=1.2, halo=False)
-        self.text((x + 12, r1 + 22), sheet_name, size=13, halo=False)
-        self.text((x + 12, r1 + 42), small, size=10.5, color=INK2, halo=False)
-        self.text((cx + 10, r1 + 20), rev, size=12, weight="bold", color=AMBER, halo=False)
-        self.text((cx + 10, r1 + 38), date, size=11.5, color=INK2, halo=False)
-        self.text((cx + 10, r1 + 55), sheet_id, size=11.5, color=INK2, halo=False)
+        self.text((x + 12, y + h * 0.38 - 12 * z), project, size=17 * z, weight="bold", spacing=1.2, halo=False)
+        self.text((x + 12, r1 + 22 * z), sheet_name, size=13 * z, halo=False)
+        self.text((x + 12, r1 + 42 * z), small, size=10.5 * z, color=INK2, halo=False)
+        self.text((cx + 10, r1 + 20 * z), rev, size=12 * z, weight="bold", color=AMBER, halo=False)
+        self.text((cx + 10, r1 + 38 * z), date, size=11.5 * z, color=INK2, halo=False)
+        self.text((cx + 10, r1 + 55 * z), sheet_id, size=11.5 * z, color=INK2, halo=False)
 
-    def heading(self, x, y, title, sub):
-        self.text((x, y), title, size=22, weight="bold", spacing=0.4)
+    def heading(self, x, y, title, sub, z: float = 1.0):
+        """Заголовок листа и подзаголовок; z — множитель кегля (крупнее для листов, читаемых с телефона)."""
+        self.text((x, y), title, size=22 * z, weight="bold", spacing=0.4)
         if sub:
-            self.text((x, y + 22), sub, size=13, color=INK2)
+            self.text((x, y + 22 * z), sub, size=13 * z, color=INK2)
 
     # ---------- силуэты ----------
     def person_front(self, cx, floor_y, k, H, color=INK, fill=FILL2):
