@@ -34,7 +34,7 @@ tags: [reference/sources]
 | NASA — Europa Clipper trajectory | https://science.nasa.gov/missions/europa-clipper/europa-clipper-resources/europa-clippers-trajectory-to-jupiter/ | траектория Europa Clipper около 5,5 лет с гравитационными манёврами у Марса и Земли | [Перелёт к Юпитеру](../20-mission/interplanetary-cruise.md), [Миссии-прототипы](../50-science/reference-missions.md) |
 | ESA — JUICE journey and Jupiter system tour (видео) | https://www.esa.int/ESA_Multimedia/Videos/2022/03/Juice_s_journey_and_Jupiter_system_tour | перелёт JUICE около 8 лет с несколькими планетарными манёврами | [Перелёт к Юпитеру](../20-mission/interplanetary-cruise.md), [Миссии-прототипы](../50-science/reference-missions.md) |
 
-Вывод CONCEPT: вымышленная пилотируемая миссия 2050-х может использовать более энергичную траекторию, поэтому длительность перелёта и стазиса не копирует ни одну из этих миссий ([Q-003](open-questions.md)).
+Вывод CONCEPT: вымышленная пилотируемая миссия 2050-х может использовать более энергичную траекторию, поэтому длительность перелёта и стазиса не копирует ни одну из этих миссий ([Q-003](../00-open-questions/q-003-cruise-duration.md)).
 
 ## Компактный многофункциональный жилой модуль и функции экипажа
 
@@ -60,7 +60,7 @@ tags: [reference/sources]
 | ESA — For astronaut radiation protection, just add water | https://www.esa.int/Enabling_Support/Space_Engineering_Technology/For_astronaut_radiation_protection_just_add_water | ESA изучала воду как радиационную защиту | [Радиационная защита](../30-ship/systems/radiation-protection.md), [Вода](../30-ship/systems/water.md) |
 | ESA — ESA engineers assess Moon Village habitat | https://www.esa.int/Enabling_Support/Space_Engineering_Technology/CDF/ESA_engineers_assess_Moon_Village_habitat | изучено размещение систем с водой вокруг защищаемых зон экипажа | [Радиационная защита](../30-ship/systems/radiation-protection.md), [Отсек стазиса, сна и укрытия](../30-ship/habitat/stasis-shelter.md) |
 
-Ограничение SPEC §11 и §39: точная эффективность нашей компоновки не определена ([Q-015](open-questions.md)).
+Ограничение SPEC §11 и §39: точная эффективность нашей компоновки не определена ([Q-015](../00-open-questions/q-015-radiation-shielding.md)).
 
 ## Искусственная гравитация вращением
 

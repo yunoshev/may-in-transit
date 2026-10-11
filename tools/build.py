@@ -1,4 +1,5 @@
-"""Пересборка всего, что выводится из канона: производные числа, числа в тексте, свод значений, чертежи, графики.
+"""Пересборка всего, что выводится из канона: производные числа, числа в тексте, свод значений, чертежи, графики,
+сводка открытых вопросов.
 
 Запуск:
   uv run tools/build.py            пересобрать и проверить (canon_sync --check, lint)
@@ -7,7 +8,8 @@
   uv run tools/build.py --no-verify  пересобрать без проверок (так собирает сайт в CI)
 
 Порядок: calc/derive.py → canon_sync --write (спаны data-canon в тексте) → canon_sync --render (canon-values.md)
-→ figures/blueprints/build.py (чертежи BP-NN) → calc/plots/*.py (графики) → canon_sync --check → lint.
+→ figures/blueprints/build.py (чертежи BP-NN) → calc/plots/*.py (графики) → tools/questions.py (сводка вопросов)
+→ canon_sync --check → lint.
 Страницы вставляют SVG по ссылке, поэтому после пересборки Obsidian и сайт показывают новую версию сами.
 """
 from __future__ import annotations
@@ -24,6 +26,7 @@ PY = sys.executable
 # входы, при изменении которых --watch пересобирает; выходы (derived.yaml, canon.json, assets/) сюда не входят
 WATCH = [ROOT / "data" / "canon.yaml", ROOT / "data" / "strings.yaml"]
 WATCH_DIRS = [ROOT / "calc", ROOT / "figures" / "blueprints"]
+QUESTIONS = ROOT / "ru" / "00-open-questions"  # страницы q-*.md: ответ, вписанный в Obsidian, сразу попадает в сводку
 
 
 def plots():
@@ -35,6 +38,7 @@ def steps(check, verify):
         yield ["calc/derive.py", "--check"]
         yield ["tools/canon_sync.py", "--check"]
         yield ["figures/blueprints/build.py", "--check"]
+        yield ["tools/questions.py", "--check"]
         yield ["tools/lint.py", "--quiet"]
         return
     yield ["calc/derive.py"]
@@ -43,6 +47,7 @@ def steps(check, verify):
     yield ["figures/blueprints/build.py"]
     for p in plots():
         yield [str(p.relative_to(ROOT))]
+    yield ["tools/questions.py"]
     if verify:
         yield ["tools/canon_sync.py", "--check"]
         yield ["tools/lint.py", "--quiet"]
@@ -63,13 +68,15 @@ def snapshot():
     files = [p for p in WATCH if p.exists()]
     for d in WATCH_DIRS:
         files += [p for p in d.rglob("*.py") if "__pycache__" not in p.parts]
+    files += list(QUESTIONS.glob("q-*.md"))
     return {p: p.stat().st_mtime_ns for p in files}
 
 
 def watch(verify):
     seen = snapshot()
     run(False, verify)
-    print("\nслежу за data/canon.yaml, data/strings.yaml, calc/, figures/blueprints/ — Ctrl+C для выхода", flush=True)
+    print("\nслежу за data/canon.yaml, data/strings.yaml, calc/, figures/blueprints/, ru/00-open-questions/ — Ctrl+C для выхода",
+          flush=True)
     try:
         while True:
             time.sleep(1)

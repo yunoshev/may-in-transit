@@ -72,6 +72,6 @@ tags: [mission, mission/trajectory]
 > Диаграмма «Jupiter arrival / Jovian tour» рисуется с подписью `CONCEPTUAL JOVIAN TOUR — FINAL TRAJECTORY TBD`, пока нет симуляции (`sources/anatomy_prompts.md`, Prompt 16). Прибытие подаётся спокойно: без аварийных сцен.
 
 ## Открытые вопросы
-- Дата и тип захвата ([открытые вопросы](../90-reference/open-questions.md)).
+- Дата и тип захвата ([открытые вопросы](../00-open-questions/index.md)).
 - Доза при JOI и где Майя подтверждает манёвр: за рабочим местом или в укрытии.
 - Ориентация оси корабля при подходе: Юпитер в окне или антенна на Землю.
